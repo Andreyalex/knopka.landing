@@ -136,7 +136,6 @@ if ($this->params->get('logoFile')) {
     <link rel="dns-prefetch" href="https://tilda.ws">
     <link rel="dns-prefetch" href="https://static.tildacdn.com">
     <meta name="robots" content="nofollow"/>
-    <link rel="shortcut icon" href="https://static.tildacdn.com/img/tildafavicon.ico" type="image/x-icon"/>
     <!-- Assets -->
     <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-grid-3.0.min.css" type="text/css" media="all"/>
     <link rel="stylesheet" href="https://tilda.ws/project2512305/tilda-blocks-2.12.css?t=1609145909" type="text/css"
