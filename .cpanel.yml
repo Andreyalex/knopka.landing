@@ -2,3 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=~/public_html/
+    - cp -R templates $DEPLOYPATH
+    - cp ~/src/configuration.php $DEPLOYPATH
