@@ -7,6 +7,8 @@ body {
 	margin: 18px 0 27px;
 }
 
-#rec262006580 {
-    background: rgba(255, 251, 204, 0.61);
+#rec262006580,
+#rec262006583,
+#rec262006584 {
+    background: rgba(247, 255, 128, 0.71);
 }

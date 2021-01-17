@@ -556,7 +556,7 @@
 </div>
 <div id="rec262006582" class="r t-rec" style=" " data-record-type="215"><a name="contact" style="font-size:0;"></a>
 </div>
-<div id="rec262006583" class="r t-rec t-rec_pt_75 t-rec_pb_0" style="padding-top:75px;padding-bottom:0px; "
+<div id="rec262006583" class="r t-rec t-rec_pt_45 t-rec_pb_0" style="margin-top:45px; padding-top:45px;padding-bottom:0px; "
      data-record-type="255"><!-- T225 -->
     <div class="t225">
         <div class="t-container t-align_center">
@@ -569,7 +569,7 @@
         </div>
     </div>
 </div>
-<div id="rec262006584" class="r t-rec t-rec_pt_45 t-rec_pb_90" style="padding-top:45px;padding-bottom:90px; "
+<div id="rec262006584" class="r t-rec t-rec_pt_45 t-rec_pb_45" style="padding-top:45px;padding-bottom:45px; margin-bottom:45px;"
      data-animationappear="off" data-record-type="191"><!-- T142 -->
     <div class="t142">
         <div class="t-container_100">
