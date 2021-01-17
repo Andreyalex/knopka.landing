@@ -16,7 +16,7 @@
             <div class="t446__logowrapper">
                 <div class="t446__logowrapper2">
                     <div style="display: block;"><img
-                                src="https://static.tildacdn.com/tild3136-3463-4364-a461-626138346164/photo.png"
+                                src="https://static.tildacdn.com/tild3839-3161-4430-a335-636637303332/_.png"
                                 class="t446__imglogo t446__imglogomobile" imgfield="img"
                                 style="max-width: 70px; width: 70px;" alt=""></div>
                 </div>
@@ -130,9 +130,7 @@
     <!--[if IE 8]>
     <style>#rec262006571 .t446 {
         filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D9f1ff30', endColorstr='#D9f1ff30');
-    }</style><![endif]-->
-</div>
-
+    }</style><![endif]--> </div>
 <div id="rec262006572" class="r t-rec" style=" " data-animationappear="off" data-record-type="18"><!-- cover -->
     <div class="t-cover" id="recorddiv262006572" bgimgfield="img"
          style="height:100vh; background-image:url('https://static.tildacdn.com/tild3961-3234-4235-a635-326265656136/-/resize/20x/photo.jpg');">
@@ -161,12 +159,10 @@
         </div>
     </div>
 </div>
-
 <div id="rec262006573" class="r t-rec" style=" " data-record-type="215"><a name="about" style="font-size:0;"></a>
 </div>
-<div id="rec262006574" class="r t-rec t-rec_pt_45 t-rec_pb_0"
-     style="padding-top:45px;padding-bottom:0px;background-color:#f1ff30; " data-record-type="480"
-     data-bg-color="#f1ff30"><!-- T480 -->
+<div id="rec262006574" class="r t-rec t-rec_pt_45 t-rec_pb_0" style="padding-top:45px;padding-bottom:0px; "
+     data-record-type="480"><!-- T480 -->
     <div style="width: 0; height: 0; overflow: hidden;">
         <div class="t480__sizer t-col t-col_8" data-auto-correct-mobile-width="false" style="height:560px;"></div>
     </div>
@@ -225,9 +221,8 @@
 </div>
 <div id="rec262006575" class="r t-rec" style=" " data-record-type="215"><a name="service" style="font-size:0;"></a>
 </div>
-<div id="rec262006576" class="r t-rec t-rec_pt_60 t-rec_pb_0"
-     style="padding-top:60px;padding-bottom:0px;background-color:#f1ff30; " data-record-type="30"
-     data-bg-color="#f1ff30"><!-- T015 -->
+<div id="rec262006576" class="r t-rec t-rec_pt_60 t-rec_pb_0" style="padding-top:60px;padding-bottom:0px; "
+     data-record-type="30"><!-- T015 -->
     <div class="t015">
         <div class="t-container t-align_center">
             <div class="t-col t-col_8 t-prefix_2">
@@ -239,13 +234,12 @@
         </div>
     </div>
 </div>
-<div id="rec262006578" class="r t-rec t-rec_pt_15 t-rec_pb_0"
-     style="padding-top:15px;padding-bottom:0px;background-color:#f1ff30; " data-record-type="117"
-     data-bg-color="#f1ff30"><!-- T106 -->
+<div id="rec262006578" class="r t-rec t-rec_pt_15 t-rec_pb_0" style="padding-top:15px;padding-bottom:0px; "
+     data-record-type="117"><!-- T106 -->
     <div class="t106">
         <div class="t-container">
             <div class="t106__wrapper">
-                <div class="t106__block" style="background-color:#f1ff30;">
+                <div class="t106__block">
                     <div class="t106__title t-title t-title_xxs" style="" field="title">SMM продвижение</div>
                     <div class="t106__text t-text" style="" field="text"><strong>Ведём аккаунты, как
                             боги:</strong><br/>Оформление профиля<br/>Анализ конкурентов<br/>Анализ ЦА<br/>Составение
@@ -262,13 +256,12 @@
         </div>
     </div>
 </div>
-<div id="rec263207513" class="r t-rec t-rec_pt_15 t-rec_pb_0"
-     style="padding-top:15px;padding-bottom:0px;background-color:#f1ff30; " data-record-type="117"
-     data-bg-color="#f1ff30"><!-- T106 -->
+<div id="rec263207513" class="r t-rec t-rec_pt_15 t-rec_pb_0" style="padding-top:15px;padding-bottom:0px; "
+     data-record-type="117"><!-- T106 -->
     <div class="t106">
         <div class="t-container">
             <div class="t106__wrapper">
-                <div class="t106__block" style="background-color:#f1ff30;">
+                <div class="t106__block">
                     <div class="t106__title t-title t-title_xxs" style="" field="title">Настройка таргетированной
                         рекламы
                     </div>
@@ -286,13 +279,12 @@
         </div>
     </div>
 </div>
-<div id="rec263207518" class="r t-rec t-rec_pt_15 t-rec_pb_0"
-     style="padding-top:15px;padding-bottom:0px;background-color:#f1ff30; " data-record-type="117"
-     data-bg-color="#f1ff30"><!-- T106 -->
+<div id="rec263207518" class="r t-rec t-rec_pt_15 t-rec_pb_0" style="padding-top:15px;padding-bottom:0px; "
+     data-record-type="117"><!-- T106 -->
     <div class="t106">
         <div class="t-container">
             <div class="t106__wrapper">
-                <div class="t106__block" style="background-color:#f1ff30;">
+                <div class="t106__block">
                     <div class="t106__title t-title t-title_xxs" style="" field="title">Фото и видео продакшн</div>
                     <div class="t106__text t-text" style="" field="text"><p style="text-align: center;">
                             Фотосъемка</p>
@@ -308,13 +300,12 @@
         </div>
     </div>
 </div>
-<div id="rec262088258" class="r t-rec t-rec_pt_15 t-rec_pb_0"
-     style="padding-top:15px;padding-bottom:0px;background-color:#f1ff30; " data-record-type="117"
-     data-bg-color="#f1ff30"><!-- T106 -->
+<div id="rec262088258" class="r t-rec t-rec_pt_15 t-rec_pb_0" style="padding-top:15px;padding-bottom:0px; "
+     data-record-type="117"><!-- T106 -->
     <div class="t106">
         <div class="t-container">
             <div class="t106__wrapper">
-                <div class="t106__block" style="background-color:#f1ff30;">
+                <div class="t106__block">
                     <div class="t106__title t-title t-title_xxs" style="" field="title">Сувенирная продукция</div>
                     <div class="t106__text t-text" style="" field="text">Поможем создать ваш личный мерч:<br/>Разработка
                         дизайна<br/>
@@ -329,18 +320,17 @@
         </div>
     </div>
 </div>
-<div id="rec263207531" class="r t-rec t-rec_pt_15 t-rec_pb_0"
-     style="padding-top:15px;padding-bottom:0px;background-color:#f1ff30; " data-record-type="117"
-     data-bg-color="#f1ff30"><!-- T106 -->
+<div id="rec263207531" class="r t-rec t-rec_pt_15 t-rec_pb_0" style="padding-top:15px;padding-bottom:0px; "
+     data-record-type="117"><!-- T106 -->
     <div class="t106">
         <div class="t-container">
             <div class="t106__wrapper">
-                <div class="t106__block" style="background-color:#f1ff30;">
+                <div class="t106__block">
                     <div class="t106__title t-title t-title_xxs" style="" field="title"><p
                                 style="text-align: center;">Другое</p></div>
                     <div class="t106__text t-text" style="" field="text"><strong>SEO-копирайтинг и
-                            рерайтинг</strong><br/><strong>PR, репутационный маркетинг</strong><br/><strong>Оформление
-                            и планирование ивентов</strong><br/>
+                            рерайтинг</strong><br/><strong>PR, репутационный маркетинг</strong><br/><strong>Оформление и
+                            планирование ивентов</strong><br/>
                         <p style="text-align: center;"><strong>Создание чат-ботов для вашего бизнеса</strong></p>
                     </div>
                 </div>
@@ -352,9 +342,8 @@
         </div>
     </div>
 </div>
-<div id="rec262006580" class="r t-rec t-rec_pt_75 t-rec_pb_45"
-     style="padding-top:75px;padding-bottom:45px;background-color:#f1ff30; " data-record-type="209"
-     data-bg-color="#f1ff30"><!-- T185 -->
+<div id="rec262006580" class="r t-rec t-rec_pt_75 t-rec_pb_75" style="margin-top:45px; padding-top:45px;padding-bottom:45px; "
+     data-record-type="209"><!-- T185 -->
     <div class="t185">
         <div class="t-container t-container_flex">
             <div class="t-col t-col_flex t-col_6 t-prefix_2">
@@ -464,9 +453,8 @@
         }
       });</script>
 </div>
-<div id="rec262006581" class="r t-rec t-rec_pt_45 t-rec_pb_0"
-     style="padding-top:45px;padding-bottom:0px;background-color:#f1ff30; " data-record-type="491"
-     data-bg-color="#f1ff30"><!-- t491 -->
+<div id="rec262006581" class="r t-rec t-rec_pt_45 t-rec_pb_0" style="padding-top:45px;padding-bottom:0px; "
+     data-record-type="491"><!-- t491 -->
     <div class="t491">
         <div class="t-section__container t-container">
             <div class="t-col t-col_12">
@@ -568,9 +556,8 @@
 </div>
 <div id="rec262006582" class="r t-rec" style=" " data-record-type="215"><a name="contact" style="font-size:0;"></a>
 </div>
-<div id="rec262006583" class="r t-rec t-rec_pt_75 t-rec_pb_0"
-     style="padding-top:75px;padding-bottom:0px;background-color:#f1ff30; " data-record-type="255"
-     data-bg-color="#f1ff30"><!-- T225 -->
+<div id="rec262006583" class="r t-rec t-rec_pt_75 t-rec_pb_0" style="padding-top:75px;padding-bottom:0px; "
+     data-record-type="255"><!-- T225 -->
     <div class="t225">
         <div class="t-container t-align_center">
             <div class="t-col t-col_8 t-prefix_2">
@@ -582,17 +569,16 @@
         </div>
     </div>
 </div>
-<div id="rec262006584" class="r t-rec t-rec_pt_45 t-rec_pb_90"
-     style="padding-top:45px;padding-bottom:90px;background-color:#f1ff30; " data-animationappear="off"
-     data-record-type="191" data-bg-color="#f1ff30"><!-- T142 -->
+<div id="rec262006584" class="r t-rec t-rec_pt_45 t-rec_pb_90" style="padding-top:45px;padding-bottom:90px; "
+     data-animationappear="off" data-record-type="191"><!-- T142 -->
     <div class="t142">
         <div class="t-container_100">
             <div class="t142__wrapone">
                 <div class="t142__wraptwo"><a target="" data-tilda-event-name="/tilda/click/rec262006584/button1"
                                               class="js-click-stat">
                         <div class="t-btn t142__submit " style="color:#ffffff;background-color:#43dde0;"
-                             data-btneffects-first="btneffects-ripple"><span
-                                    class="t142__text">Оставить заявку</span></div>
+                             data-btneffects-first="btneffects-ripple"><span class="t142__text">Оставить заявку</span>
+                        </div>
                     </a></div>
             </div>
         </div>
