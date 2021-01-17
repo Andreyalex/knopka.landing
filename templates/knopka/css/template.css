@@ -1,4 +1,49 @@
+body {
+	background: url('../img/bkg.jpg');
+}
+
 .page-header {
 	padding-bottom: 8px;
 	margin: 18px 0 27px;
+}
+
+.t-rec {
+	background: transparent !important;
+}
+
+.t-rec .t-container {
+	background-color:#f1ff30;
+}
+
+#rec262006572 .t-container {
+	background-color:transparent;
+}
+
+.t-rec_pt_15,
+.t-rec_pt_45,
+.t-rec_pt_60,
+.t-rec_pt_75,
+.t-rec_pb_45 {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+
+.t-rec_pt_15 .t-container {
+	padding-top: 15px !important;
+}
+
+.t-rec_pt_45 .t-container {
+	padding-top: 45px !important;
+}
+
+.t-rec_pt_60 .t-container {
+	padding-top: 60px !important;
+}
+
+.t-rec_pt_75 .t-container {
+	padding-top: 75px !important;
+}
+
+.t-rec_pb_45 .t-container {
+	padding-bottom: 45px !important;
 }
