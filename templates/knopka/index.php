@@ -166,13 +166,13 @@ if ($this->params->get('logoFile')) {
           }, 400);
         });
       }</script>
-    <jdoc:include type="head" />
+    <link href="/templates/knopka/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+    <link href="/templates/knopka/css/template.css?4ee1df3092c1fe2c58d44d2646a0a0b6" rel="stylesheet">
 </head>
-<body class="t-body" style="margin:0;"><!--allrecords-->
+<body class="t-body <?= ($menuItemAlias=='home'? 'landing-page' : 'component-page') ?>" style="margin:0;"><!--allrecords-->
 <div id="allrecords" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="2512305"
      data-tilda-page-id="16032892" data-tilda-formskey="eed1b1688abf305dccd909096825c12e">
-    <div id="rec262006571" class="r t-rec" style="background-color:#f1ff30; " data-record-type="446"
-         data-bg-color="#f1ff30"><!-- T446 -->
+    <div id="rec262006571" class="r t-rec" style=" " data-record-type="446"><!-- T446 -->
         <div id="nav262006571marker"></div>
         <div class="t446__mobile">
             <div class="t446__mobile_container">
@@ -181,8 +181,8 @@ if ($this->params->get('logoFile')) {
             </div>
         </div>
         <div id="nav262006571" class="t446 t446__hidden t446__positionabsolute "
-             style="background-color: rgba(241,255,48,0.0); " data-bgcolor-hex="#f1ff30"
-             data-bgcolor-rgba="rgba(241,255,48,0.0)" data-navmarker="nav262006571marker" data-appearoffset=""
+             style="background-color: rgba(17,17,17,0.0); " data-bgcolor-hex="#111111"
+             data-bgcolor-rgba="rgba(17,17,17,0.0)" data-navmarker="nav262006571marker" data-appearoffset=""
              data-bgopacity-two="" data-menushadow="" data-bgopacity="0.0" data-menu-items-align="center"
              data-menu="yes">
             <div class="t446__maincontainer t446__c12collumns" style="">
@@ -234,10 +234,6 @@ if ($this->params->get('logoFile')) {
 
                 #rec262006571 .t446__mobile_burger span {
                     background-color: #43dde0;
-                }
-
-                #rec262006571 .t446__mobile {
-                    background-color: #f1ff30;
                 }
 
                 #rec262006571 .t446__mobile_burger {
@@ -302,7 +298,7 @@ if ($this->params->get('logoFile')) {
             }</style>
         <!--[if IE 8]>
         <style>#rec262006571 .t446 {
-            filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D9f1ff30', endColorstr='#D9f1ff30');
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D9111111', endColorstr='#D9111111');
         }</style><![endif]--> </div>
 <?php
     if ($menuItemAlias == 'home') {
