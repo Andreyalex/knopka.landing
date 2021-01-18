@@ -1,136 +1,3 @@
-<div id="rec262006571" class="r t-rec" style="background-color:#f1ff30; " data-record-type="446"
-     data-bg-color="#f1ff30"><!-- T446 -->
-    <div id="nav262006571marker"></div>
-    <div class="t446__mobile">
-        <div class="t446__mobile_container">
-            <div class="t446__mobile_text t-name t-name_md" field="text">КНОПКА</div>
-            <div class="t446__mobile_burger"><span></span> <span></span> <span></span> <span></span></div>
-        </div>
-    </div>
-    <div id="nav262006571" class="t446 t446__hidden t446__positionabsolute "
-         style="background-color: rgba(241,255,48,0.0); " data-bgcolor-hex="#f1ff30"
-         data-bgcolor-rgba="rgba(241,255,48,0.0)" data-navmarker="nav262006571marker" data-appearoffset=""
-         data-bgopacity-two="" data-menushadow="" data-bgopacity="0.0" data-menu-items-align="center"
-         data-menu="yes">
-        <div class="t446__maincontainer t446__c12collumns" style="">
-            <div class="t446__logowrapper">
-                <div class="t446__logowrapper2">
-                    <div style="display: block;"><img
-                                src="https://static.tildacdn.com/tild3839-3161-4430-a335-636637303332/_.png"
-                                class="t446__imglogo t446__imglogomobile" imgfield="img"
-                                style="max-width: 70px; width: 70px;" alt=""></div>
-                </div>
-            </div>
-            <div class="t446__leftwrapper" style="padding-left:20px; padding-right:85px; text-align: left;">
-                <div class="t446__leftmenuwrapper">
-                    <ul class="t446__list">
-                        <li class="t446__list_item"><a class="t-menu__link-item" href="#about"
-                                                       data-menu-submenu-hook=""
-                                                       style="color:#43dde0;font-weight:600;"
-                                                       data-menu-item-number="1">О нас</a></li>
-                        <li class="t446__list_item"><a class="t-menu__link-item" href="#service"
-                                                       data-menu-submenu-hook=""
-                                                       style="color:#43dde0;font-weight:600;"
-                                                       data-menu-item-number="2">Услуги</a></li>
-                        <li class="t446__list_item"><a class="t-menu__link-item" href="#contact"
-                                                       data-menu-submenu-hook=""
-                                                       style="color:#43dde0;font-weight:600;"
-                                                       data-menu-item-number="3">Контакты</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="t446__rightwrapper" style="padding-right:20px; padding-left:85px; text-align: right;">
-                <div class="t446__rightmenuwrapper">
-                    <ul class="t446__list"></ul>
-                </div>
-                <div class="t446__additionalwrapper">
-                    <div class="t446__right_descr" style="color:#43dde0;font-size:20px;">Телефон: +380505080852
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <style>@media screen and (max-width: 980px) {
-            #rec262006571 .t446__leftcontainer {
-                padding: 20px;
-            }
-
-            #rec262006571 .t446__imglogo {
-                padding: 20px 0;
-            }
-
-            #rec262006571 .t446__mobile_burger span {
-                background-color: #43dde0;
-            }
-
-            #rec262006571 .t446__mobile {
-                background-color: #f1ff30;
-            }
-
-            #rec262006571 .t446__mobile_burger {
-                left: 20px;
-                right: unset;
-            }
-
-            #rec262006571 .t446__mobile_text {
-                text-align: right;
-                right: 20px;
-                left: unset;
-            }
-
-            @media screen and (max-width: 980px) {
-                #rec262006571 .t446 {
-                    position: absolute;
-                    top: 64px;
-                }
-            }
-        }</style>
-    <script>    var t446__doResize;
-      $(window).resize(function () {
-        t446_checkOverflow('262006571', '0');
-        clearTimeout(t446__doResize);
-        t446__doResize = setTimeout(function () {
-          t446_checkOverflow('262006571', '0');
-        }, 200);
-      });
-      $(window).load(function () {
-        t446_checkOverflow('262006571', '0');
-      });
-      $(document).ready(function () {
-        t446_checkOverflow('262006571', '0');
-      });
-      $(document).ready(function () {
-        t446_highlight();
-      });
-      $(window).resize(function () {
-        t446_setBg('262006571');
-      });
-      $(document).ready(function () {
-        t446_setBg('262006571');
-      });</script>
-    <script> $(document).ready(function () {
-        t446_createMobileMenu('262006571');
-      }); </script>
-    <script type="text/javascript"> $(document).ready(function () {
-        setTimeout(function () {
-          t_onFuncLoad('t_menusub_init', function () {
-            t_menusub_init('262006571');
-          });
-        }, 500);
-      });</script>
-    <style>@media screen and (max-width: 980px) {
-            #rec262006571 .t-menusub__menu .t-menusub__link-item {
-                color: #43dde0 !important;
-            }
-
-            #rec262006571 .t-menusub__menu .t-menusub__link-item.t-active {
-                color: #43dde0 !important;
-            }
-        }</style>
-    <!--[if IE 8]>
-    <style>#rec262006571 .t446 {
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D9f1ff30', endColorstr='#D9f1ff30');
-    }</style><![endif]--> </div>
 <div id="rec262006572" class="r t-rec" style=" " data-animationappear="off" data-record-type="18"><!-- cover -->
     <div class="t-cover" id="recorddiv262006572" bgimgfield="img"
          style="height:100vh; background-image:url('https://static.tildacdn.com/tild3961-3234-4235-a635-326265656136/-/resize/20x/photo.jpg');">
@@ -677,4 +544,29 @@
           $('#rec262006584 .t-btn[data-btneffects-first] .t-btn_effects, #rec262006584 .t-submit[data-btneffects-first] .t-btn_effects').addClass('t-btn_effects_lg');
         }
       });</script>
+</div>
+<div id="rec262006585" class="r t-rec t-rec_pt_45 t-rec_pb_90" style="padding-top:45px;padding-bottom:90px; "
+     data-record-type="574"><!-- t574-->
+    <div class="t574">
+        <div class="t-container">
+            <div class="t-col t-col_6 t-prefix_3 t-align_center">
+                <div class="t574__title t-title t-title_xs t574__bottom-margin_lg" style="" field="title">
+                    +380505080852<br/>knopka.agency@gmail.com
+                </div>
+                <div class="t-sociallinks">
+                    <div class="t-sociallinks__wrapper">
+                        <div class="t-sociallinks__item"><a href="https://google.com" target="_blank">
+                                <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve"><desc>Facebook</desc><path style="fill:#43dde0;" d="M47.761,24c0,13.121-10.638,23.76-23.758,23.76C10.877,47.76,0.239,37.121,0.239,24c0-13.124,10.638-23.76,23.764-23.76C37.123,0.24,47.761,10.876,47.761,24 M20.033,38.85H26.2V24.01h4.163l0.539-5.242H26.2v-3.083c0-1.156,0.769-1.427,1.308-1.427h3.318V9.168L26.258,9.15c-5.072,0-6.225,3.796-6.225,6.224v3.394H17.1v5.242h2.933V38.85z"/></svg>
+                            </a></div>
+                        <div class="t-sociallinks__item"><a href="https://google.com" target="_blank">
+                                <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve"><desc>Twitter</desc><path style="fill:#43dde0;" d="M47.762,24c0,13.121-10.639,23.76-23.761,23.76S0.24,37.121,0.24,24c0-13.124,10.639-23.76,23.761-23.76 S47.762,10.876,47.762,24 M38.031,12.375c-1.177,0.7-2.481,1.208-3.87,1.481c-1.11-1.186-2.694-1.926-4.455-1.926 c-3.364,0-6.093,2.729-6.093,6.095c0,0.478,0.054,0.941,0.156,1.388c-5.063-0.255-9.554-2.68-12.559-6.367 c-0.524,0.898-0.825,1.947-0.825,3.064c0,2.113,1.076,3.978,2.711,5.07c-0.998-0.031-1.939-0.306-2.761-0.762v0.077 c0,2.951,2.1,5.414,4.889,5.975c-0.512,0.14-1.05,0.215-1.606,0.215c-0.393,0-0.775-0.039-1.146-0.109 c0.777,2.42,3.026,4.182,5.692,4.232c-2.086,1.634-4.712,2.607-7.567,2.607c-0.492,0-0.977-0.027-1.453-0.084 c2.696,1.729,5.899,2.736,9.34,2.736c11.209,0,17.337-9.283,17.337-17.337c0-0.263-0.004-0.527-0.017-0.789 c1.19-0.858,2.224-1.932,3.039-3.152c-1.091,0.485-2.266,0.811-3.498,0.958C36.609,14.994,37.576,13.8,38.031,12.375"/></svg>
+                            </a></div>
+                        <div class="t-sociallinks__item"><a href="https://google.com" target="_blank">
+                                <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px" viewBox="0 0 30 30" xml:space="preserve"><desc>Instagram</desc><path style="fill:#43dde0;" d="M15,11.014 C12.801,11.014 11.015,12.797 11.015,15 C11.015,17.202 12.802,18.987 15,18.987 C17.199,18.987 18.987,17.202 18.987,15 C18.987,12.797 17.199,11.014 15,11.014 L15,11.014 Z M15,17.606 C13.556,17.606 12.393,16.439 12.393,15 C12.393,13.561 13.556,12.394 15,12.394 C16.429,12.394 17.607,13.561 17.607,15 C17.607,16.439 16.444,17.606 15,17.606 L15,17.606 Z"></path><path style="fill:#43dde0;" d="M19.385,9.556 C18.872,9.556 18.465,9.964 18.465,10.477 C18.465,10.989 18.872,11.396 19.385,11.396 C19.898,11.396 20.306,10.989 20.306,10.477 C20.306,9.964 19.897,9.556 19.385,9.556 L19.385,9.556 Z"></path><path style="fill:#43dde0;" d="M15.002,0.15 C6.798,0.15 0.149,6.797 0.149,15 C0.149,23.201 6.798,29.85 15.002,29.85 C23.201,29.85 29.852,23.202 29.852,15 C29.852,6.797 23.201,0.15 15.002,0.15 L15.002,0.15 Z M22.666,18.265 C22.666,20.688 20.687,22.666 18.25,22.666 L11.75,22.666 C9.312,22.666 7.333,20.687 7.333,18.28 L7.333,11.734 C7.333,9.312 9.311,7.334 11.75,7.334 L18.25,7.334 C20.688,7.334 22.666,9.312 22.666,11.734 L22.666,18.265 L22.666,18.265 Z"></path></svg>
+                            </a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
