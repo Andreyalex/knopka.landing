@@ -120,11 +120,14 @@ if ($this->params->get('logoFile')) {
 <head>
     <meta charset="utf-8"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/><!--metatextblock--><title>Knopka.agency</title>
-    <meta name="description" content="контент, smm, оформление и ведение аккаунта, настройка таргетированной рекламы, фото и видео съёмка, дизайн, копирайт, чат-боты, сувенирная продукция"/>
-    <meta property="og:url" content="http://knopka.agency"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/><!--metatextblock--><title>
+        Knopka.agency</title>
+    <meta name="description"
+          content="контент, smm, оформление и ведение аккаунта, настройка таргетированной рекламы, фото и видео съёмка, дизайн, копирайт, чат-боты, сувенирная продукция"/>
+    <meta property="og:url" content="http://knopka.agency.tilda.ws"/>
     <meta property="og:title" content="Knopka.agency"/>
-    <meta property="og:description" content="контент, smm, оформление и ведение аккаунта, настройка таргетированной рекламы, фото и видео съёмка, дизайн, копирайт, чат-боты, сувенирная продукция"/>
+    <meta property="og:description"
+          content="контент, smm, оформление и ведение аккаунта, настройка таргетированной рекламы, фото и видео съёмка, дизайн, копирайт, чат-боты, сувенирная продукция"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image"
           content="https://static.tildacdn.com/tild3839-3161-4430-a335-636637303332/-/resize/504x/_.png"/>
@@ -219,6 +222,33 @@ if ($this->params->get('logoFile')) {
             </div>
         </div>
     </div>
-</div>
+    <div id="rec271139769" class="r t-rec t-rec_pt_60 t-rec_pb_75"
+         style="padding-top:60px;padding-bottom:75px;background-color:#171717; " data-animationappear="off"
+         data-record-type="457" data-bg-color="#171717"><!-- T457 -->
+        <div class="t457">
+            <div class="t-container">
+                <div class="t-col t-col_12">
+                    <ul class="t457__ul">
+                        <li class="t457__li"><a href="#about" style="color:#ffffff;" data-menu-item-number="1">О нас</a>
+                        </li>
+                        <li class="t457__li"><a href="#service" style="color:#ffffff;"
+                                                data-menu-item-number="2">Услуги</a></li>
+                        <li class="t457__li"><a href="#contact" style="color:#ffffff;" data-menu-item-number="3">Контакты</a>
+                        </li>
+                        <li class="t457__li"><a href="/terms" style="color:#ffffff;" data-menu-item-number="4">Условия
+                                использования</a></li>
+                        <li class="t457__li"><a href="/privacy" style="color:#ffffff;" data-menu-item-number="5">Политика
+                                конфиденциальности</a></li>
+                    </ul>
+                </div>
+                <div class="t-col t-col_12">
+                    <div class="t457__copyright" field="text" style="color: #ffffff;">© All Rights Reserved. Tilda
+                        Publishing Design Co.<br/>knopka.agency@gmail.com
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!--/allrecords-->
 </body>
 </html>
