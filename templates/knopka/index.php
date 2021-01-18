@@ -121,10 +121,10 @@ if ($this->params->get('logoFile')) {
     <meta charset="utf-8"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/><!--metatextblock--><title>Knopka.agency</title>
-    <meta name="description" content="CONTENT SMM TARGET ADVERTISING AGENCY"/>
+    <meta name="description" content="контент, smm, оформление и ведение аккаунта, настройка таргетированной рекламы, фото и видео съёмка, дизайн, копирайт, чат-боты, сувенирная продукция"/>
     <meta property="og:url" content="http://knopka.agency"/>
     <meta property="og:title" content="Knopka.agency"/>
-    <meta property="og:description" content="CONTENT SMM TARGET ADVERTISING AGENCY"/>
+    <meta property="og:description" content="контент, smm, оформление и ведение аккаунта, настройка таргетированной рекламы, фото и видео съёмка, дизайн, копирайт, чат-боты, сувенирная продукция"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image"
           content="https://static.tildacdn.com/tild3839-3161-4430-a335-636637303332/-/resize/504x/_.png"/>
