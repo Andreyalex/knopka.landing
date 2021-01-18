@@ -124,7 +124,7 @@ if ($this->params->get('logoFile')) {
         Knopka.agency</title>
     <meta name="description"
           content="контент, smm, оформление и ведение аккаунта, настройка таргетированной рекламы, фото и видео съёмка, дизайн, копирайт, чат-боты, сувенирная продукция"/>
-    <meta property="og:url" content="http://knopka.agency.tilda.ws"/>
+    <meta property="og:url" content="http://knopka.agency"/>
     <meta property="og:title" content="Knopka.agency"/>
     <meta property="og:description"
           content="контент, smm, оформление и ведение аккаунта, настройка таргетированной рекламы, фото и видео съёмка, дизайн, копирайт, чат-боты, сувенирная продукция"/>
