@@ -235,15 +235,14 @@ if ($this->params->get('logoFile')) {
                                                 data-menu-item-number="2">Услуги</a></li>
                         <li class="t457__li"><a href="#contact" style="color:#ffffff;" data-menu-item-number="3">Контакты</a>
                         </li>
-                        <li class="t457__li"><a href="/terms" style="color:#ffffff;" data-menu-item-number="4">Условия
-                                использования</a></li>
+                        <li class="t457__li"><a href="/terms" style="color:#ffffff;" data-menu-item-number="4">Пользовательское
+                                соглашение</a></li>
                         <li class="t457__li"><a href="/privacy" style="color:#ffffff;" data-menu-item-number="5">Политика
                                 конфиденциальности</a></li>
                     </ul>
                 </div>
                 <div class="t-col t-col_12">
-                    <div class="t457__copyright" field="text" style="color: #ffffff;">© All Rights Reserved. Tilda
-                        Publishing Design Co.<br/>knopka.agency@gmail.com
+                    <div class="t457__copyright" field="text" style="color: #ffffff;">© All Rights Reserved<br/>knopka.agency@gmail.com
                     </div>
                 </div>
             </div>
