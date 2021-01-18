@@ -120,16 +120,15 @@ if ($this->params->get('logoFile')) {
 <head>
     <meta charset="utf-8"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/><!--metatextblock--><title>Универсальная
-        страница для бизнеса</title>
-    <meta name="description" content="Шаблон лендинга для бизнеса"/>
-    <meta property="og:url" content="http://knopka.agency.tilda.ws"/>
-    <meta property="og:title" content="Универсальная страница для бизнеса"/>
-    <meta property="og:description" content="Шаблон лендинга для бизнеса"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/><!--metatextblock--><title>Knopka.agency</title>
+    <meta name="description" content="CONTENT SMM TARGET ADVERTISING AGENCY"/>
+    <meta property="og:url" content="http://knopka.agency"/>
+    <meta property="og:title" content="Knopka.agency"/>
+    <meta property="og:description" content="CONTENT SMM TARGET ADVERTISING AGENCY"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image"
           content="https://static.tildacdn.com/tild3839-3161-4430-a335-636637303332/-/resize/504x/_.png"/>
-    <link rel="canonical" href="http://knopka.agency.tilda.ws"><!--/metatextblock-->
+    <link rel="canonical" href="http://knopka.agency"><!--/metatextblock-->
     <meta property="fb:app_id" content="257953674358265"/>
     <meta name="format-detection" content="telephone=no"/>
     <meta http-equiv="x-dns-prefetch-control" content="on">
