@@ -305,8 +305,8 @@ if ($this->params->get('logoFile')) {
         include('landing.php');
     } else {
         ?>
-    <div class="r t-rec t-rec_pt_45 t-rec_pb_90 component_wrapper"
-         style="padding-top:45px;padding-bottom:90px;" data-record-type="480"
+    <div class="r t-rec t-rec_pt_30 t-rec_pb_90 component_wrapper"
+         style="padding-top:30px;padding-bottom:90px;" data-record-type="480"
          data-bg-color="#f1ff30" data-animationappear="off"><!-- T480 -->
         <div style="width: 0; height: 0; overflow: hidden;">
             <div class="t480__sizer t-col t-col_8" data-auto-correct-mobile-width="false" style="height:560px;"></div>
@@ -338,10 +338,8 @@ if ($this->params->get('logoFile')) {
                                                 data-menu-item-number="2">Услуги</a></li>
                         <li class="t457__li"><a href="/#contact" style="color:#ffffff;" data-menu-item-number="3">Контакты</a>
                         </li>
-                        <li class="t457__li"><a href="/terms" style="color:#ffffff;" data-menu-item-number="4">Пользовательское
-                                соглашение</a></li>
-                        <li class="t457__li"><a href="/privacy" style="color:#ffffff;" data-menu-item-number="5">Политика
-                                конфиденциальности</a></li>
+                        <li class="t457__li"><a href="/terms" style="color:#ffffff;" data-menu-item-number="4">Пользовательское&nbsp;соглашение</a></li>
+                        <li class="t457__li"><a href="/privacy" style="color:#ffffff;" data-menu-item-number="5">Политика&nbsp;конфиденциальности</a></li>
                     </ul>
                 </div>
                 <div class="t-col t-col_12">
