@@ -168,6 +168,7 @@ if ($this->params->get('logoFile')) {
       }</script>
     <link href="/templates/knopka/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
     <link href="/templates/knopka/css/template.css?4ee1df3092c1fe2c58d44d2646a0a0b6" rel="stylesheet">
+    <jdoc:include type="head" />
 </head>
 <body class="t-body <?= ($menuItemAlias=='home'? 'landing-page' : 'component-page') ?>" style="margin:0;"><!--allrecords-->
 <div id="allrecords" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="2512305"
@@ -314,7 +315,7 @@ if ($this->params->get('logoFile')) {
         <div class="t480">
             <div class="t-container">
                 <div class="t480__col t-col t-col_8 t-prefix_2">
-
+                    <jdoc:include type="message" />
                     <jdoc:include type="component" />
 
                 </div>
