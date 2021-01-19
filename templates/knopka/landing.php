@@ -441,7 +441,8 @@
     <div class="t142">
         <div class="t-container_100">
             <div class="t142__wrapone">
-                <div class="t142__wraptwo"><a target="/order" data-tilda-event-name="/tilda/click/rec262006584/button1"
+                <div class="t142__wraptwo"><a href="/order" target=""
+                                              data-tilda-event-name="/tilda/click/rec262006584/button1"
                                               class="js-click-stat">
                         <div class="t-btn t142__submit " style="color:#ffffff;background-color:#43dde0;"
                              data-btneffects-first="btneffects-ripple"><span class="t142__text">Оставить заявку</span>
