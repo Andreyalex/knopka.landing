@@ -2,7 +2,12 @@
 deployment:
   tasks:
     - export DEPLOYPATH=~/public_html/
-    - cp -R templates $DEPLOYPATH
     - cp -R administrator $DEPLOYPATH
+    - cp -R components $DEPLOYPATH
+    - cp -R images $DEPLOYPATH
     - cp -R language $DEPLOYPATH
+    - cp -R media $DEPLOYPATH
+    - cp -R modules $DEPLOYPATH
+    - cp -R plugins $DEPLOYPATH
+    - cp -R templates $DEPLOYPATH
     - cp ~/src/configuration.php $DEPLOYPATH
