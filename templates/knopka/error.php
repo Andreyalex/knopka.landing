@@ -240,7 +240,7 @@ if ($this->error->getCode() == 404) {
         }</style><![endif]--> </div>
 
     <div class="r t-rec t-rec_pt_70 t-rec_pb_60 component_wrapper"
-         style="padding-top:70px;padding-bottom:360px;" data-record-type="480"
+         style="padding-top:70px;" data-record-type="480"
          data-bg-color="#f1ff30" data-animationappear="off"><!-- T480 -->
         <div style="width: 0; height: 0; overflow: hidden;">
             <div class="t480__sizer t-col t-col_8" data-auto-correct-mobile-width="false" style="height:560px;"></div>
