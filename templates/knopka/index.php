@@ -180,7 +180,12 @@ if ($this->params->get('logoFile')) {
           gtag('js', new Date());
           gtag('config', 'UA-188479547-1');
         </script>
+
+        <!-- Google AdSense -->
+        <script data-ad-client="ca-pub-5639960772602363" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
     <? } ?>
+
 </head>
 <body class="t-body <?= ($menuItemAlias=='home'? 'landing-page' : 'component-page') ?>" style="margin:0;"><!--allrecords-->
 <div id="allrecords" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="2512305"
