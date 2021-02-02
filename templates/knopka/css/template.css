@@ -1,6 +1,20 @@
 body {
 	background: url('../img/bkg.jpg');
+	font-family: 'Roboto',Arial,sans-serif;
 }
+
+h2 {
+	font-weight: 600;
+	color: #000;
+	font-size: 52px;
+}
+
+h3 {
+	font-weight: 600;
+	color: #000;
+	font-size: 32px;
+}
+
 
 .page-header {
 	padding-bottom: 8px;
@@ -25,5 +39,5 @@ body {
 #rec262006580,
 #rec262006583,
 #rec262006584 {
-    background: rgba(247, 255, 128, 0.71);
+	background: rgba(247, 255, 128, 0.71);
 }

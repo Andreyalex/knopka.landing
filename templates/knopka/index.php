@@ -167,7 +167,7 @@ if ($this->params->get('logoFile')) {
         });
       }</script>
     <link href="/templates/knopka/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
-    <link href="/templates/knopka/css/template.css?4ee1df3092c1fe2c58d44d2646a0a0b6" rel="stylesheet">
+
     <jdoc:include type="head" />
 
     <? if($_SERVER['HTTP_HOST'] && strpos($_SERVER['HTTP_HOST'], 'knopka.agency') !== false) { ?>
