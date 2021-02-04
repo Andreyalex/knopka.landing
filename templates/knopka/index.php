@@ -190,14 +190,6 @@ if ($this->params->get('logoFile')) {
 <body class="t-body <?= ($menuItemAlias=='home'? 'landing-page' : 'component-page') ?>" style="margin:0;"><!--allrecords-->
 <div id="allrecords" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="2512305"
      data-tilda-page-id="16032892" data-tilda-formskey="eed1b1688abf305dccd909096825c12e">
-    <div id="rec262006571" class="r t-rec" style=" " data-record-type="446"><!-- T446 -->
-        <div id="nav262006571marker"></div>
-        <div class="t446__mobile">
-            <div class="t446__mobile_container">
-                <div class="t446__mobile_text t-name t-name_md" field="text">КНОПКА</div>
-                <div class="t446__mobile_burger"><span></span> <span></span> <span></span> <span></span></div>
-            </div>
-        </div>
 
 <? include('navigation.php') ?>
 

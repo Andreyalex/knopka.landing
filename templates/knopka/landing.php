@@ -46,8 +46,8 @@
                     <div class="t480__content t-valign_middle">
                         <div class="t480__title t-title t-title_xs " field="title" style="font-size:52px;"><p
                                     style="text-align: center;">О нас</p></div>
-                        <div class="t480__uptitle t-descr t-descr_xs " field="subtitle" style="max-width:400px;">Мы
-                            - ваша кнопка запуска реактора продвижения
+                        <div class="t480__uptitle t-descr t-descr_xs " field="subtitle" style="max-width:400px;">РА
+                            кнопка - кнопка запуска вашего реактора продвижения
                         </div>
                         <div class="t480__line " style="background-color: #46e4fc;"></div>
                         <div class="t480__descr t-descr t-descr_md " field="descr" style="">Кнопка - онлайн
@@ -55,7 +55,16 @@
                             оформлении ивентов, мерча и чат-ботах.<br/>Наша главная сила - это способность сочетать
                             разные таланты для удовлетворения сложных коммуникационных потребностей, объединяя
                             творческий подход, создание инфоповодов, дизайн, съёмку и технологии, позволяющие
-                            выстроить доверительные и открытые отношения между бизнесом клиента и потребителями.
+                            выстроить доверительные и открытые отношения между бизнесом клиента и
+                            потребителями.<br/>В нашей команде лучшие медийщики Харькова: профессиональные операторы
+                            и журналисты с опытом работы на ТВ, спичрайтеры политиков, участники и сценаристы КВН,
+                            опытные маркетологи и дизайнеры, блогеры и политтехнологи, сммщики, таргетологи и
+                            начинающие маркетологи.<br/>Под Ваши задачи мы привлекаем к выполнению наиболее
+                            релевантных специалистов.<br/>Многолетний опыт наших профессионалов и свежий взгляд
+                            молодых рекламщиков позволяют создавать креативы, которые попадают в самое сердце
+                            потребителей; вовлекающий контент с увлекательными иллюстрациями без грамматических
+                            ошибок; трендовую рекламу; стильные аккаунты; маркетинговые стратегии; индивидуальные PR
+                            акции любой сложности под разный бюджет.
                         </div>
                     </div>
                 </div>
@@ -192,19 +201,19 @@
     <div class="t106">
         <div class="t-container">
             <div class="t106__wrapper">
-                <div class="t106__block">
-                    <div class="t106__title t-title t-title_xxs" style="" field="title"><p
-                                style="text-align: center;">Другое</p></div>
-                    <div class="t106__text t-text" style="" field="text"><strong>SEO-копирайтинг и
-                            рерайтинг</strong><br/><strong>PR, репутационный маркетинг</strong><br/><strong>Оформление и
-                            планирование ивентов</strong><br/>
-                        <p style="text-align: center;"><strong>Создание чат-ботов для вашего бизнеса</strong></p>
-                    </div>
-                </div>
-                <div class="t106__block"><img
-                            src="https://static.tildacdn.com/tild3336-3065-4934-a133-643138616665/-/empty/d.jpg"
-                            data-original="https://static.tildacdn.com/tild3336-3065-4934-a133-643138616665/d.jpg"
-                            class="t106__img t-img" imgfield="img"/></div>
+                <div class="t106__block"><a href="#">
+                        <div class="t106__title t-title t-title_xxs" style="" field="title"><p
+                                    style="text-align: center;">Другое</p></div>
+                        <div class="t106__text t-text" style="" field="text"><strong>SEO-копирайтинг и
+                                рерайтинг</strong><br/><strong>PR, репутационный маркетинг</strong><br/><strong>Оформление и
+                                планирование ивентов</strong><br/>
+                            <p style="text-align: center;"><strong>Создание чат-ботов для вашего бизнеса</strong></p>
+                        </div>
+                    </a></div>
+                <div class="t106__block"><a href="#"> <img
+                                src="https://static.tildacdn.com/tild3336-3065-4934-a133-643138616665/-/empty/d.jpg"
+                                data-original="https://static.tildacdn.com/tild3336-3065-4934-a133-643138616665/d.jpg"
+                                class="t106__img t-img" imgfield="img"/> </a></div>
             </div>
         </div>
     </div>
@@ -430,7 +439,7 @@
             <div class="t-col t-col_8 t-prefix_2">
                 <div class="t225__title t-title t-title_md" field="title" style="">Бесплатная консультация</div>
                 <div class="t225__descr t-descr t-descr_xxl" field="descr" style="">Оставьте заявку, и мы поможем
-                    выбрать лучший способ продвижения для вашего бизнеса.
+                    выбрать лучшую стратегию продвижения в соцсетях.
                 </div>
             </div>
         </div>
