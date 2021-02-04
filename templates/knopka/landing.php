@@ -201,7 +201,7 @@
     <div class="t106">
         <div class="t-container">
             <div class="t106__wrapper">
-                <div class="t106__block"><a href="#">
+                <div class="t106__block">
                         <div class="t106__title t-title t-title_xxs" style="" field="title"><p
                                     style="text-align: center;">Другое</p></div>
                         <div class="t106__text t-text" style="" field="text"><strong>SEO-копирайтинг и
@@ -209,11 +209,11 @@
                                 планирование ивентов</strong><br/>
                             <p style="text-align: center;"><strong>Создание чат-ботов для вашего бизнеса</strong></p>
                         </div>
-                    </a></div>
-                <div class="t106__block"><a href="#"> <img
+                    </div>
+                <div class="t106__block"><img
                                 src="https://static.tildacdn.com/tild3336-3065-4934-a133-643138616665/-/empty/d.jpg"
                                 data-original="https://static.tildacdn.com/tild3336-3065-4934-a133-643138616665/d.jpg"
-                                class="t106__img t-img" imgfield="img"/> </a></div>
+                                class="t106__img t-img" imgfield="img"/></div>
             </div>
         </div>
     </div>
