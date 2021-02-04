@@ -10,4 +10,5 @@ deployment:
     - cp -R modules $DEPLOYPATH
     - cp -R plugins $DEPLOYPATH
     - cp -R templates $DEPLOYPATH
+    - cp -R video $DEPLOYPATH
     - cp ~/src/configuration.php $DEPLOYPATH
