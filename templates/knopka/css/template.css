@@ -58,3 +58,11 @@ li {
 #rec262006584 {
 	background: rgba(247, 255, 128, 0.71);
 }
+
+@media(max-width:960px) {
+	.m-fullsize {
+		width:100% !important;
+		clear: both !important;
+		float: none !important;
+	}
+}

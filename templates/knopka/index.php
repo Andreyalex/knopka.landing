@@ -134,19 +134,14 @@ JHtml::_('bootstrap.loadCss', false, $this->direction);
         include('landing.php');
     } else {
         ?>
-    <div class="r t-rec t-rec_pt_30 t-rec_pb_90 component_wrapper"
-         style="padding-top:30px;padding-bottom:90px;" data-record-type="480"
+    <div class="r t-rec t-rec_pt_30 component_wrapper"
+         style="padding-top:30px;" data-record-type="480"
          data-bg-color="#f1ff30" data-animationappear="off"><!-- T480 -->
-        <div style="width: 0; height: 0; overflow: hidden;">
-            <div class="t480__sizer t-col t-col_8" data-auto-correct-mobile-width="false" style="height:560px;"></div>
-        </div>
-        <div class="t480">
-            <div class="t-container">
-                <div class="t480__col t-col t-col_8 t-prefix_2">
-                    <jdoc:include type="message" />
-                    <jdoc:include type="component" />
+        <div class="t-container">
+            <div class="t-col t-col_10 t-prefix_1">
+                <jdoc:include type="message" />
+                <jdoc:include type="component" />
 
-                </div>
             </div>
         </div>
     </div>
