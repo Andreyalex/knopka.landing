@@ -47,73 +47,9 @@ JHtml::_('script', 'jui/html5.js', array('version' => 'auto', 'relative' => true
 // Add Stylesheets
 JHtml::_('stylesheet', 'template.css', array('version' => 'auto', 'relative' => true));
 
-// Use of Google Font
-if ($this->params->get('googleFont')) {
-    $font = $this->params->get('googleFontName');
-
-    // Handle fonts with selected weights and styles, e.g. Source+Sans+Condensed:400,400i
-    $fontStyle = str_replace('+', ' ', strstr($font, ':', true) ?: $font);
-
-    JHtml::_('stylesheet', 'https://fonts.googleapis.com/css?family=' . $font);
-    $this->addStyleDeclaration("
-	h1, h2, h3, h4, h5, h6, .site-title {
-		font-family: '" . $fontStyle . "', sans-serif;
-	}");
-}
-
-// Template color
-if ($this->params->get('templateColor')) {
-    $this->addStyleDeclaration('
-	body.site {
-		border-top: 3px solid ' . $this->params->get('templateColor') . ';
-		background-color: ' . $this->params->get('templateBackgroundColor') . ';
-	}
-	a {
-		color: ' . $this->params->get('templateColor') . ';
-	}
-	.nav-list > .active > a,
-	.nav-list > .active > a:hover,
-	.dropdown-menu li > a:hover,
-	.dropdown-menu .active > a,
-	.dropdown-menu .active > a:hover,
-	.nav-pills > .active > a,
-	.nav-pills > .active > a:hover,
-	.btn-primary {
-		background: ' . $this->params->get('templateColor') . ';
-	}');
-}
-
-// Check for a custom CSS file
-JHtml::_('stylesheet', 'user.css', array('version' => 'auto', 'relative' => true));
-
-// Check for a custom js file
-JHtml::_('script', 'user.js', array('version' => 'auto', 'relative' => true));
-
 // Load optional RTL Bootstrap CSS
 JHtml::_('bootstrap.loadCss', false, $this->direction);
 
-// Adjusting content width
-$position7ModuleCount = $this->countModules('position-7');
-$position8ModuleCount = $this->countModules('position-8');
-
-if ($position7ModuleCount && $position8ModuleCount) {
-    $span = 'span6';
-} elseif ($position7ModuleCount && !$position8ModuleCount) {
-    $span = 'span9';
-} elseif (!$position7ModuleCount && $position8ModuleCount) {
-    $span = 'span9';
-} else {
-    $span = 'span12';
-}
-
-// Logo file or site title param
-if ($this->params->get('logoFile')) {
-    $logo = '<img src="' . htmlspecialchars(JUri::root() . $this->params->get('logoFile'), ENT_QUOTES) . '" alt="' . $sitename . '" />';
-} elseif ($this->params->get('sitetitle')) {
-    $logo = '<span class="site-title" title="' . $sitename . '">' . htmlspecialchars($this->params->get('sitetitle'), ENT_COMPAT, 'UTF-8') . '</span>';
-} else {
-    $logo = '<span class="site-title" title="' . $sitename . '">' . $sitename . '</span>';
-}
 ?>
 <!DOCTYPE html>
 <html>
