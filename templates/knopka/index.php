@@ -45,7 +45,7 @@ JHtml::_('script', 'template.js', array('version' => 'auto', 'relative' => true)
 JHtml::_('script', 'jui/html5.js', array('version' => 'auto', 'relative' => true, 'conditional' => 'lt IE 9'));
 
 // Add Stylesheets
-JHtml::_('stylesheet', 'template.css', array('version' => 'auto', 'relative' => true));
+JHtml::_('stylesheet', 'template.css', array('version' => (string) mktime(), 'relative' => true));
 
 // Load optional RTL Bootstrap CSS
 JHtml::_('bootstrap.loadCss', false, $this->direction);
