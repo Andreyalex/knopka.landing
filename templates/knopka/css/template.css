@@ -1,3 +1,7 @@
+* {
+    cursor: url('/templates/knopka/img/cursor3.cur') 0 0, auto;
+}
+
 body {
 	background: url('../img/bkg.jpg');
 	font-family: 'Roboto',Arial,sans-serif;
@@ -5,6 +9,10 @@ body {
 	font-weight: 300;
 	line-height: 1.55;
 	color: #333333;
+}
+
+a {
+    cursor: inherit;
 }
 
 h2 {
@@ -24,12 +32,12 @@ h3 {
 
 li {
 	background-image:url('https://static.tildacdn.com/lib/tildaicon/33376436-6634-4231-b732-306331373662/17bu_27.svg');
-	background-size: 35px 35px;
+	background-size: 30px 30px;
 	background-position: 0 5px;
 	background-repeat: no-repeat;
 	list-style: none;
-	padding-left: 50px;
-	line-height: 2.5em;
+	padding-left: 45px;
+	line-height: 2.2em;
 	vertical-align: middle;
 }
 
