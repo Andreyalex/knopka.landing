@@ -35,12 +35,6 @@
     </div>
     <div class="t480">
         <div class="t-container">
-            <div class="t480__top t480__col t-col t-col_8 t-prefix_2">
-                <div class="t480__blockimg t-bgimg"
-                     data-original="https://static.tildacdn.com/tild3332-3031-4031-a531-383831653135/r.jpg"
-                     bgimgfield="img"
-                     style="background-image:url('https://static.tildacdn.com/tild3332-3031-4031-a531-383831653135/-/resizeb/20x/r.jpg'); height:560px;"></div>
-            </div>
             <div class="t480__col t-col t-col_8 t-prefix_2">
                 <div class="t480__textwrapper t-align_left" style="height:560px;">
                     <div class="t480__content t-valign_middle">
