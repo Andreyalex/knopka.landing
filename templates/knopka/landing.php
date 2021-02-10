@@ -89,6 +89,23 @@
     <script type="text/javascript">$(document).ready(function () {
       });</script>
 </div>
+<div id="rec262006580" class="r t-rec t-rec_pt_45 t-rec_pb_45" style="padding-top:45px;padding-bottom:45px; margin-top:45px;"
+     data-record-type="209"><!-- T185 -->
+    <div class="t185">
+        <div class="t-container">
+            <div class="t185__butwrapper" style="text-align: center"><a href="/order" target="" class="t-btn js-click-stat"
+                                                            data-tilda-event-name="/tilda/click/rec262006580/button1"
+                                                            style="color:#f5f7fa;background-color:#43dde0;border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;"
+                                                            data-btneffects-first="btneffects-ripple">
+                    <table style="width:100%; height:100%;">
+                        <tr>
+                            <td>Узнать больше</td>
+                        </tr>
+                    </table>
+                </a></div>
+        </div>
+    </div>
+</div>
 <div id="rec262006575" class="r t-rec" style=" " data-record-type="215"><a name="service" style="font-size:0;"></a>
 </div>
 <div id="rec262006576" class="r t-rec t-rec_pt_60 t-rec_pb_0" style="padding-top:60px;padding-bottom:0px; "
