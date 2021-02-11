@@ -14,7 +14,7 @@
          data-menu="yes">
         <div class="t446__maincontainer t446__c12collumns" style="">
             <div class="t446__leftwrapper"
-                 style="min-width:640px; padding-left:20px; padding-right:0px; text-align: left;">
+                 style="padding-left:20px; padding-right:0px; text-align: left;">
                 <div class="t446__leftmenuwrapper">
                     <div style="display: block;margin-top:5px;margin-right:15px"><a href="/"><img
                                 src="https://static.tildacdn.com/tild3839-3161-4430-a335-636637303332/_.png"
