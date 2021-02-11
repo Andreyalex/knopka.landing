@@ -572,7 +572,7 @@
         <div class="t-container">
             <div class="t-col t-col_6 t-prefix_3 t-align_center">
                 <div class="t574__title t-title t-title_xs t574__bottom-margin_lg" style="" field="title">
-                    +380505080852<br/>knopka.agency@gmail.com
+                    +380505080852<br/><span class="email">knopka.agency@gmail.com</span>
                 </div>
                 <div class="t-sociallinks">
                     <div class="t-sociallinks__wrapper">

@@ -78,3 +78,15 @@ ul.checked li {
 #nav262006571 .t446__leftwrapper {
 	width: auto;
 }
+
+@media(max-width:440px) {
+	.t574 .email {
+		font-size: 24px;
+	}
+}
+
+@media(max-width:350px) {
+	.t574 .email {
+		font-size: 18px;
+	}
+}
