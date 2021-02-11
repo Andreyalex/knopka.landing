@@ -30,7 +30,7 @@ h3 {
 	margin-bottom: 10px;
 }
 
-li {
+ul.checked li {
 	background-image:url('https://static.tildacdn.com/lib/tildaicon/33376436-6634-4231-b732-306331373662/17bu_27.svg');
 	background-size: 30px 30px;
 	background-position: 0 5px;
