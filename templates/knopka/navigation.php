@@ -2,7 +2,12 @@
     <div id="nav262006571marker"></div>
     <div class="t446__mobile">
         <div class="t446__mobile_container">
-            <div class="t446__mobile_text t-name t-name_md" field="text">КНОПКА</div>
+            <div class="t446__mobile_text t-name t-name_md" field="text">
+                <a href="/"><img
+                            src="https://static.tildacdn.com/tild3839-3161-4430-a335-636637303332/_.png"
+                            class="t446__imglogo t446__imglogomobile" imgfield="img"
+                            style="max-width: 70px; width: 70px;" alt=""></a>
+            </div>
             <div class="t446__mobile_burger"><span></span> <span></span> <span></span> <span></span></div>
         </div>
     </div>
@@ -16,50 +21,52 @@
             <div class="t446__leftwrapper"
                  style="padding-left:20px; padding-right:0px; text-align: left;">
                 <div class="t446__leftmenuwrapper">
-                    <div style="display: block;margin-top:5px;margin-right:15px"><a href="/"><img
+                    <div class="web-logo" style="margin-top:5px;"><a href="/"><img
                                 src="https://static.tildacdn.com/tild3839-3161-4430-a335-636637303332/_.png"
                                 class="t446__imglogo t446__imglogomobile" imgfield="img"
                                 style="max-width: 70px; width: 70px;" alt=""></a></div>
                     <ul class="t446__list">
                         <li class="t446__list_item"><a class="t-menu__link-item" href="/#about"
                                                        data-menu-submenu-hook=""
-                                                       style="color:#43dde0;font-weight:600;"
                                                        data-menu-item-number="1">О нас</a></li>
 
                         <li class="t446__list_item"><a class="t-menu__link-item" href="/#service"
                                                        data-menu-submenu-hook=""
-                                                       style="color:#43dde0;font-weight:600;"
                                                        data-menu-item-number="2">Услуги</a></li>
 
                         <li class="t446__list_item"><a class="t-menu__link-item" href="/projects"
                                                        data-menu-submenu-hook=""
-                                                       style="color:#43dde0;font-weight:600;"
                                                        data-menu-item-number="3">Проекты</a></li>
 
                         <li class="t446__list_item"><a class="t-menu__link-item" href="/feedbacks"
                                                        data-menu-submenu-hook=""
-                                                       style="color:#43dde0;font-weight:600;"
                                                        data-menu-item-number="3">Отзывы</a></li>
 
                         <li class="t446__list_item"><a class="t-menu__link-item" href="/prices"
                                                        data-menu-submenu-hook=""
-                                                       style="color:#43dde0;font-weight:600;"
                                                        data-menu-item-number="3">Цены</a></li>
 
                         <li class="t446__list_item"><a class="t-menu__link-item" href="/#contact"
                                                        data-menu-submenu-hook=""
-                                                       style="color:#43dde0;font-weight:600;"
                                                        data-menu-item-number="3">Контакты</a></li>
 
                     </ul>
                 </div>
             </div>
             <div class="t446__rightwrapper" style="padding-right:20px; padding-left:85px; text-align: right;">
-                <div class="t446__rightmenuwrapper">
-                    <ul class="t446__list"></ul>
-                </div>
                 <div class="t446__additionalwrapper">
-                    <div class="t446__right_descr" style="color:#43dde0;font-size:20px;">Телефон: +380505080852
+                    <div class="t446__right_descr phone">
+                        <div style="float:left;padding-right:10px">
+                            <span style="font-size:30px;line-height:30px;" class="icon-mobile"></span>
+                        </div>
+                        <div style="float:right;">
+                            <div style="line-height:20px;font-size:20px;">
+                                <a href="tel:+380505080852">+38 (050) 50 808 52</a>
+                            </div>
+                            <div style="line-height:16px;font-size:14px;text-align:center;font-weight:400">
+                                <span>наш телефон</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
