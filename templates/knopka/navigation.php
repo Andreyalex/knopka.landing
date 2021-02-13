@@ -68,6 +68,9 @@
                             </div>
                         </div>
                     </div>
+                    <div class="position-langs">
+                        <jdoc:include type="modules" name="position-1" />
+                    </div>
                 </div>
             </div>
         </div>

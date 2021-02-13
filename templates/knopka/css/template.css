@@ -96,11 +96,17 @@ ul.checked li {
 	padding-right: 14px;
 }
 
-#nav262006571 li a {
+#nav262006571 .t446__list li a {
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size: 20px;
 	color: #43dde0 !important;
+}
+
+@media (min-width:981px) and (max-width:1024px) {
+	#nav262006571 .t446__list li a {
+		font-size: 18px;
+	}
 }
 
 .phone * {
@@ -108,9 +114,56 @@ ul.checked li {
 	font-weight: 400;
 }
 
-@media(max-width:980px) {
+@media (max-width:980px) {
 	.web-logo {
 		display: none;
+	}
+}
+
+.position-langs {
+	float: right;
+}
+
+.mod-languages-column li {
+	display: block;
+	margin-top: 4px;
+}
+
+.mod-languages-column li a {
+	display: block;
+	height: 26px;
+	width: 26px;
+	padding: 2px;
+	border-radius: 16px;
+	border: 2px transparent solid;
+	line-height: 20px;
+	font-size: 20px;
+}
+
+.mod-languages-column li a img {
+	height:26px;
+	width: 26px;
+	border-radius: 12px;
+}
+
+.mod-languages-column li.lang-active a {
+	border: 2px #43dde0 solid;
+}
+
+@media (max-width:980px) {
+	.position-langs {
+		float: none;
+		display: table;
+		margin: 30px auto 0;
+	}
+
+	.position-langs .mod-languages-column li {
+		display: inline-block;
+		margin-top: 4px;
+	}
+
+	.position-langs .mod-languages-column .lang-inline {
+		padding-left: 0 !important;
 	}
 }
 
