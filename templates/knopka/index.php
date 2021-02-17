@@ -108,7 +108,7 @@ JHtml::_('bootstrap.loadCss', false, $this->direction);
 
     <link rel="stylesheet" href="/media/jui/css/icomoon.css" type="text/css" media="all"/>
 
-    <? if($_SERVER['HTTP_HOST'] && strpos($_SERVER['HTTP_HOST'], 'knopka.agency') !== false) { ?>
+    <? if($_SERVER['HTTP_HOST'] && $_SERVER['HTTP_HOST'] == 'knopka.agency') { ?>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-188479547-1">
         </script>
