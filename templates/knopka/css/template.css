@@ -59,6 +59,7 @@ ul.checked li {
 
 .component-page #nav262006571 {
 	background-color: rgba(17, 17, 17, 1) !important;
+	position: relative;
 }
 
 #rec262006580,
@@ -107,6 +108,12 @@ ul.checked li {
 	#nav262006571 .t446__list li a {
 		font-size: 18px;
 	}
+}
+
+#recorddiv262006572 {
+	height: 264px;
+	width:800px;
+	margin:0 auto;
 }
 
 .phone * {

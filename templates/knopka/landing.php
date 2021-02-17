@@ -1,27 +1,22 @@
-<div id="rec262006572" class="r t-rec" style=" " data-animationappear="off" data-record-type="18"><!-- cover -->
-    <div class="t-cover" id="recorddiv262006572" bgimgfield="img"
-         style="height:100vh; background-image:url('https://static.tildacdn.com/tild3961-3234-4235-a635-326265656136/-/resize/20x/photo.jpg');">
-        <div class="t-cover__carrier" id="coverCarry262006572" data-content-cover-id="262006572"
-             data-content-cover-bg="https://static.tildacdn.com/tild3961-3234-4235-a635-326265656136/photo.jpg"
-             data-content-cover-height="100vh" data-content-cover-parallax=""
-             style="height:100vh;background-attachment:scroll; "></div>
+<div id="rec262006572" class="r t-rec"><!-- cover -->
+    <div class="t-cover" id="recorddiv262006572"
+         style="background-image:url('/templates/knopka/img/bkg-web2.webp');background-attachment:inherit;"
+    >
         <div class="t-cover__filter"
-             style="height:100vh;background-image: -moz-linear-gradient(top, rgba(0,0,0,0.70), rgba(0,0,0,0.70));background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.70), rgba(0,0,0,0.70));background-image: -o-linear-gradient(top, rgba(0,0,0,0.70), rgba(0,0,0,0.70));background-image: -ms-linear-gradient(top, rgba(0,0,0,0.70), rgba(0,0,0,0.70));background-image: linear-gradient(top, rgba(0,0,0,0.70), rgba(0,0,0,0.70));filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#4c000000', endColorstr='#4c000000');"></div>
+             style="height:100%;/*background:rgba(241, 255, 48, 0.7);*/background-image:url('/templates/knopka/img/cover4.png')"></div>
         <div class="t-container">
-            <div class="t-col t-col_12 ">
-                <div class="t-cover__wrapper t-valign_middle" style="height:100vh;">
-                    <div class="t001 t-align_center">
-                        <div class="t001__wrapper" data-hook-content="covercontent">
-                            <div class="t001__title t-title t-title_xl"
-                                 style="font-family:'Arial';text-transform:uppercase;" field="title">РА КНОПКА
-                            </div>
-                            <div class="t001__descr t-descr t-descr_xl t001__descr_center"
-                                 style="font-family:'Arial';" field="descr">Мы - именно та кнопка, которая запускает
-                                бизнесы к новым высотам
-                            </div>
-                            <span class="space"></span></div>
+            <div class="t001 t-align_center">
+                <div class="t001__wrapper" data-hook-content="covercontent"
+                     style="padding:0; background:rgba(0,0,0,0.7); margin:20px auto 0 auto; width:640px; height:220px;"
+                >
+                    <div class="t001__title t-title t-title_xl"
+                         style="font-family:'Arial';text-transform:uppercase;" field="title">РА КНОПКА
                     </div>
-                </div>
+                    <div class="t001__descr t-descr t-descr_xl t001__descr_center"
+                         style="font-family:'Arial';" field="descr">Мы - именно та кнопка, которая запускает
+                        бизнесы к новым высотам
+                    </div>
+                    <span class="space"></span></div>
             </div>
         </div>
     </div>
