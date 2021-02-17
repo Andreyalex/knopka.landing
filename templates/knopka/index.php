@@ -132,7 +132,7 @@ JHtml::_('bootstrap.loadCss', false, $this->direction);
 <? include('navigation.php') ?>
 
 <?php
-    if ($menuItemAlias == 'home') {
+    if (in_array($menuItemAlias, ['home', 'home-ua', 'home-ru'])) {
         include('landing.php');
     } else {
         ?>
