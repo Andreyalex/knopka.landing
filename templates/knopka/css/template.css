@@ -111,9 +111,45 @@ ul.checked li {
 }
 
 #recorddiv262006572 {
-	height: 264px;
-	width:800px;
+	height: 290px;
+	width:980px;
 	margin:0 auto;
+	background-image:url('/templates/knopka/img/bkg-web2.webp');
+	background-attachment:inherit;
+}
+
+@media (min-width:641px) and (max-width:980px) {
+	#recorddiv262006572 {
+		height: 280px;
+		width:auto;
+	}
+}
+
+@media (min-width:471px) and (max-width:640px) {
+	#recorddiv262006572 {
+		height: 190px;
+		width:auto;
+	}
+}
+
+@media (max-width:470px) {
+	#recorddiv262006572 {
+		height: 210px;
+		width:auto;
+	}
+}
+
+
+@media (min-width:980px) {
+	#recorddiv262006572 {
+		background-image:url('/templates/knopka/img/bkg-web2.webp');
+	}
+}
+
+@media (max-width:980px) {
+	#recorddiv262006572 {
+		background-image:url('/templates/knopka/img/bkg-mobile.webp');
+	}
 }
 
 .phone * {

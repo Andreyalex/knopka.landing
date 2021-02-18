@@ -1,13 +1,9 @@
 <div id="rec262006572" class="r t-rec"><!-- cover -->
-    <div class="t-cover" id="recorddiv262006572"
-         style="background-image:url('/templates/knopka/img/bkg-web2.webp');background-attachment:inherit;"
-    >
-        <div class="t-cover__filter"
-             style="height:100%;/*background:rgba(241, 255, 48, 0.7);*/background-image:url('/templates/knopka/img/cover4.png')"></div>
+    <div class="t-cover" id="recorddiv262006572">
         <div class="t-container">
             <div class="t001 t-align_center">
                 <div class="t001__wrapper" data-hook-content="covercontent"
-                     style="padding:0; background:rgba(0,0,0,0.7); margin:20px auto 0 auto; width:640px; height:220px;"
+                     style="padding:0; background:rgba(0,0,0,0.7); margin:20px auto 20px; max-width: 760px;"
                 >
                     <div class="t001__title t-title t-title_xl"
                          style="font-family:'Arial';text-transform:uppercase;" field="title">РА КНОПКА
