@@ -127,15 +127,40 @@ ul.checked li {
 
 @media (min-width:471px) and (max-width:640px) {
 	#recorddiv262006572 {
-		height: 190px;
+		height: 150px;
 		width:auto;
+	}
+
+	#recorddiv262006572 .t001__title {
+		padding-top:15px;
+		padding-bottom:10px;
+	}
+
+	#recorddiv262006572 .t001__descr {
+		padding-bottom:15px;
 	}
 }
 
+@media (max-width:720px) {
+	#recorddiv262006572 .t001__wrapper {
+		margin: 20px 10% 20px !important;
+	}
+}
+
+
 @media (max-width:470px) {
 	#recorddiv262006572 {
-		height: 210px;
+		height: 156px;
 		width:auto;
+	}
+
+	#recorddiv262006572 .t001__title {
+		padding-top:15px;
+		padding-bottom:10px;
+	}
+
+	#recorddiv262006572 .t001__descr {
+		padding-bottom:15px;
 	}
 }
 
