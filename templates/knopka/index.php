@@ -155,8 +155,7 @@ JHtml::_('bootstrap.loadCss', false, $this->direction);
         include('landing.php');
     } else {
         ?>
-    <div class="r t-rec t-rec_pt_30 component_wrapper"
-         style="padding-top:30px;" data-record-type="480"
+    <div class="r t-rec t-rec_pt_30 component_wrapper" data-record-type="480"
          data-bg-color="#f1ff30" data-animationappear="off"><!-- T480 -->
         <div class="t-container">
             <div class="t-col t-col_10 t-prefix_1">

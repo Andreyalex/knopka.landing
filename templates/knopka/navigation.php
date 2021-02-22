@@ -19,7 +19,7 @@
          data-menu="yes">
         <div class="t446__maincontainer t446__c12collumns" style="">
             <div class="t446__leftwrapper"
-                 style="padding-left:20px; padding-right:0px; text-align: left;">
+                 style="padding-left:20px; padding-right:0px; width:auto; text-align: left;">
                 <div class="t446__leftmenuwrapper">
                     <div class="web-logo" style="margin-top:5px;"><a href="/"><img
                                 src="https://static.tildacdn.com/tild3839-3161-4430-a335-636637303332/_.png"
@@ -53,7 +53,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="t446__rightwrapper" style="padding-right:20px; padding-left:85px; text-align: right;">
+            <div class="t446__rightwrapper" style="padding-right:20px; padding-left:0; width:auto; text-align: right;">
                 <div class="t446__additionalwrapper">
                     <div class="t446__right_descr phone">
                         <div style="float:left;padding-right:10px">
