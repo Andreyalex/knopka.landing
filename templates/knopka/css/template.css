@@ -235,3 +235,23 @@ ul.checked li {
 	}
 }
 
+.menu-feedbacks img {
+	border-radius: 100px;
+	float: left;
+	margin: -10px 40px 20px 0;
+}
+
+.menu-feedbacks hr {
+	clear: both;
+	border: 1px solid #F8F8AA;
+	margin: 40px 40%;
+}
+
+@media (max-width:980px) {
+	.menu-feedbacks img {
+		float: none;
+		margin: 0 auto 20px;
+		display: block;
+	}
+}
+

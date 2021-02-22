@@ -144,7 +144,7 @@ JHtml::_('bootstrap.loadCss', false, $this->direction);
     <? } ?>
 
 </head>
-<body class="t-body <?= ($menuItemAlias=='home'? 'landing-page' : 'component-page') ?>" style="margin:0;"><!--allrecords-->
+<body class="t-body <?=($menuItemAlias=='home'? 'landing-page' : 'component-page')?> <?='menu-'.$menuItemAlias?>" style="margin:0;"><!--allrecords-->
 <div id="allrecords" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="2512305"
      data-tilda-page-id="16032892" data-tilda-formskey="eed1b1688abf305dccd909096825c12e">
 
