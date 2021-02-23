@@ -9,8 +9,7 @@
                          style="font-family:'Arial';text-transform:uppercase;" field="title">РА КНОПКА
                     </div>
                     <div class="t001__descr t-descr t-descr_xl t001__descr_center"
-                         style="font-family:'Arial';" field="descr">Мы - именно та кнопка, которая запускает
-                        бизнесы к новым высотам
+                         style="font-family:'Arial';" field="descr">Продвигаем бизнесы в соцсетях
                     </div>
                     <span class="space"></span></div>
             </div>
@@ -31,10 +30,6 @@
                     <div class="t480__content t-valign_middle">
                         <div class="t480__title t-title t-title_xs " field="title" style="font-size:52px;"><p
                                     style="text-align: center;">О нас</p></div>
-                        <div class="t480__uptitle t-descr t-descr_xs " field="subtitle" style="max-width:400px;">РА
-                            кнопка - кнопка запуска вашего реактора продвижения
-                        </div>
-                        <div class="t480__line " style="background-color: #46e4fc;"></div>
                         <div class="t480__descr t-descr t-descr_md " field="descr" style="">Кнопка - онлайн
                             рекламное агентство, специализирующееся на маркетинге в соцсетях, PR, создании брендов,
                             оформлении ивентов, мерча и чат-ботах.<br/>Наша главная сила - это способность сочетать
