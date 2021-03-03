@@ -85,7 +85,7 @@
                                                             data-btneffects-first="btneffects-ripple">
                     <table style="width:100%; height:100%;">
                         <tr>
-                            <td>Узнать больше</td>
+                            <td>Бесплатная консультация</td>
                         </tr>
                     </table>
                 </a></div>
