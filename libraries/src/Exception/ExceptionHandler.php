@@ -52,9 +52,10 @@ class ExceptionHandler
 
                     require (JPATH_LIBRARIES . DIRECTORY_SEPARATOR . 'TelegramSender.php');
                     \TelegramSender::sendToAdmin(sprintf(
-                        'Uncaught %1$s of type %2$s thrown. Stack trace: %3$s',
+                        'Uncaught %1$s of type %2$s thrown.'."\n".'Message: %3$s.'."\n".'Stack trace: %4$s',
                         $expectedClass,
                         get_class($error),
+                        $error->getMessage(),
                         $error->getTraceAsString()
                     ));
 
