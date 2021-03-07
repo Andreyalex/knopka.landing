@@ -54,11 +54,13 @@ class ExceptionHandler
                     \TelegramSender::sendToAdmin(sprintf(
                         'Uncaught %1$s of type %2$s thrown.'."\n".
                         'Query string: %3$s.'."\n".
-                        'Message: %4$s.'."\n".
-                        'Stack trace: %5$s',
+                        'User agent: %4$s.'."\n".
+                        'Message: %5$s.'."\n".
+                        'Stack trace: %6$s',
                         $expectedClass,
                         get_class($error),
-                        $_SERVER['QUERY_STRING'],
+                        $_SERVER['REQUEST_URI'],
+                        $_SERVER['HTTP_USER_AGENT'],
                         $error->getMessage(),
                         $error->getTraceAsString()
                     ));
