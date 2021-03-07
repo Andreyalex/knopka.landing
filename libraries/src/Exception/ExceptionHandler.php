@@ -49,7 +49,16 @@ class ExceptionHandler
 						\JLog::CRITICAL,
 						'error'
 					);
-				}
+
+                    require (JPATH_LIBRARIES . DIRECTORY_SEPARATOR . 'TelegramSender.php');
+                    \TelegramSender::sendToAdmin(sprintf(
+                        'Uncaught %1$s of type %2$s thrown. Stack trace: %3$s',
+                        $expectedClass,
+                        get_class($error),
+                        $error->getTraceAsString()
+                    ));
+
+                }
 				catch (\Throwable $e)
 				{
 					// Logging failed, don't make a stink about it though

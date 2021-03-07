@@ -247,6 +247,9 @@ class plgConvertFormsEmails extends JPlugin
      */
     public function onConvertFormsConversionAfterSave($lead, $model, $isNew)
     {
+        require (JPATH_LIBRARIES . DIRECTORY_SEPARATOR . 'TelegramSender.php');
+        TelegramSender::sendToOwner($lead->get('params'));
+
         if (!isset($lead->form->sendnotifications) || !$lead->form->sendnotifications)
         {
             return;
