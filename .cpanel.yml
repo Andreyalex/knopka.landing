@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=~/public_html
+    - export DEPLOYPATH=~/public_html/
     - cp -R administrator $DEPLOYPATH
     - cp -R components $DEPLOYPATH
     - cp -R images $DEPLOYPATH
