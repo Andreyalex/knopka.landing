@@ -55,12 +55,14 @@ class ExceptionHandler
                         'Uncaught %1$s of type %2$s thrown.'."\n".
                         'Query string: %3$s.'."\n".
                         'User agent: %4$s.'."\n".
-                        'Message: %5$s.'."\n".
-                        'Stack trace: %6$s',
+                        'Remote address: %5$s.'."\n".
+                        'Message: %6$s.'."\n".
+                        'Stack trace: %7$s',
                         $expectedClass,
                         get_class($error),
                         $_SERVER['REQUEST_URI'],
                         $_SERVER['HTTP_USER_AGENT'],
+                        $_SERVER['REMOTE_ADDR'],
                         $error->getMessage(),
                         $error->getTraceAsString()
                     ));
