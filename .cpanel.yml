@@ -6,6 +6,7 @@ deployment:
     - cp -R components $DEPLOYPATH
     - cp -R images $DEPLOYPATH
     - cp -R language $DEPLOYPATH
+    - cp -R libraries $DEPLOYPATH
     - cp -R media $DEPLOYPATH
     - cp -R modules $DEPLOYPATH
     - cp -R plugins $DEPLOYPATH
