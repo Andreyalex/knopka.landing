@@ -44,11 +44,25 @@ if (JFactory::getConfig()->get('cache_platformprefix') == '1') {
     $path = explode('#', $_SERVER['REQUEST_URI'])[0];
     $landLang = trim(explode('?', $path)[0], '/');
     if (in_array($landLang, ['', 'ru', 'uk', 'en'])) {
-        $path = JPATH_ROOT . '/cache/_system/landing.' . $landLang . '.html';
+        $path = JPATH_ROOT . '/cache/landing/landing.' . $landLang . '.html';
         if (file_exists($path)) {
+            header('Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0');
+            header('Connection: Keep-Alive');
+            header('Content-Encoding: gzip');
+            header('Content-Type: text/html; charset=utf-8');
+//            header('Expires: Wed, 17 Aug 2005 00:00:00 GMT');
+            header('Keep-Alive: timeout=5, max=100');
+//            header('Last-Modified: Wed, 10 Mar 2021 17:24:45 GMT');
+            header('Pragma: no-cache');
+            header('Server: Apache/2.4.46 (cPanel) OpenSSL/1.1.1i mod_bwlimited/1.4 Phusion_Passenger/5.3.7');
+            header('Vary: Accept-Encoding');
+            header('X-Content-Type-Options: nosniff');
+            header('X-Powered-By: PHP/7.4.15');
+            @ini_set('zlib.output_compression', 1);
             echo file_get_contents($path);
             exit(0);
         } else {
+            mkdir(JPATH_ROOT . '/cache/landing', 0777, true);
             $caching = true;
             ob_start();
         }
