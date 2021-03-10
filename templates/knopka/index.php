@@ -16,8 +16,9 @@ $app = JFactory::getApplication();
 $menuItemActive = $app->getMenu()->getActive();
 $menuItemActiveAlias = $menuItemActive->alias;
 $isLanding = in_array($menuItemActiveAlias, ['home', 'home-ua', 'home-ru']);
-list ($path, $null) = explode('?#', $_SERVER['REQUEST_URI'], 2);
-$lang = str_replace('//', '/','/' . substr(trim($path,'/'),0,2) . '/');
+preg_match('/^\/(ru|uk|en)/', $_SERVER['REQUEST_URI'], $matches);
+$path = $matches[1];
+$lang = $path? "/$path/" : '/';
 $anchorPrefix = $isLanding? '' : $lang;
 
 // Output as HTML5
