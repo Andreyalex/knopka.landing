@@ -26,27 +26,27 @@
                                 class="t446__imglogo t446__imglogomobile" imgfield="img"
                                 style="max-width: 70px; width: 70px;" alt=""></a></div>
                     <ul class="t446__list">
-                        <li class="t446__list_item"><a class="t-menu__link-item" href="/#about"
+                        <li class="t446__list_item"><a class="t-menu__link-item" href="<?=$anchorPrefix?>#about"
                                                        data-menu-submenu-hook=""
                                                        data-menu-item-number="1">О нас</a></li>
 
-                        <li class="t446__list_item"><a class="t-menu__link-item" href="/#service"
+                        <li class="t446__list_item"><a class="t-menu__link-item" href="<?=$anchorPrefix?>#service"
                                                        data-menu-submenu-hook=""
                                                        data-menu-item-number="2">Услуги</a></li>
 
-                        <li class="t446__list_item"><a class="t-menu__link-item" href="/projects"
+                        <li class="t446__list_item"><a class="t-menu__link-item" href="<?=$lang?>projects"
                                                        data-menu-submenu-hook=""
                                                        data-menu-item-number="3">Проекты</a></li>
 
-                        <li class="t446__list_item"><a class="t-menu__link-item" href="/feedbacks"
+                        <li class="t446__list_item"><a class="t-menu__link-item" href="<?=$lang?>feedbacks"
                                                        data-menu-submenu-hook=""
                                                        data-menu-item-number="3">Отзывы</a></li>
 
-                        <li class="t446__list_item"><a class="t-menu__link-item" href="/prices"
+                        <li class="t446__list_item"><a class="t-menu__link-item" href="<?=$lang?>prices"
                                                        data-menu-submenu-hook=""
                                                        data-menu-item-number="3">Цены</a></li>
 
-                        <li class="t446__list_item"><a class="t-menu__link-item" href="/#contact"
+                        <li class="t446__list_item"><a class="t-menu__link-item" href="<?=$anchorPrefix?>#contact"
                                                        data-menu-submenu-hook=""
                                                        data-menu-item-number="3">Контакты</a></li>
 

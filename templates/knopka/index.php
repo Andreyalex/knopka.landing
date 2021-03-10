@@ -11,102 +11,67 @@ defined('_JEXEC') or die;
 
 /** @var JDocumentHtml $this */
 
+/** @var \Joomla\CMS\Application\CMSApplication $app */
 $app = JFactory::getApplication();
-$user = JFactory::getUser();
-$menuItemAlias = $app->getMenu()->getActive()->alias;
+$menuItemActive = $app->getMenu()->getActive();
+$menuItemActiveAlias = $menuItemActive->alias;
+$isLanding = in_array($menuItemActiveAlias, ['home', 'home-ua', 'home-ru']);
+list ($path, $null) = explode('?#', $_SERVER['REQUEST_URI'], 2);
+$lang = str_replace('//', '/','/' . substr(trim($path,'/'),0,2) . '/');
+$anchorPrefix = $isLanding? '' : $lang;
 
 // Output as HTML5
 $this->setHtml5(true);
+// Add html5 shiv
+//JHtml::_('script', 'jui/html5.js', array('version' => 'auto', 'relative' => true, 'conditional' => 'lt IE 9'));
 
-// Getting params from template
-$params = $app->getTemplate(true)->params;
-
-// Detecting Active Variables
-$option = $app->input->getCmd('option', '');
-$view = $app->input->getCmd('view', '');
-$layout = $app->input->getCmd('layout', '');
-$task = $app->input->getCmd('task', '');
-$itemid = $app->input->getCmd('Itemid', '');
-$sitename = htmlspecialchars($app->get('sitename'), ENT_QUOTES, 'UTF-8');
-
-if ($task === 'edit' || $layout === 'form') {
-    $fullWidth = 1;
-} else {
-    $fullWidth = 0;
-}
+/** @var \Joomla\CMS\Document\HtmlDocument $doc */
+$doc = $app->getDocument();
+$doc->setMetaData('author', 'Knopka.agency');
 
 // Add JavaScript Frameworks
-JHtml::_('bootstrap.framework');
-
-// Add template js
-JHtml::_('script', 'template.js', array('version' => 'auto', 'relative' => true));
-
-// Add html5 shiv
-JHtml::_('script', 'jui/html5.js', array('version' => 'auto', 'relative' => true, 'conditional' => 'lt IE 9'));
-
+JHtml::_('jquery.framework', false, false, false);
 // Add Stylesheets
 JHtml::_('stylesheet', 'template.css', array('version' => (string) mktime(), 'relative' => true));
+JHtml::_('stylesheet', '/media/jui/css/icomoon.css', array('version' => (string) mktime(), 'relative' => true));
+JHtml::_('stylesheet', 'https://static.tildacdn.com/css/tilda-grid-3.0.min.css', array('version' => (string) mktime(), 'relative' => false));
+JHtml::_('stylesheet', 'https://tilda.ws/project2512305/tilda-blocks-2.12.css', array('version' => (string) mktime(), 'relative' => false));
 
-// Load optional RTL Bootstrap CSS
-JHtml::_('bootstrap.loadCss', false, $this->direction);
+JHtml::_('script', 'https://static.tildacdn.com/js/tilda-scripts-2.8.min.js', array('version' => (string) mktime(), 'relative' => false));
+JHtml::_('script', 'https://tilda.ws/project2512305/tilda-blocks-2.7.js', array('version' => (string) mktime(), 'relative' => false));
+JHtml::_('script', 'https://static.tildacdn.com/js/lazyload-1.3.min.js', array('version' => (string) mktime(), 'relative' => false));
+JHtml::_('script', 'https://static.tildacdn.com/js/tilda-menusub-1.0.min.js', array('version' => (string) mktime(), 'relative' => false));
 
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/><!--metatextblock--><title>
         Knopka.agency</title>
     <meta name="description"
           content="контент, smm, оформление и ведение аккаунта, настройка таргетированной рекламы, фото и видео съёмка, дизайн, копирайт, чат-боты, сувенирная продукция"/>
-    <meta property="og:url" content="http://knopka.agency"/>
+    <meta property="og:url" content="https://knopka.agency"/>
     <meta property="og:title" content="Knopka.agency"/>
     <meta property="og:description"
           content="контент, smm, оформление и ведение аккаунта, настройка таргетированной рекламы, фото и видео съёмка, дизайн, копирайт, чат-боты, сувенирная продукция"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image"
           content="https://static.tildacdn.com/tild3839-3161-4430-a335-636637303332/-/resize/504x/_.png"/>
-    <link rel="canonical" href="http://knopka.agency"><!--/metatextblock-->
+    <link rel="canonical" href="https://knopka.agency"><!--/metatextblock-->
     <meta property="fb:app_id" content="257953674358265"/>
     <meta name="format-detection" content="telephone=no"/>
     <meta http-equiv="x-dns-prefetch-control" content="on">
     <link rel="dns-prefetch" href="https://tilda.ws">
     <link rel="dns-prefetch" href="https://static.tildacdn.com">
+
     <meta name="robots" content="nofollow"/>
-    <!-- Assets -->
-    <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-grid-3.0.min.css" type="text/css" media="all"/>
-    <link rel="stylesheet" href="https://tilda.ws/project2512305/tilda-blocks-2.12.css" type="text/css"
-          media="all"/>
-    <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-animation-1.0.min.css" type="text/css"
-          media="all"/>
-    <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-menusub-1.0.min.css" type="text/css"
-          media="all"/>
-    <script src="https://static.tildacdn.com/js/jquery-1.10.2.min.js"></script>
-    <script src="https://static.tildacdn.com/js/tilda-scripts-2.8.min.js"></script>
-    <script src="https://tilda.ws/project2512305/tilda-blocks-2.7.js"></script>
-    <script src="https://static.tildacdn.com/js/lazyload-1.3.min.js" charset="utf-8"></script>
-    <script src="https://static.tildacdn.com/js/tilda-animation-1.0.min.js" charset="utf-8"></script>
-    <script src="https://static.tildacdn.com/js/tilda-menusub-1.0.min.js" charset="utf-8"></script>
-    <script type="text/javascript">window.dataLayer = window.dataLayer || [];</script>
-    <script type="text/javascript">if ((/bot|google|yandex|baidu|bing|msn|duckduckbot|teoma|slurp|crawler|spider|robot|crawling|facebook/i.test(navigator.userAgent)) === false && typeof(sessionStorage) != 'undefined' && sessionStorage.getItem('visited') !== 'y') {
-        var style = document.createElement('style');
-        style.type = 'text/css';
-        style.innerHTML = '@media screen and (min-width: 980px) {.t-records {opacity: 0;}.t-records_animated {-webkit-transition: opacity ease-in-out .2s;-moz-transition: opacity ease-in-out .2s;-o-transition: opacity ease-in-out .2s;transition: opacity ease-in-out .2s;}.t-records.t-records_visible {opacity: 1;}}';
-        document.getElementsByTagName('head')[0].appendChild(style);
-        $(document).ready(function () {
-          $('.t-records').addClass('t-records_animated');
-          setTimeout(function () {
-            $('.t-records').addClass('t-records_visible');
-            sessionStorage.setItem('visited', 'y');
-          }, 400);
-        });
-      }</script>
-    <link href="/templates/knopka/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
 
     <jdoc:include type="head" />
 
-    <link rel="stylesheet" href="/media/jui/css/icomoon.css" type="text/css" media="all"/>
+    <link href="/templates/knopka/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+
+    <script type="text/javascript">window.dataLayer = window.dataLayer || [];</script>
 
     <? if($_SERVER['HTTP_HOST'] && $_SERVER['HTTP_HOST'] == 'knopka.agency') { ?>
         <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -140,18 +105,16 @@ JHtml::_('bootstrap.loadCss', false, $this->direction);
                        src="https://www.facebook.com/tr?id=881371576016688&ev=PageView&noscript=1"
             /></noscript>
         <!-- End Facebook Pixel Code -->
-
     <? } ?>
-
 </head>
-<body class="t-body <?=($menuItemAlias=='home'? 'landing-page' : 'component-page')?> <?='menu-'.$menuItemAlias?>" style="margin:0;"><!--allrecords-->
+<body class="t-body <?=($isLanding? 'landing-page' : 'component-page')?> <?='menu-'.$menuItemActiveAlias?>" style="margin:0;"><!--allrecords-->
 <div id="allrecords" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="2512305"
      data-tilda-page-id="16032892" data-tilda-formskey="eed1b1688abf305dccd909096825c12e">
 
 <? include('navigation.php') ?>
 
 <?php
-    if (in_array($menuItemAlias, ['home', 'home-ua', 'home-ru'])) {
+    if ($isLanding) {
         include('landing.php');
     } else {
         ?>
@@ -176,14 +139,14 @@ JHtml::_('bootstrap.loadCss', false, $this->direction);
             <div class="t-container">
                 <div class="t-col t-col_12">
                     <ul class="t457__ul">
-                        <li class="t457__li"><a href="/#about" style="color:#ffffff;" data-menu-item-number="1">О нас</a>
+                        <li class="t457__li"><a href="<?=$anchorPrefix?>#about" style="color:#ffffff;" data-menu-item-number="1">О нас</a>
                         </li>
-                        <li class="t457__li"><a href="/#service" style="color:#ffffff;"
+                        <li class="t457__li"><a href="<?=$anchorPrefix?>#service" style="color:#ffffff;"
                                                 data-menu-item-number="2">Услуги</a></li>
-                        <li class="t457__li"><a href="/#contact" style="color:#ffffff;" data-menu-item-number="3">Контакты</a>
+                        <li class="t457__li"><a href="<?=$anchorPrefix?>#contact" style="color:#ffffff;" data-menu-item-number="3">Контакты</a>
                         </li>
-                        <li class="t457__li"><a href="/terms" style="color:#ffffff;" data-menu-item-number="4">Пользовательское&nbsp;соглашение</a></li>
-                        <li class="t457__li"><a href="/privacy" style="color:#ffffff;" data-menu-item-number="5">Политика&nbsp;конфиденциальности</a></li>
+                        <li class="t457__li"><a href="<?=$lang?>terms" style="color:#ffffff;" data-menu-item-number="4">Пользовательское&nbsp;соглашение</a></li>
+                        <li class="t457__li"><a href="<?=$lang?>privacy" style="color:#ffffff;" data-menu-item-number="5">Политика&nbsp;конфиденциальности</a></li>
                     </ul>
                 </div>
                 <div class="t-col t-col_12">
