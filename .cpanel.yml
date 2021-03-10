@@ -20,3 +20,6 @@ deployment:
     - cp .htaccess $DEPLOYPATH
     - cp index.php $DEPLOYPATH
     - cp robots.txt $DEPLOYPATH
+    - cp LICENSE.txt $DEPLOYPATH
+    - cp README.txt $DEPLOYPATH
+    - cp web.config.txt $DEPLOYPATH
