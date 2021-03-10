@@ -41,10 +41,13 @@ require_once JPATH_BASE . '/includes/framework.php';
 
 $caching = false;
 if (JFactory::getConfig()->get('cache_platformprefix') == '1') {
+
     $path = explode('#', $_SERVER['REQUEST_URI'])[0];
     $landLang = trim(explode('?', $path)[0], '/');
+
     if (in_array($landLang, ['', 'ru', 'uk', 'en'])) {
         $path = JPATH_ROOT . '/cache/landing/landing.' . $landLang . '.html';
+
         if (file_exists($path)) {
             header('Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0');
             header('Connection: Keep-Alive');
@@ -58,8 +61,9 @@ if (JFactory::getConfig()->get('cache_platformprefix') == '1') {
             header('Vary: Accept-Encoding');
             header('X-Content-Type-Options: nosniff');
             header('X-Powered-By: PHP/7.4.15');
-            @ini_set('zlib.output_compression', 1);
+
             echo file_get_contents($path);
+
             exit(0);
         } else {
             mkdir(JPATH_ROOT . '/cache/landing', 0777, true);
