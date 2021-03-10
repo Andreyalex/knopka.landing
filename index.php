@@ -39,6 +39,22 @@ if (!defined('_JDEFINES'))
 
 require_once JPATH_BASE . '/includes/framework.php';
 
+$caching = false;
+if (JFactory::getConfig()->get('cache_platformprefix') == '1') {
+    preg_match('/^\/(ru|uk|en)(\/|\?.*|\#.*)?$/', $_SERVER['REQUEST_URI'], $matches);
+    $landLang = $matches[1];
+    if ($landLang || in_array($_SERVER['REQUEST_URI'], ['', '/'])) {
+        $path = JPATH_ROOT . '/cache/_system/landing.' . $landLang . '.html';
+        if (file_exists($path)) {
+            echo file_get_contents($path);
+            exit(0);
+        } else {
+            $caching = true;
+            ob_start();
+        }
+    }
+}
+
 // Set profiler start time and memory usage and mark afterLoad in the profiler.
 JDEBUG ? JProfiler::getInstance('Application')->setStart($startTime, $startMem)->mark('afterLoad') : null;
 
@@ -47,3 +63,10 @@ $app = JFactory::getApplication('site');
 
 // Execute the application.
 $app->execute();
+
+if ($caching) {
+    $content = ob_get_clean();
+    file_put_contents($path, $content);
+    echo $content;
+    exit(0);
+}
