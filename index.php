@@ -41,9 +41,9 @@ require_once JPATH_BASE . '/includes/framework.php';
 
 $caching = false;
 if (JFactory::getConfig()->get('cache_platformprefix') == '1') {
-    preg_match('/^\/(ru|uk|en)(\/|\?.*|\#.*)?$/', $_SERVER['REQUEST_URI'], $matches);
-    $landLang = $matches[1];
-    if ($landLang || in_array($_SERVER['REQUEST_URI'], ['', '/'])) {
+    $path = explode('#', $_SERVER['REQUEST_URI'])[0];
+    $landLang = trim(explode('?', $path)[0], '/');
+    if (in_array($landLang, ['', 'ru', 'uk', 'en'])) {
         $path = JPATH_ROOT . '/cache/_system/landing.' . $landLang . '.html';
         if (file_exists($path)) {
             echo file_get_contents($path);
