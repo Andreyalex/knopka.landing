@@ -2,7 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=~/dev.knopka.agency/
-    - echo "admin"
     - rm -rf $DEPLOYPATH/administrator && cp -R administrator $DEPLOYPATH
     - rm -rf $DEPLOYPATH/bin && cp -R bin $DEPLOYPATH
     - rm -rf $DEPLOYPATH/cache && cp -R cache $DEPLOYPATH
