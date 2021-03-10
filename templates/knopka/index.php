@@ -158,5 +158,6 @@ JHtml::_('script', 'https://static.tildacdn.com/js/tilda-menusub-1.0.min.js', ar
         </div>
     </div>
 </div><!--/allrecords-->
+<jdoc:include type="modules" name="debug" />
 </body>
 </html>
