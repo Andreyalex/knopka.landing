@@ -30,18 +30,16 @@ $this->setHtml5(true);
 $doc = $app->getDocument();
 $doc->setMetaData('author', 'Knopka.agency');
 
-// Add JavaScript Frameworks
-JHtml::_('jquery.framework', false, false, false);
-// Add Stylesheets
-JHtml::_('stylesheet', 'template.css', array('version' => (string) mktime(), 'relative' => true));
-JHtml::_('stylesheet', '/media/jui/css/icomoon.css', array('version' => (string) mktime(), 'relative' => true));
-JHtml::_('stylesheet', 'https://static.tildacdn.com/css/tilda-grid-3.0.min.css', array('version' => (string) mktime(), 'relative' => false));
-JHtml::_('stylesheet', 'https://tilda.ws/project2512305/tilda-blocks-2.12.css', array('version' => (string) mktime(), 'relative' => false));
+JHtml::_('stylesheet', 'template.css', array('relative' => true));
+JHtml::_('stylesheet', '/media/jui/css/icomoon.css', array('relative' => true));
+JHtml::_('stylesheet', 'https://static.tildacdn.com/css/tilda-grid-3.0.min.css', array('relative' => false));
+JHtml::_('stylesheet', 'tilda-blocks-2.12.css', array('relative' => true));
 
-JHtml::_('script', 'https://static.tildacdn.com/js/tilda-scripts-2.8.min.js', array('version' => (string) mktime(), 'relative' => false));
-JHtml::_('script', 'https://tilda.ws/project2512305/tilda-blocks-2.7.js', array('version' => (string) mktime(), 'relative' => false));
-JHtml::_('script', 'https://static.tildacdn.com/js/lazyload-1.3.min.js', array('version' => (string) mktime(), 'relative' => false));
-JHtml::_('script', 'https://static.tildacdn.com/js/tilda-menusub-1.0.min.js', array('version' => (string) mktime(), 'relative' => false));
+JHtml::_('script', 'jui/jquery.min.js', array('relative' => true));
+JHtml::_('script', 'https://static.tildacdn.com/js/tilda-scripts-2.8.min.js', array('relative' => false));
+JHtml::_('script', 'tilda-blocks-2.7.js', array('relative' => true));
+JHtml::_('script', 'https://static.tildacdn.com/js/lazyload-1.3.min.js', array('relative' => false));
+JHtml::_('script', 'https://static.tildacdn.com/js/tilda-menusub-1.0.min.js', array('relative' => false));
 
 ?>
 <!DOCTYPE html>
