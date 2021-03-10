@@ -31,7 +31,7 @@ class ExceptionHandler
 		$expectedClass = PHP_MAJOR_VERSION >= 7 ? '\Throwable' : '\Exception';
 		$isException   = $error instanceof $expectedClass;
 
-        if ($isException && $error->getCode() != '404')
+        if ($isException && !in_array($error->getCode(), ['404', '403']))
         {
             try {
                 require(JPATH_LIBRARIES . DIRECTORY_SEPARATOR . 'TelegramSender.php');
