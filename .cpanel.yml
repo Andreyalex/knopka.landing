@@ -2,14 +2,22 @@
 deployment:
   tasks:
     - export DEPLOYPATH=~/dev.knopka.agency/
-    - cp -R administrator $DEPLOYPATH
-    - cp -R components $DEPLOYPATH
-    - cp -R images $DEPLOYPATH
-    - cp -R language $DEPLOYPATH
-    - cp -R libraries $DEPLOYPATH
-    - cp -R media $DEPLOYPATH
-    - cp -R modules $DEPLOYPATH
-    - cp -R plugins $DEPLOYPATH
-    - cp -R templates $DEPLOYPATH
-    - cp -R video $DEPLOYPATH
-    - cp ~/src/configuration.php $DEPLOYPATH
+    - echo "admin"
+    - rm -rf $DEPLOYPATH/administrator && cp -R administrator $DEPLOYPATH
+    - rm -rf $DEPLOYPATH/bin && cp -R bin $DEPLOYPATH
+    - rm -rf $DEPLOYPATH/cache && cp -R cache $DEPLOYPATH
+    - rm -rf $DEPLOYPATH/cli && cp -R cli $DEPLOYPATH
+    - rm -rf $DEPLOYPATH/components && cp -R components $DEPLOYPATH
+    - rm -rf $DEPLOYPATH/images && cp -R images $DEPLOYPATH
+    - rm -rf $DEPLOYPATH/includes && cp -R includes $DEPLOYPATH
+    - rm -rf $DEPLOYPATH/language && cp -R language $DEPLOYPATH
+    - rm -rf $DEPLOYPATH/layouts && cp -R layouts $DEPLOYPATH
+    - rm -rf $DEPLOYPATH/libraries && cp -R libraries $DEPLOYPATH
+    - rm -rf $DEPLOYPATH/media && cp -R media $DEPLOYPATH
+    - rm -rf $DEPLOYPATH/modules && cp -R modules $DEPLOYPATH
+    - rm -rf $DEPLOYPATH/plugins && cp -R plugins $DEPLOYPATH
+    - rm -rf $DEPLOYPATH/templates && cp -R templates $DEPLOYPATH
+    - rm -rf $DEPLOYPATH/video && cp -R video $DEPLOYPATH
+    - cp .htaccess $DEPLOYPATH
+    - cp index.php $DEPLOYPATH
+    - cp robots.txt $DEPLOYPATH
