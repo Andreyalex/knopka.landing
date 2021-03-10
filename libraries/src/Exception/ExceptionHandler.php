@@ -31,7 +31,37 @@ class ExceptionHandler
 		$expectedClass = PHP_MAJOR_VERSION >= 7 ? '\Throwable' : '\Exception';
 		$isException   = $error instanceof $expectedClass;
 
-		// In PHP 5, the $error object should be an instance of \Exception; PHP 7 should be a Throwable implementation
+        if ($isException && $error->getCode() != '404')
+        {
+            try {
+                require(JPATH_LIBRARIES . DIRECTORY_SEPARATOR . 'TelegramSender.php');
+                \TelegramSender::sendToAdmin(sprintf(
+                    'Uncaught %1$s of type %2$s thrown.' . "\n" .
+                    'Query string: %3$s.' . "\n" .
+                    'User agent: %4$s.' . "\n" .
+                    'Remote address: %5$s.' . "\n" .
+                    'Message: %6$s.' . "\n" .
+                    'Stack trace: %7$s',
+                    $expectedClass,
+                    get_class($error),
+                    $_SERVER['REQUEST_URI'],
+                    $_SERVER['HTTP_USER_AGENT'],
+                    $_SERVER['REMOTE_ADDR'],
+                    $error->getMessage(),
+                    $error->getTraceAsString()
+                ));
+            }
+            catch (\Throwable $e)
+            {
+                // Logging failed, don't make a stink about it though
+            }
+            catch (\Exception $e)
+            {
+                // Logging failed, don't make a stink about it though
+            }
+        }
+
+        // In PHP 5, the $error object should be an instance of \Exception; PHP 7 should be a Throwable implementation
 		if ($isException)
 		{
 			try
@@ -49,24 +79,6 @@ class ExceptionHandler
 						\JLog::CRITICAL,
 						'error'
 					);
-
-                    require (JPATH_LIBRARIES . DIRECTORY_SEPARATOR . 'TelegramSender.php');
-                    \TelegramSender::sendToAdmin(sprintf(
-                        'Uncaught %1$s of type %2$s thrown.'."\n".
-                        'Query string: %3$s.'."\n".
-                        'User agent: %4$s.'."\n".
-                        'Remote address: %5$s.'."\n".
-                        'Message: %6$s.'."\n".
-                        'Stack trace: %7$s',
-                        $expectedClass,
-                        get_class($error),
-                        $_SERVER['REQUEST_URI'],
-                        $_SERVER['HTTP_USER_AGENT'],
-                        $_SERVER['REMOTE_ADDR'],
-                        $error->getMessage(),
-                        $error->getTraceAsString()
-                    ));
-
                 }
 				catch (\Throwable $e)
 				{
