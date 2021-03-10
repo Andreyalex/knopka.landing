@@ -6,6 +6,7 @@
  * Time: 22:10
  */
 
+
 class TelegramSender
 {
     public static function sendToOwner($data)
