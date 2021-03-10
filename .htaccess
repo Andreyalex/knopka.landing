@@ -41,7 +41,7 @@ Options -Indexes
 
 RewriteEngine On
 
-RewriteRule ^$ /ru [R=302,L]
+# RewriteRule ^$ /ru [R=302,L]
 
 ## Begin - Rewrite rules to block out some common exploits.
 # If you experience problems on your site then comment out the operations listed
