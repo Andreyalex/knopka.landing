@@ -1,21 +1,38 @@
 <div id="rec262006572" class="r t-rec"><!-- cover -->
     <div class="t-cover" id="recorddiv262006572">
-        <div class="t-container">
-            <div class="t001 t-align_center">
-                <div class="t001__wrapper" data-hook-content="covercontent"
-                     style="padding:0; background:rgba(0,0,0,0.7); margin:20px auto 20px; max-width: 760px;"
-                >
-                    <div class="t001__title t-title t-title_xl"
-                         style="font-family:'Arial';text-transform:uppercase;" field="title">РА КНОПКА
-                    </div>
-                    <div class="t001__descr t-descr t-descr_xl t001__descr_center"
-                         style="font-family:'Arial';" field="descr">Продвигаем бизнесы в соцсетях
-                    </div>
-                    <span class="space"></span></div>
+        <div class="fader">
+            <div class="first-title">
+                <div>Digital агенство</div>
+                <div>КНОПКА</div>
+                <div class="first-descr">
+                    <div>Помогаем зарабатывать больше</div>
+                    <div>Продвигаем бизнесы в соцсетях</div>
+                </div>
+            </div>
+            <div class="first-btn">
+                <div>Связаться</div>
+                <div>c нами</div>
             </div>
         </div>
     </div>
 </div>
+
+<script>
+  $(function(){
+    var firstContainer = $('.t-cover');
+
+    var resetFirstHeight = function (el) {
+      console.log(el);
+      el.height($( window ).height());
+    };
+
+    window.addEventListener('resize', function() {
+      resetFirstHeight(firstContainer);
+    });
+
+    resetFirstHeight(firstContainer);
+  });
+</script>
 <div id="rec262006573" class="r t-rec" style=" " data-record-type="215"><a name="about" style="font-size:0;"></a>
 </div>
 <div id="rec262006574" class="r t-rec t-rec_pt_45 t-rec_pb_0" style="padding-top:45px;padding-bottom:0px; "
@@ -28,9 +45,9 @@
             <div class="t480__col t-col t-col_8 t-prefix_2">
                 <div class="t480__textwrapper t-align_left" style="height:560px;">
                     <div class="t480__content t-valign_middle">
-                        <div class="t480__title t-title t-title_xs " field="title" style="font-size:52px;"><p
+                        <div class="t480__title  t-title_xs " field="title" style="font-size:52px;"><p
                                     style="text-align: center;">О нас</p></div>
-                        <div class="t480__descr t-descr t-descr_md " field="descr" style="">Кнопка - онлайн
+                        <div class="t480__descr  t-descr_md " field="descr" style="">Кнопка - онлайн
                             рекламное агентство, специализирующееся на маркетинге в соцсетях, PR, создании брендов,
                             оформлении ивентов, мерча и чат-ботах.<br/>Наша главная сила - это способность сочетать
                             разные таланты для удовлетворения сложных коммуникационных потребностей, объединяя
@@ -99,8 +116,8 @@
     <div class="t015">
         <div class="t-container t-align_center">
             <div class="t-col t-col_8 t-prefix_2">
-                <div class="t015__title t-title t-title_lg" field="title" style="font-size:52px;">Наши услуги</div>
-                <div class="t015__descr t-descr t-descr_xl" field="descr" style="">Работаем по формуле:<br/>Знание
+                <div class="t015__title  t-title_lg" field="title" style="font-size:52px;">Наши услуги</div>
+                <div class="t015__descr  t-descr_xl" field="descr" style="">Работаем по формуле:<br/>Знание
                     стратегий + умение выделить продукт, апеллируя к болям и эмоциям клиентов = прибыль!
                 </div>
             </div>
@@ -113,8 +130,8 @@
         <div class="t-container">
             <div class="t106__wrapper">
                 <div class="t106__block">
-                    <div class="t106__title t-title t-title_xxs" style="" field="title">SMM продвижение</div>
-                    <div class="t106__text t-text" style="" field="text"><strong>Ведём аккаунты, как
+                    <div class="t106__title  t-title_xxs" style="" field="title">SMM продвижение</div>
+                    <div class="t106__text " style="" field="text"><strong>Ведём аккаунты, как
                             боги:</strong><br/>Оформление профиля<br/>Анализ конкурентов<br/>Анализ ЦА<br/>Составение
                         контент-плана<br/>Составление плана продвижения<br/>Разработка стратегии
                         позиционирования<br/>Подбор хэштегов, геолокаций<br/>Ведение аккаунта (сторис, посты)<br/>Коммуникации
@@ -135,10 +152,10 @@
         <div class="t-container">
             <div class="t106__wrapper">
                 <div class="t106__block">
-                    <div class="t106__title t-title t-title_xxs" style="" field="title">Настройка таргетированной
+                    <div class="t106__title  t-title_xxs" style="" field="title">Настройка таргетированной
                         рекламы
                     </div>
-                    <div class="t106__text t-text" style="" field="text">Разработка УТП<br/>Анализ конкурентов<br/>Создание
+                    <div class="t106__text " style="" field="text">Разработка УТП<br/>Анализ конкурентов<br/>Создание
                         рекламных креативов<br/>Тестирование рекламных стратегий<br/>Настройка рекламы в Facebook,
                         Instagram<br/>Анализ и корректировка рекламной кампании<br/>Сбор аналитики<br/>Подбор и
                         реклама у блогеров
@@ -158,8 +175,8 @@
         <div class="t-container">
             <div class="t106__wrapper">
                 <div class="t106__block">
-                    <div class="t106__title t-title t-title_xxs" style="" field="title">Фото и видео продакшн</div>
-                    <div class="t106__text t-text" style="" field="text"><p style="text-align: center;">
+                    <div class="t106__title  t-title_xxs" style="" field="title">Фото и видео продакшн</div>
+                    <div class="t106__text " style="" field="text"><p style="text-align: center;">
                             Фотосъемка</p>
                         <p style="text-align: center;">Съемка и монтаж видеороликов</p>
                         <p style="text-align: center;">Моушн-анимация</p>
@@ -179,8 +196,8 @@
         <div class="t-container">
             <div class="t106__wrapper">
                 <div class="t106__block">
-                    <div class="t106__title t-title t-title_xxs" style="" field="title">Сувенирная продукция</div>
-                    <div class="t106__text t-text" style="" field="text">Поможем создать ваш личный мерч:<br/>Разработка
+                    <div class="t106__title  t-title_xxs" style="" field="title">Сувенирная продукция</div>
+                    <div class="t106__text " style="" field="text">Поможем создать ваш личный мерч:<br/>Разработка
                         дизайна<br/>
                         <p style="text-align: center;">Печать на футболках, чашках, флагах, подушках, фирменные
                             календари, буклеты, баннера и др.</p></div>
@@ -199,9 +216,9 @@
         <div class="t-container">
             <div class="t106__wrapper">
                 <div class="t106__block">
-                        <div class="t106__title t-title t-title_xxs" style="" field="title"><p
+                        <div class="t106__title  t-title_xxs" style="" field="title"><p
                                     style="text-align: center;">Другое</p></div>
-                        <div class="t106__text t-text" style="" field="text"><strong>SEO-копирайтинг и
+                        <div class="t106__text " style="" field="text"><strong>SEO-копирайтинг и
                                 рерайтинг</strong><br/><strong>PR, репутационный маркетинг</strong><br/><strong>Оформление и
                                 планирование ивентов</strong><br/>
                             <p style="text-align: center;"><strong>Создание чат-ботов для вашего бизнеса</strong></p>
@@ -220,7 +237,7 @@
     <div class="t185">
         <div class="t-container t-container_flex">
             <div class="t-col t-col_flex t-col_6 t-prefix_2">
-                <div class="t-text t-text_lg" style="font-weight:700;" field="text">
+                <div class="t-text_lg" style="font-weight:700;" field="text">
                     <div style="color: rgb(0, 0, 0);" data-customstyle="yes">Нажмите на кнопку вашего продвижения
                     </div>
                 </div>
@@ -332,7 +349,7 @@
         <div class="t-section__container t-container">
             <div class="t-col t-col_12">
                 <div class="t-section__topwrapper t-align_center">
-                    <div class="t-section__title t-title t-title_xs" field="btitle">Почему мы?</div>
+                    <div class="t-section__title  t-title_xs" field="btitle">Почему мы?</div>
                 </div>
             </div>
         </div>
@@ -346,7 +363,7 @@
                             профессионалов
                         </div>
                     </div>
-                    <div class="t491__descr t-descr t-descr_xs" style="" field="li_descr__1476976310929">Наши
+                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976310929">Наши
                         сотрудники имеют большой бэкграунд, каждый профессионал в своей сфере
                     </div>
                 </div>
@@ -360,7 +377,7 @@
                             Эффективность
                         </div>
                     </div>
-                    <div class="t491__descr t-descr t-descr_xs" style="" field="li_descr__1476976315081">Исповедуем
+                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976315081">Исповедуем
                         креативный подход в сочетании с эффективными стратегиями, подтвержденными аналитикой
                     </div>
                 </div>
@@ -374,7 +391,7 @@
                             Эксклюзивный подход
                         </div>
                     </div>
-                    <div class="t491__descr t-descr t-descr_xs" style="" field="li_descr__1476976330452">Мы не
+                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976330452">Мы не
                         сторонники универсальных решений для всех. Если вы хотите продвигаться как ваши конкуренты -
                         вам не к нам
                     </div>
@@ -390,7 +407,7 @@
                             Объективность
                         </div>
                     </div>
-                    <div class="t491__descr t-descr t-descr_xs" style="" field="li_descr__1476976334035">Удерживаем
+                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976334035">Удерживаем
                         баланс между ценой, качеством и сроками
                     </div>
                 </div>
@@ -404,7 +421,7 @@
                             Лояльность
                         </div>
                     </div>
-                    <div class="t491__descr t-descr t-descr_xs" style="" field="li_descr__1476976688514">Научим Ваш
+                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976688514">Научим Ваш
                         бизнес выделяться, запоминаться и располагать к себе клиентов, даже если мы с вами не
                         сработаемся
                     </div>
@@ -419,7 +436,7 @@
                             Постоянство
                         </div>
                     </div>
-                    <div class="t491__descr t-descr t-descr_xs" style="" field="li_descr__1476976692541">Любим своих
+                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976692541">Любим своих
                         клиентов 24/7 без выходных и праздников
                     </div>
                 </div>
@@ -434,8 +451,8 @@
     <div class="t225">
         <div class="t-container t-align_center">
             <div class="t-col t-col_8 t-prefix_2">
-                <div class="t225__title t-title t-title_md" field="title" style="">Бесплатная консультация</div>
-                <div class="t225__descr t-descr t-descr_xxl" field="descr" style="">Оставьте заявку, и мы поможем
+                <div class="t225__title  t-title_md" field="title" style="">Бесплатная консультация</div>
+                <div class="t225__descr  t-descr_xxl" field="descr" style="">Оставьте заявку, и мы поможем
                     выбрать лучшую стратегию продвижения в соцсетях.
                 </div>
             </div>
@@ -557,7 +574,7 @@
     <div class="t574">
         <div class="t-container">
             <div class="t-col t-col_6 t-prefix_3 t-align_center">
-                <div class="t574__title t-title t-title_xs t574__bottom-margin_lg" style="" field="title">
+                <div class="t574__title  t-title_xs t574__bottom-margin_lg" style="" field="title">
                     +380505080852<br/><span class="email">knopka.agency@gmail.com</span>
                 </div>
                 <div class="t-sociallinks">

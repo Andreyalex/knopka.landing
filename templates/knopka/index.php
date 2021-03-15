@@ -68,6 +68,10 @@ JHtml::_('script', 'https://static.tildacdn.com/js/tilda-menusub-1.0.min.js', ar
 
     <jdoc:include type="head" />
 
+    <link rel="preload" href="/templates/knopka/fonts/pingfangsc-bold-webfont.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/templates/knopka/fonts/pingfangsc-light-webfont.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/templates/knopka/fonts/pingfangsc-regular-webfont.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/templates/knopka/fonts/pingfangsc-semibold-webfont.woff2" as="font" type="font/woff2" crossorigin />
     <link href="/templates/knopka/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 
     <script type="text/javascript">window.dataLayer = window.dataLayer || [];</script>
