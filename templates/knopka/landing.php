@@ -19,7 +19,7 @@
             </div>
             <div class="wellcome-badge">
                 <div style="float: left; margin-top: 40px; width: 0; height: 0; border-bottom: 33px solid #43DDE0; border-left: 16px solid transparent;"></div>
-                <div style="background-color: #43dde0; float: left; margin-top: 40px; padding:1px 10px">Давайте знакомиться!</div>
+                <div style="background-color: #43dde0; float: left; margin-top: 40px; padding:1px 10px">Давайте познакомимся</div>
                 <div style="float: left; margin-top: 40px; width: 0; height: 0; border-top: 33px solid #43DDE0; border-right: 16px solid transparent;"></div>
                 <div class="wellcome-arrow" style="float: right; position:relative"><i class="bi bi-arrow-down"></i></div>
             </div>
