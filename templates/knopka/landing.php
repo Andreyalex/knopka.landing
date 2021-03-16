@@ -3,8 +3,12 @@
         <div class="fader">
             <div class="first-title">
                 <div>Digital агенство</div>
-                <div>КНОПКА</div>
-                <div class="first-descr">
+                <div style="margin-top:10px; margin-left:-40px">
+                    <div style="float:left;width:0;height:0;border-bottom: 80px solid #f1ff30; border-left:40px solid transparent;"></div>
+                    <div style="float:left;background-color:#f1ff30;height:80px; color: #111111;">КНОПКА</div>
+                    <div style="float:left;width:0;height:0;border-top: 80px solid #f1ff30;border-right:40px solid transparent;"></div>
+                </div>
+                <div style="clear: both" class="first-descr">
                     <div>Помогаем зарабатывать больше</div>
                     <div>Продвигаем бизнесы в соцсетях</div>
                 </div>
