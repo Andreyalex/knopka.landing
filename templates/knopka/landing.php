@@ -13,6 +13,12 @@
                 <div>Связаться</div>
                 <div>c нами</div>
             </div>
+            <div class="wellcome-badge">
+                <div style="float: left; margin-top: 40px; width: 0; height: 0; border-bottom: 33px solid #43DDE0; border-left: 16px solid transparent;"></div>
+                <div style="background-color: #43dde0; float: left; margin-top: 40px; padding:1px 10px">Давайте знакомиться!</div>
+                <div style="float: left; margin-top: 40px; width: 0; height: 0; border-top: 33px solid #43DDE0; border-right: 16px solid transparent;"></div>
+                <div class="wellcome-arrow" style="float: right; position:relative"><i class="bi bi-arrow-down"></i></div>
+            </div>
         </div>
     </div>
 </div>
@@ -22,8 +28,9 @@
     var firstContainer = $('.t-cover');
 
     var resetFirstHeight = function (el) {
-      console.log(el);
-      el.height($( window ).height());
+      var h = $( window ).height();
+      (h < 460) && (h = 460);
+      el.height(h);
     };
 
     window.addEventListener('resize', function() {
@@ -31,6 +38,15 @@
     });
 
     resetFirstHeight(firstContainer);
+
+
+    var loop = function() {
+      var arrow = $('.wellcome-arrow');
+      var top = arrow.position().top;
+      top = (top === 0)? -10 : 0;
+      arrow.animate({top: top}, 500, 'swing', loop);
+    };
+    loop(-10);
   });
 </script>
 <div id="rec262006573" class="r t-rec" style=" " data-record-type="215"><a name="about" style="font-size:0;"></a>

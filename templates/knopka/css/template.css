@@ -305,39 +305,60 @@ ul.checked li {
 }
 
 .first-title {
-	font-family: 'PingFang SC Semibold';
+	font-family: 'PingFang SC Regular';
 	position: absolute;
 	top: 35%;
 	left: 8%;
 	color: #f1ff30;
-	font-size: 70px;
-	line-height: 1em;
-	font-weight: 600;
+	font-size: 76px;
+	line-height: 1.1em;
+	text-align: left;
 }
 
 .first-descr {
 	padding-top: 40px;
 	text-transform: uppercase;
-	font-size: 26px;
-	font-weight: 400;
-	line-height: 1em;
+	font-size: 28px;
+	line-height: 1.2em;
+	font-family: 'PingFang SC Regular';
+	letter-spacing: 1px;
+	/*--interval: 1s;*/
+	/*text-shadow: 0 0 3px #f1ff30;*/
+	/*will-change: filter, color;*/
+	/*filter: saturate(60%);*/
+	/*animation: flicker steps(100) var(--interval) 1s infinite;*/
 }
 
-
 .first-btn {
-	font-family: 'PingFang SC Semibold';
+	font-family: 'PingFang SC Regular';
 	position: absolute;
-	bottom: 12%;
+	bottom: 15%;
 	right: 5%;
-	padding: 20px;
+	padding: 20px 40px;
+	border-radius: 6px;
 	background-color: #f1ff30;
 	color: #111111;
 	text-transform: uppercase;
-	font-size: 32px;
-	font-weight: 800;
-	line-height: 1.4em;
+	font-size: 26px;
+	line-height: 1.3em;
 }
 
 .t446__list_item {
-	font-family: 'PingFang SC Semibold' !important;
+	font-family: 'PingFang SC Regular' !important;
+}
+
+.wellcome-badge {
+	font-family: 'PingFang SC Semibold';
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 0;
+	left: 40%;
+	color: #111111;
+	font-size: 20px;
+}
+
+.wellcome-arrow {
+	font-weight: 100;
+	color: #43dde0;
+	font-size: 60px;
 }

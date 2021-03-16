@@ -74,6 +74,8 @@ JHtml::_('script', 'https://static.tildacdn.com/js/tilda-menusub-1.0.min.js', ar
     <link rel="preload" href="/templates/knopka/fonts/pingfangsc-semibold-webfont.woff2" as="font" type="font/woff2" crossorigin />
     <link href="/templates/knopka/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+
     <script type="text/javascript">window.dataLayer = window.dataLayer || [];</script>
 
     <? if($_SERVER['HTTP_HOST'] && $_SERVER['HTTP_HOST'] == 'knopka.agency') { ?>
