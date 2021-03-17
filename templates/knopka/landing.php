@@ -28,7 +28,7 @@
             </div>
             <div class="wellcome-badge">
                 <div style="float: left; margin-top: 40px; width: 0; height: 0; border-bottom: 33px solid #43DDE0; border-left: 16px solid transparent;"></div>
-                <div style="background-color: #43dde0; float: left; margin-top: 40px; padding:1px 10px;"><a style="color:#111111" href="#about">Давайте
+                <div style="height:31px; background-color: #43dde0; float: left; margin-top: 40px; padding:1px 10px;"><a style="color:#111111" href="#about">Давайте
                         познакомимся</a>
                 </div>
                 <div style="float: left;margin-top: 40px;width: 0;height: 0;border-top: 16px solid transparent;border-left: 16px solid #43DDE0;border-bottom: 17px solid transparent;"></div>

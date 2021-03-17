@@ -374,11 +374,30 @@ ul.checked li {
 	font-size: 20px;
 }
 
+.wellcome-badge-left {
+	font-family: 'PingFang SC Semibold';
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -150px;
+	color: #111111;
+	font-size: 20px;
+}
+
+
 .wellcome-arrow {
 	font-weight: 100;
 	color: #43dde0;
 	font-size: 60px;
 }
+
+.t106__text {
+	font-size: inherit !important;
+	line-height: inherit !important;
+	opacity: 1 !important;
+}
+
 
 /*@media (max-width:1170px)*/
 /*{*/
