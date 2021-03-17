@@ -158,10 +158,12 @@ RewriteRule .* index.php [L]
 
 <IfModule mod_headers.c>
  <FilesMatch "\.(ico|jpe?g|png|gif|swf|css|gz|cur|webp)$">
- Header set Cache-Control "max-age=172800, public"
+ # dev settings
+ Header set Cache-Control "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
  </FilesMatch>
  <FilesMatch "\.(js)$">
- Header set Cache-Control "max-age=86400, private"
+ # dev settings
+ Header set Cache-Control "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
  </FilesMatch>
 <filesMatch "\.(html|htm)$">
 Header set Cache-Control "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"

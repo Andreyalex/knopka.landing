@@ -1,10 +1,74 @@
+html {
+	scroll-behavior: smooth;
+}
+
 * {
     cursor: url('/templates/knopka/img/cursor3.cur') 0 0, auto;
 }
 
+@font-face {
+	font-family: 'PingFang SC Light';
+	src: url('/templates/knopka/fonts/pingfangsc-light-webfont.eot');
+	src: url('/templates/knopka/fonts/pingfangsc-light-webfont.eot?#iefix') format('embedded-opentype'),
+	url('/templates/knopka/fonts/pingfangsc-light-webfont.woff2') format('woff2'),
+	url('/templates/knopka/fonts/pingfangsc-light-webfont.woff') format('woff'),
+	url('/templates/knopka/fonts/pingfangsc-light-webfont.ttf') format('truetype'),
+	url('/templates/knopka/fonts/pingfangsc-light-webfont.svg#pingfanglight') format('svg');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+
+@font-face {
+	font-family: 'PingFang SC Regular';
+	src: url('/templates/knopka/fonts/pingfangsc-regular-webfont.eot');
+	src: url('/templates/knopka/fonts/pingfangsc-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('/templates/knopka/fonts/pingfangsc-regular-webfont.woff2') format('woff2'),
+	url('/templates/knopka/fonts/pingfangsc-regular-webfont.woff') format('woff'),
+	url('/templates/knopka/fonts/pingfangsc-regular-webfont.ttf') format('truetype'),
+	url('/templates/knopka/fonts/pingfangsc-regular-webfont.svg#pingfangregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+
+@font-face {
+	font-family: 'PingFang SC Semibold';
+	src: url('/templates/knopka/fonts/pingfangsc-semibold-webfont.eot');
+	src: url('/templates/knopka/fonts/pingfangsc-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+	url('/templates/knopka/fonts/pingfangsc-semibold-webfont.woff2') format('woff2'),
+	url('/templates/knopka/fonts/pingfangsc-semibold-webfont.woff') format('woff'),
+	url('/templates/knopka/fonts/pingfangsc-semibold-webfont.ttf') format('truetype'),
+	url('/templates/knopka/fonts/pingfangsc-semibold-webfont.svg#pingfangsemibold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+@font-face {
+	font-family: 'pingfangbold';
+	src: url('/templates/knopka/fonts/pingfangsc-bold-webfont.eot');
+	src: url('/templates/knopka/fonts/pingfangsc-bold-webfont.eot?#iefix') format('embedded-opentype'),
+	url('/templates/knopka/fonts/pingfangsc-bold-webfont.woff2') format('woff2'),
+	url('/templates/knopka/fonts/pingfangsc-bold-webfont.woff') format('woff'),
+	url('/templates/knopka/fonts/pingfangsc-bold-webfont.ttf') format('truetype'),
+	url('/templates/knopka/fonts/pingfangsc-bold-webfont.svg#pingfangbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
 body {
 	background: url('../img/bkg.jpg');
-	font-family: 'Roboto',Arial,sans-serif;
+	font-family: 'PingFang SC Light',Arial,sans-serif !important;
 	font-size: 18px;
 	font-weight: 300;
 	line-height: 1.55;
@@ -57,11 +121,6 @@ ul.checked li {
 	}
 }
 
-#nav262006571 {
-	background-color: rgba(17, 17, 17, 1) !important;
-	position: relative;
-}
-
 #rec262006580,
 #rec262006583,
 #rec262006584 {
@@ -73,6 +132,16 @@ ul.checked li {
 		width:100% !important;
 		clear: both !important;
 		float: none !important;
+	}
+}
+
+@media (min-width: 980px) {
+	.component-page #nav262006571 {
+		background-color: #111111 !important;
+	}
+
+	.component-page .component_wrapper {
+		margin-top: 80px;
 	}
 }
 
@@ -101,7 +170,7 @@ ul.checked li {
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size: 20px;
-	color: #43dde0 !important;
+	color: #f1ff30 !important;
 }
 
 @media (min-width:981px) and (max-width:1024px) {
@@ -111,10 +180,7 @@ ul.checked li {
 }
 
 #recorddiv262006572 {
-	height: 290px;
-	width:980px;
 	margin:0 auto;
-	background-image:url('/templates/knopka/img/bkg-web2.webp');
 	background-attachment:inherit;
 }
 
@@ -165,20 +231,17 @@ ul.checked li {
 }
 
 
-@media (min-width:980px) {
-	#recorddiv262006572 {
-		background-image:url('/templates/knopka/img/bkg-web2.webp');
-	}
+#recorddiv262006572 {
+	background-image:url('/templates/knopka/img/ezgif.com-gif-maker-600-15.webp');
 }
 
-@media (max-width:980px) {
-	#recorddiv262006572 {
-		background-image:url('/templates/knopka/img/bkg-mobile.webp');
-	}
+.fader {
+	background:rgba(0,0,0,0.6) url('/templates/knopka/img/cover4.png');
+	height: 100%;
 }
 
 .phone * {
-	color:#43dde0 !important;
+	color: #f1ff30 !important;
 	font-weight: 400;
 }
 
@@ -215,7 +278,7 @@ ul.checked li {
 }
 
 .mod-languages-column li.lang-active a {
-	border: 2px #43dde0 solid;
+	border: 2px #f1ff30 solid;
 }
 
 @media (max-width:980px) {
@@ -255,3 +318,127 @@ ul.checked li {
 	}
 }
 
+.first-title {
+	font-family: 'PingFang SC Regular';
+	position: absolute;
+	top: 40%;
+	left: 8%;
+	margin-top: -100px;
+	color: #f1ff30;
+	font-size: 76px;
+	line-height: 1.1em;
+	text-align: left;
+}
+
+.first-descr {
+	position: absolute;
+	padding-top: 0px;
+	text-transform: uppercase;
+	font-size: 28px;
+	color: #f1ff30;
+	line-height: 1.2em;
+	font-family: 'PingFang SC Regular';
+	letter-spacing: 1px;
+	text-align: left;
+	top: 43%;
+	right: 6%;
+}
+
+.first-btn {
+	font-family: 'PingFang SC Regular';
+	position: absolute;
+	top: 43%;
+	right: 6%;
+	margin-top: 100px;
+	padding: 20px 40px;
+	/* border-radius: 6px; */
+	background-color: #f1ff30;
+	color: #111111;
+	text-transform: uppercase;
+	font-size: 26px;
+	line-height: 1.3em;
+}
+
+.t446__list_item {
+	font-family: 'PingFang SC Regular' !important;
+}
+
+.wellcome-badge {
+	font-family: 'PingFang SC Semibold';
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -150px;
+	color: #111111;
+	font-size: 20px;
+}
+
+.wellcome-arrow {
+	font-weight: 100;
+	color: #43dde0;
+	font-size: 60px;
+}
+
+/*@media (max-width:1170px)*/
+/*{*/
+	/*.first-title {*/
+		/*font-family: 'PingFang SC Regular';*/
+		/*position: relative;*/
+		/*margin-top: -50px;*/
+		/*color: #f1ff30;*/
+		/*font-size: 38px;*/
+		/*line-height: 1.1em;*/
+		/*text-align: left;*/
+	/*}*/
+
+	/*.first-descr {*/
+		/*position: absolute;*/
+		/*padding-top: 0px;*/
+		/*text-transform: uppercase;*/
+		/*font-size: 14px;*/
+		/*color: #f1ff30;*/
+		/*line-height: 1.2em;*/
+		/*font-family: 'PingFang SC Regular';*/
+		/*letter-spacing: 1px;*/
+		/*text-align: left;*/
+		/*top: 43%;*/
+		/*right: 6%;*/
+	/*}*/
+
+	/*.first-btn {*/
+		/*font-family: 'PingFang SC Regular';*/
+		/*position: absolute;*/
+		/*top: 43%;*/
+		/*right: 6%;*/
+		/*margin-top: 100px;*/
+		/*padding: 20px 40px;*/
+		/*!* border-radius: 6px; *!*/
+		/*background-color: #f1ff30;*/
+		/*color: #111111;*/
+		/*text-transform: uppercase;*/
+		/*font-size: 26px;*/
+		/*line-height: 1.3em;*/
+	/*}*/
+
+	/*.t446__list_item {*/
+		/*font-family: 'PingFang SC Regular' !important;*/
+	/*}*/
+
+	/*.wellcome-badge {*/
+		/*font-family: 'PingFang SC Semibold';*/
+		/*text-transform: uppercase;*/
+		/*position: absolute;*/
+		/*bottom: 0;*/
+		/*left: 50%;*/
+		/*margin-left: -150px;*/
+		/*color: #111111;*/
+		/*font-size: 20px;*/
+	/*}*/
+
+	/*.wellcome-arrow {*/
+		/*font-weight: 100;*/
+		/*color: #43dde0;*/
+		/*font-size: 60px;*/
+	/*}*/
+/*}*/

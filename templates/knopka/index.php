@@ -30,7 +30,9 @@ $this->setHtml5(true);
 $doc = $app->getDocument();
 $doc->setMetaData('author', 'Knopka.agency');
 
-JHtml::_('stylesheet', 'template.css', array('relative' => true));
+$ver = '0.9.0';
+
+JHtml::_('stylesheet', 'template.css', array('version' => $ver, 'relative' => true));
 JHtml::_('stylesheet', '/media/jui/css/icomoon.css', array('relative' => true));
 JHtml::_('stylesheet', 'https://static.tildacdn.com/css/tilda-grid-3.0.min.css', array('relative' => false));
 JHtml::_('stylesheet', 'tilda-blocks-2.12.css', array('relative' => true));
@@ -68,7 +70,13 @@ JHtml::_('script', 'https://static.tildacdn.com/js/tilda-menusub-1.0.min.js', ar
 
     <jdoc:include type="head" />
 
+    <link rel="preload" href="/templates/knopka/fonts/pingfangsc-bold-webfont.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/templates/knopka/fonts/pingfangsc-light-webfont.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/templates/knopka/fonts/pingfangsc-regular-webfont.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/templates/knopka/fonts/pingfangsc-semibold-webfont.woff2" as="font" type="font/woff2" crossorigin />
     <link href="/templates/knopka/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
 
     <script type="text/javascript">window.dataLayer = window.dataLayer || [];</script>
 
