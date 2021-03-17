@@ -41,6 +41,9 @@ Options -Indexes
 
 RewriteEngine On
 
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://%{SERVER_NAME}/$1 [R,L]
+
 # RewriteRule ^$ /ru [R=302,L]
 
 ## Begin - Rewrite rules to block out some common exploits.
@@ -157,7 +160,7 @@ RewriteRule .* index.php [L]
 
 
 <IfModule mod_headers.c>
- <FilesMatch "\.(ico|jpe?g|png|gif|swf|css|gz|cur|webp)$">
+ <FilesMatch "\.(ico|jpe?g|png|gif|swf|css|gz|cur|webp|woff2)$">
  Header set Cache-Control "max-age=172800, public"
  </FilesMatch>
  <FilesMatch "\.(js)$">
