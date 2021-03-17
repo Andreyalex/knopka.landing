@@ -2,26 +2,38 @@
     <div class="t-cover" id="recorddiv262006572">
         <div class="fader">
             <div class="first-title">
-                <div>Digital агенство</div>
-                <div style="margin-top:10px; margin-left:-40px">
-                    <div style="float:left;width:0;height:0;border-bottom: 80px solid #f1ff30; border-left:40px solid transparent;"></div>
-                    <div style="float:left;background-color:#f1ff30;height:80px; color: #111111;">КНОПКА</div>
-                    <div style="float:left;width:0;height:0;border-top: 80px solid #f1ff30;border-right:40px solid transparent;"></div>
+                <div style="
+    z-index: 5;
+    position: relative;
+    top: 224px;
+"><span style="color:#111111">Digital аг</span>енство
                 </div>
-                <div style="clear: both" class="first-descr">
-                    <div>Помогаем зарабатывать больше</div>
-                    <div>Продвигаем бизнесы в соцсетях</div>
+                <div style="position: relative;margin-top:10px;/* margin-left: -39px; */">
+                    <div style="position:absolute;/* float:left; */width: 0;height: 0;border: 200px solid #f1ff30;/* border-left:40px solid transparent; */border-radius: 200px;top: -128px;z-index: 1;left: -50px;"></div>
+                    <div style="/* float:left; */background-color:#f1ff30;height:80px;color: #111111;position: absolute;z-index: 2;top: 56px;">
+                        КНОПКА
+                    </div>
+                    <div style="position: absolute;z-index: 3;width:0;height:0;border-bottom: 180px solid #111111;border-right: 100px solid transparent;left: 50px;top: -122px;border-left: 100px solid transparent;"></div>
                 </div>
             </div>
+            <div class="first-descr">
+                <div style="
+    letter-spacing: 1.11px;
+">Помогаем зарабатывать больше
+                </div>
+                <div>Продвигаем бизнесы в соцсетях</div>
+            </div>
             <div class="first-btn">
-                <div>Связаться</div>
-                <div>c нами</div>
+                <div>Связаться c нами</div>
             </div>
             <div class="wellcome-badge">
                 <div style="float: left; margin-top: 40px; width: 0; height: 0; border-bottom: 33px solid #43DDE0; border-left: 16px solid transparent;"></div>
-                <div style="background-color: #43dde0; float: left; margin-top: 40px; padding:1px 10px">Давайте познакомимся</div>
-                <div style="float: left; margin-top: 40px; width: 0; height: 0; border-top: 33px solid #43DDE0; border-right: 16px solid transparent;"></div>
-                <div class="wellcome-arrow" style="float: right; position:relative"><i class="bi bi-arrow-down"></i></div>
+                <div style="background-color: #43dde0; float: left; margin-top: 40px; padding:1px 10px">Давайте
+                    познакомимся
+                </div>
+                <div style="float: left;margin-top: 40px;width: 0;height: 0;border-top: 16px solid transparent;border-left: 16px solid #43DDE0;border-bottom: 17px solid transparent;"></div>
+                <div class="wellcome-arrow" style="float: right; position: relative; top: -8.72971px;"><i
+                            class="bi bi-arrow-down"></i></div>
             </div>
         </div>
     </div>

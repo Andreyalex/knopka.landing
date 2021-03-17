@@ -307,8 +307,9 @@ ul.checked li {
 .first-title {
 	font-family: 'PingFang SC Regular';
 	position: absolute;
-	top: 35%;
+	top: 40%;
 	left: 8%;
+	margin-top: -100px;
 	color: #f1ff30;
 	font-size: 76px;
 	line-height: 1.1em;
@@ -316,26 +317,27 @@ ul.checked li {
 }
 
 .first-descr {
-	padding-top: 40px;
+	position: absolute;
+	padding-top: 0px;
 	text-transform: uppercase;
 	font-size: 28px;
+	color: #f1ff30;
 	line-height: 1.2em;
 	font-family: 'PingFang SC Regular';
 	letter-spacing: 1px;
-	/*--interval: 1s;*/
-	/*text-shadow: 0 0 3px #f1ff30;*/
-	/*will-change: filter, color;*/
-	/*filter: saturate(60%);*/
-	/*animation: flicker steps(100) var(--interval) 1s infinite;*/
+	text-align: left;
+	top: 43%;
+	right: 6%;
 }
 
 .first-btn {
 	font-family: 'PingFang SC Regular';
 	position: absolute;
-	bottom: 15%;
-	right: 5%;
+	top: 43%;
+	right: 6%;
+	margin-top: 100px;
 	padding: 20px 40px;
-	border-radius: 6px;
+	/* border-radius: 6px; */
 	background-color: #f1ff30;
 	color: #111111;
 	text-transform: uppercase;
@@ -352,7 +354,8 @@ ul.checked li {
 	text-transform: uppercase;
 	position: absolute;
 	bottom: 0;
-	left: 40%;
+	left: 50%;
+	margin-left: -150px;
 	color: #111111;
 	font-size: 20px;
 }
