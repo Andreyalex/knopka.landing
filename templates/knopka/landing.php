@@ -159,7 +159,7 @@
         </div>
     </div>
 </div>
-<div id="rec262006578" class="r t-rec t-rec_pt_15 t-rec_pb_0" style="padding-top:15px;padding-bottom:0px; "
+<div id="rec262006578" class="r t-rec t-rec_pt_15 t-rec_pb_0" style="padding-top:60px;padding-bottom:0px; "
      data-record-type="117"><!-- T106 -->
     <div class="t106">
         <div class="t-container">
@@ -181,7 +181,7 @@
         </div>
     </div>
 </div>
-<div id="rec263207513" class="r t-rec t-rec_pt_15 t-rec_pb_0" style="padding-top:15px;padding-bottom:0px; "
+<div id="rec263207513" class="r t-rec t-rec_pt_15 t-rec_pb_0" style="padding-top:60px;padding-bottom:0px; "
      data-record-type="117"><!-- T106 -->
     <div class="t106">
         <div class="t-container">
@@ -204,7 +204,26 @@
         </div>
     </div>
 </div>
-<div id="rec263207518" class="r t-rec t-rec_pt_15 t-rec_pb_0" style="padding-top:15px;padding-bottom:0px; "
+<div id="rec263207531" class="r t-rec t-rec_pt_15 t-rec_pb_0" style="padding-top:60px;padding-bottom:0px; "
+     data-record-type="117"><!-- T106 -->
+    <div class="t106">
+        <div class="t-container">
+            <div class="t106__wrapper">
+                <div class="t106__block">
+                    <div class="t106__title  t-title_xxs" style="" field="title"><p
+                                style="text-align: center;">Создание сайтов</p></div>
+                    <div class="t106__text " style="" field="text">Лендинги<br/>
+                        Корпоративные сайты<br/>Интернет-магазины
+                    </div>
+                </div>
+                <div class="t106__block"><img
+                            src="/templates/knopka/img/photo_2021-03-17_23-16-39.jpg"
+                            class="t106__img t-img" imgfield="img"/></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="rec263207518" class="r t-rec t-rec_pt_15 t-rec_pb_0" style="padding-top:60px;padding-bottom:0px; "
      data-record-type="117"><!-- T106 -->
     <div class="t106">
         <div class="t-container">
@@ -225,7 +244,7 @@
         </div>
     </div>
 </div>
-<div id="rec262088258" class="r t-rec t-rec_pt_15 t-rec_pb_0" style="padding-top:15px;padding-bottom:0px; "
+<div id="rec262088258" class="r t-rec t-rec_pt_15 t-rec_pb_0" style="padding-top:60px;padding-bottom:0px; "
      data-record-type="117"><!-- T106 -->
     <div class="t106">
         <div class="t-container">
@@ -245,7 +264,7 @@
         </div>
     </div>
 </div>
-<div id="rec263207531" class="r t-rec t-rec_pt_15 t-rec_pb_45" style="padding-top:15px;padding-bottom:45px; "
+<div id="rec263207531" class="r t-rec t-rec_pt_15 t-rec_pb_45" style="padding-top:60px;padding-bottom:60px; "
      data-record-type="117"><!-- T106 -->
     <div class="t106">
         <div class="t-container">
