@@ -6,7 +6,7 @@
     z-index: 5;
     position: relative;
     top: 224px;
-"><span style="color:#111111">Digital аг</span>енство
+"><span style="color:#111111">Digital аг</span>ентство
                 </div>
                 <div style="position: relative;margin-top:10px;/* margin-left: -39px; */">
                     <div style="position:absolute;/* float:left; */width: 0;height: 0;border: 200px solid #f1ff30;/* border-left:40px solid transparent; */border-radius: 200px;top: -128px;z-index: 1;left: -50px;"></div>
@@ -264,6 +264,7 @@
         </div>
     </div>
 </div>
+<div id="rec263207531" class="r t-rec t-rec_pt_15 t-rec_pb_45" style="padding-top:60px;padding-bottom:60px; "
 <div id="rec263207531" class="r t-rec t-rec_pt_15 t-rec_pb_45" style="padding-top:60px;padding-bottom:60px; "
      data-record-type="117"><!-- T106 -->
     <div class="t106">
