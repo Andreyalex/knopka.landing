@@ -30,7 +30,9 @@ $this->setHtml5(true);
 $doc = $app->getDocument();
 $doc->setMetaData('author', 'Knopka.agency');
 
-JHtml::_('stylesheet', 'template.css', array('relative' => true));
+$ver = '0.9.0';
+
+JHtml::_('stylesheet', 'template.css', array('version' => $ver, 'relative' => true));
 JHtml::_('stylesheet', '/media/jui/css/icomoon.css', array('relative' => true));
 JHtml::_('stylesheet', 'https://static.tildacdn.com/css/tilda-grid-3.0.min.css', array('relative' => false));
 JHtml::_('stylesheet', 'tilda-blocks-2.12.css', array('relative' => true));

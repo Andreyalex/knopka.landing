@@ -63,9 +63,6 @@
                             <div style="line-height:20px;font-size:20px;">
                                 <a href="tel:+380505080852">+38 (050) 50 808 52</a>
                             </div>
-                            <div style="line-height:16px;font-size:14px;text-align:center;font-weight:400">
-                                <span>наш телефон</span>
-                            </div>
                         </div>
                     </div>
                     <div class="position-langs">

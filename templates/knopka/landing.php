@@ -24,7 +24,7 @@
                 <div>Продвигаем бизнесы в соцсетях</div>
             </div>
             <div class="first-btn">
-                <div>Связаться c нами</div>
+                <a style="color:#111111" href="/order">Связаться c нами</a>
             </div>
             <div class="wellcome-badge">
                 <div style="float: left; margin-top: 40px; width: 0; height: 0; border-bottom: 33px solid #43DDE0; border-left: 16px solid transparent;"></div>
