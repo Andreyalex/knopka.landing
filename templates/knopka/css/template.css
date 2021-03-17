@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 * {
     cursor: url('/templates/knopka/img/cursor3.cur') 0 0, auto;
 }
