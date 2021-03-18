@@ -2,38 +2,26 @@
     <div class="t-cover" id="recorddiv262006572">
         <div class="fader">
             <div class="first-title">
-                <div style="
-    z-index: 5;
-    position: relative;
-    top: 224px;
-"><span style="color:#111111">Digital аг</span>ентство
+                <div class="first-title-figure">
+                    <div class="first-title-figure-c"></div>
+                    <div class="first-title-figure-t"></div>
                 </div>
-                <div style="position: relative;margin-top:10px;/* margin-left: -39px; */">
-                    <div style="position:absolute;/* float:left; */width: 0;height: 0;border: 200px solid #f1ff30;/* border-left:40px solid transparent; */border-radius: 200px;top: -128px;z-index: 1;left: -50px;"></div>
-                    <div style="/* float:left; */background-color:#f1ff30;height:80px;color: #111111;position: absolute;z-index: 2;top: 56px;">
-                        КНОПКА
-                    </div>
-                    <div style="position: absolute;z-index: 3;width:0;height:0;border-bottom: 180px solid #111111;border-right: 100px solid transparent;left: 50px;top: -122px;border-left: 100px solid transparent;"></div>
-                </div>
+                <div class="first-title-name">Кнопка</div>
+                <div class="first-title-text"><span style="color:#111111">Digital аг</span>ентство</div>
+                <div class="first-title-text-s">Dig<span style="color:#111111">ital агентс</span>тво</div>
             </div>
             <div class="first-descr">
-                <div style="
-    letter-spacing: 1.11px;
-">Помогаем зарабатывать больше
-                </div>
+                <div style="letter-spacing: 1.11px;">Помогаем зарабатывать больше</div>
                 <div>Продвигаем бизнесы в соцсетях</div>
             </div>
             <div class="first-btn">
                 <a style="color:#111111" href="/order">Связаться c нами</a>
             </div>
-            <div class="wellcome-badge">
-                <div style="float: left; margin-top: 40px; width: 0; height: 0; border-bottom: 33px solid #43DDE0; border-left: 16px solid transparent;"></div>
-                <div style="height:31px; background-color: #43dde0; float: left; margin-top: 40px; padding:1px 10px;"><a style="color:#111111" href="#about">Давайте
-                        познакомимся</a>
+            <div class="welcome-badge">
+                <a class="welcome-text" style="color:#111111" href="#about">Давайте познакомимся</a>
+                <div class="wellcome-arrow" style="float: right; position: relative; top: 0;">
+                    <i class="bi bi-arrow-down"></i>
                 </div>
-                <div style="float: left;margin-top: 40px;width: 0;height: 0;border-top: 16px solid transparent;border-left: 16px solid #43DDE0;border-bottom: 17px solid transparent;"></div>
-                <div class="wellcome-arrow" style="float: right; position: relative; top: -8.72971px;"><i
-                            class="bi bi-arrow-down"></i></div>
             </div>
         </div>
     </div>
@@ -46,6 +34,7 @@
     var resetFirstHeight = function (el) {
       var h = $( window ).height();
       (h < 460) && (h = 460);
+      ($( window ).width() <= 980) && (h-=64);
       el.height(h);
     };
 
@@ -264,7 +253,6 @@
         </div>
     </div>
 </div>
-<div id="rec263207531" class="r t-rec t-rec_pt_15 t-rec_pb_45" style="padding-top:60px;padding-bottom:60px; "
 <div id="rec263207531" class="r t-rec t-rec_pt_15 t-rec_pb_45" style="padding-top:60px;padding-bottom:60px; "
      data-record-type="117"><!-- T106 -->
     <div class="t106">
