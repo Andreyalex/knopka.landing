@@ -2,13 +2,13 @@
     <div class="t-cover" id="recorddiv262006572">
         <div class="fader">
             <div class="first-title">
+                <div class="first-title-text text-mask">Digital агентство</div>
                 <div class="first-title-figure">
                     <div class="first-title-figure-c"></div>
                     <div class="first-title-figure-t"></div>
                 </div>
                 <div class="first-title-name">Кнопка</div>
-                <div class="first-title-text"><span style="color:#111111">Digital аг</span>ентство</div>
-                <div class="first-title-text-s">Dig<span style="color:#111111">ital агентс</span>тво</div>
+                <div class="first-title-text">Digital агентство</div>
             </div>
             <div class="first-descr">
                 <div style="letter-spacing: 1.11px;">Помогаем зарабатывать больше</div>
