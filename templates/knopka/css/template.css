@@ -350,7 +350,7 @@ ul.checked li {
     top:0;
     width: 0;
     height: 0;
-    z-index: 1;
+    z-index: 100;
     border: 200px solid #f1ff30;
     border-radius: 200px;
 }
@@ -361,7 +361,7 @@ ul.checked li {
     top: 10px;
     width:0;
     height:0;
-    z-index: 3;
+    z-index: 101;
     border-bottom: 160px solid #111111;
     border-right: 90px solid transparent;
     border-left: 90px solid transparent;
@@ -371,16 +371,26 @@ ul.checked li {
     position: absolute;
     top: 180px;
     left: 45px;
-    z-index: 2;
+    z-index: 102;
     color: #111111;
     text-transform: uppercase;
 }
 
 .first-title-text {
-    position:relative;
+    position:absolute;
+	white-space: nowrap;
     top:255px;
     left:55px;
-    z-index:5;
+    z-index:102;
+	mix-blend-mode:difference;
+	text-shadow:#000 1px 1px 0px, #000 -1px -1px 0px, #000 -1px 1px 0px, #000 1px -1px 0px;
+}
+
+.first-title-text.text-mask {
+	color: #000000;
+	z-index: 99;
+	mix-blend-mode: normal;
+	text-shadow: none;
 }
 
 .first-descr {
@@ -437,10 +447,6 @@ ul.checked li {
 	font-weight: 100;
 	color: #43dde0;
 	font-size: 60px;
-}
-
-.first-title-text-s {
-    display: none;
 }
 
 @media (max-width: 1440px)
@@ -592,38 +598,45 @@ ul.checked li {
 {
     .first-title {
         top: 35%;
-        left: 50%;
+        left: 0;
+		width: 100%;
+		margin-left: 0;
         margin-top: -100px;
-        margin-left: -105px;
     }
 
-    .first-title-name {
+	.first-title-figure {
+		left: 50%;
+		width:200px;
+		margin-left: -100px;
+	}
+
+	.first-title-name {
         top: 97px;
-        left: 30px;
+		left: 50%;
+        width: 200px;
+		margin-left: -100px;
+		text-align: center;
     }
 
     .first-title-text {
-        display:none;
-    }
-
-    .first-title-text-s {
-        display:block;
-        position: relative;
-        z-index: 6;
         top: 134px;
-        left: -45px;
-        font-size: 36px;
-        line-height: 1.1em;
-        font-family: 'PingFang SC Regular';
-        color: #f1ff30;
+		left: 50%;
+		width: 330px;
+		margin-left: -165px;
+		text-align: center;
+		font-size: 36px;
+		letter-spacing: 0.5px;
     }
 
     .first-descr {
+		position: relative;
         top: 67%;
         left: 50%;
         right: auto;
-        margin-top: 0px;
-        margin-left: -165px;
+		width: 360px;
+		margin-left: -180px;
+		text-align: center;
+        margin-top: 0;
     }
 
     .first-btn {
@@ -652,20 +665,22 @@ ul.checked li {
 {
     .first-title {
         top: 35%;
-        left: 50%;
         margin-top: -100px;
-        margin-left: -100px;
     }
+
+	.first-title-figure {
+		width:180px;
+		margin-left: -90px;
+	}
 
     .first-title-figure-c {
         border: 90px solid #f1ff30;
         border-radius: 90px;
-        left: 10px;
     }
 
     .first-title-figure-t {
         top:5px;
-        left: 54px;
+        left: 44px;
         border-bottom: 80px solid #111111;
         border-right: 45px solid transparent;
         border-left: 45px solid transparent;
@@ -673,30 +688,23 @@ ul.checked li {
 
     .first-title-name {
         top: 90px;
-        left: 40px;
+        width: 180px;
+        margin-left: -90px;
         font-size: 30px;
     }
 
-    .first-title-text-s {
-        display:block;
-        position: relative;
-        z-index: 6;
+    .first-title-text {
         top: 125px;
-        left: -18px;
+        width: 260px;
+		margin-left: -130px;
         font-size: 30px;
-        line-height: 1.1em;
-        font-family: 'PingFang SC Regular';
-        color: #f1ff30;
     }
 
     .first-descr {
-        position: relative;
         top: 65%;
-        left: auto;
-        right: auto;
-        margin: 0 auto;
+		width: 300px;
+        margin-left: -150px;
         font-size: 14px;
-        text-align: center;
     }
 
     .first-descr div {
