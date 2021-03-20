@@ -69,7 +69,7 @@ html {
 body {
 	background: url('../img/bkg.jpg');
 	font-family: 'PingFang SC Light',Arial,sans-serif !important;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 300;
 	line-height: 1.55;
 	color: #333333;
@@ -322,10 +322,64 @@ ul.checked li {
     font-family: 'PingFang SC Regular' !important;
 }
 
-.t106__text {
-    font-size: inherit !important;
-    line-height: inherit !important;
-    opacity: 1 !important;
+.imtxt-block {
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	width: 50%;
+	background-color:rgb(255, 255, 255, 0.3);
+}
+
+.imtxt-block h3 {
+	position: absolute;
+	top:0;
+	width:100%;
+	text-transform: uppercase;
+	padding: 20px 0 60px 0px;
+	background-color:rgb(255, 255, 255, 0.5);
+	clip-path: polygon(0 0, 100% 0, 100% 60px, 50% 100px, 0 60px);
+	text-align: center;
+}
+
+.imtxt-block > .content {
+	margin: 100px 0 0 80px;
+}
+
+.imtxt-block > .content ul {
+	list-style: none;
+	padding-left: 0 !important;
+}
+
+.imtxt-block > .content li {
+	border-left: 6px solid rgb(67, 221, 224, 0.5);
+	padding-top: 2px;
+	margin: 10px 0 16px;
+	padding-left: 20px;
+	line-height: 32px;
+}
+
+.imtxt-block > .content.narrow li {
+	line-height: 16px;
+	margin: 4px 0 10px;
+}
+
+.imtxt-block > .decorator {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 80px
+	border-left: rgb(255, 255, 255, 0.5) 60px solid ;
+
+
+}
+
+.inline-highlight {
+	padding-left: 20px;
+	padding-right: 20px;
+	clip-path: polygon(12px 0, 0 24px, calc(100% - 12px) 24px, 100% 0);
+	white-space: nowrap;
 }
 
 .first-title {

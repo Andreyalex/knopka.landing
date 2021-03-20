@@ -71,19 +71,19 @@
                     <div class="t480__content t-valign_middle">
                         <div class="t480__title  t-title_xs " field="title" style="font-size:52px;"><p
                                     style="text-align: center;">О нас</p></div>
-                        <div class="t480__descr  t-descr_md " field="descr" style="">Кнопка - онлайн
+                        <div class="t480__descr  t-descr_md " field="descr" style=""><span style="background-color:#43dde0" class="inline-highlight">Кнопка</span> - онлайн
                             рекламное агентство, специализирующееся на маркетинге в соцсетях, PR, создании брендов,
                             оформлении ивентов, мерча и чат-ботах.<br/>Наша главная сила - это способность сочетать
                             разные таланты для удовлетворения сложных коммуникационных потребностей, объединяя
                             творческий подход, создание инфоповодов, дизайн, съёмку и технологии, позволяющие
                             выстроить доверительные и открытые отношения между бизнесом клиента и
-                            потребителями.<br/>В нашей команде лучшие медийщики Харькова: профессиональные операторы
+                            потребителями.<br/>В нашей команде <span class="inline-highlight" style="background-color:#43dde0">лучшие медийщики Харькова</span>: профессиональные операторы
                             и журналисты с опытом работы на ТВ, спичрайтеры политиков, участники и сценаристы КВН,
                             опытные маркетологи и дизайнеры, блогеры и политтехнологи, сммщики, таргетологи и
                             начинающие маркетологи.<br/>Под Ваши задачи мы привлекаем к выполнению наиболее
                             релевантных специалистов.<br/>Многолетний опыт наших профессионалов и свежий взгляд
-                            молодых рекламщиков позволяют создавать креативы, которые попадают в самое сердце
-                            потребителей; вовлекающий контент с увлекательными иллюстрациями без грамматических
+                            молодых рекламщиков позволяют создавать креативы, которые попадают <span class="inline-highlight" style="background-color:#43dde0">в самое сердце потребителей</span>;
+                            вовлекающий контент с увлекательными иллюстрациями без грамматических
                             ошибок; трендовую рекламу; стильные аккаунты; маркетинговые стратегии; индивидуальные PR
                             акции любой сложности под разный бюджет.
                         </div>
@@ -148,21 +148,28 @@
         </div>
     </div>
 </div>
-<div id="rec262006578" class="r t-rec t-rec_pt_15 t-rec_pb_0" style="padding-top:60px;padding-bottom:0px; "
-     data-record-type="117"><!-- T106 -->
+<div id="rec262006578" class="r t-rec t-rec_pt_60"><!-- T106 -->
     <div class="t106">
         <div class="t-container">
             <div class="t106__wrapper">
-                <div class="t106__block">
-                    <div class="t106__title  t-title_xxs" style="" field="title">SMM продвижение</div>
-                    <div class="t106__text " style="" field="text"><strong>Ведём аккаунты, как
-                            боги:</strong><br/>Оформление профиля<br/>Анализ конкурентов<br/>Анализ ЦА<br/>Составение
-                        контент-плана<br/>Составление плана продвижения<br/>Разработка стратегии
-                        позиционирования<br/>Подбор хэштегов, геолокаций<br/>Ведение аккаунта (сторис, посты)<br/>Коммуникации
-                        с подписчиками
+                <div class="imtxt-block">
+                    <h3>SMM продвижение</h3>
+                    <div class="content narrow">Ведём аккаунты, как боги:
+                        <ul>
+                            <li>Оформление профиля</li>
+                            <li>Анализ конкурентов</li>
+                            <li>Анализ ЦА</li>
+                            <li>Составение контент-плана</li>
+                            <li>Составление плана продвижения</li>
+                            <li>Разработка стратегии позиционирования</li>
+                            <li>Подбор хэштегов, геолокаций</li>
+                            <li>Ведение аккаунта (сторис, посты)</li>
+                            <li>Коммуникации с подписчиками</li>
+                        </ul>
                     </div>
+                    <div class="decorator"></div>
                 </div>
-                <div class="t106__block"><img
+                <div class="imtxt-block"><img
                             src="https://static.tildacdn.com/tild6136-3431-4235-b165-646264353363/-/empty/social-media-marketi.jpg"
                             data-original="https://static.tildacdn.com/tild6136-3431-4235-b165-646264353363/social-media-marketi.jpg"
                             class="t106__img t-img" imgfield="img"/></div>
@@ -170,82 +177,85 @@
         </div>
     </div>
 </div>
-<div id="rec263207513" class="r t-rec t-rec_pt_15 t-rec_pb_0" style="padding-top:60px;padding-bottom:0px; "
-     data-record-type="117"><!-- T106 -->
+<div id="rec263207513" class="r t-rec t-rec_pt_60"><!-- T106 -->
     <div class="t106">
         <div class="t-container">
             <div class="t106__wrapper">
-                <div class="t106__block">
-                    <div class="t106__title  t-title_xxs" style="" field="title">Настройка таргетированной
-                        рекламы
-                    </div>
-                    <div class="t106__text " style="" field="text">Разработка УТП<br/>Анализ конкурентов<br/>Создание
-                        рекламных креативов<br/>Тестирование рекламных стратегий<br/>Настройка рекламы в Facebook,
-                        Instagram<br/>Анализ и корректировка рекламной кампании<br/>Сбор аналитики<br/>Подбор и
-                        реклама у блогеров
-                    </div>
-                </div>
-                <div class="t106__block"><img
+                <div class="imtxt-block"><img
                             src="https://static.tildacdn.com/tild6534-3934-4438-b436-333036333338/-/empty/targeting-concept-wi.jpg"
                             data-original="https://static.tildacdn.com/tild6534-3934-4438-b436-333036333338/targeting-concept-wi.jpg"
                             class="t106__img t-img" imgfield="img"/></div>
+                <div class="imtxt-block">
+                    <h3>Настройка таргетированной рекламы</h3>
+                    <div class="content narrow"><ul>
+                        <li>Разработка УТП</li>
+                        <li>Анализ конкурентов</li>
+                        <li>Создание рекламных креативов</li>
+                        <li>Тестирование рекламных стратегий</li>
+                        <li>Настройка рекламы в Facebook, Instagram</li>
+                        <li>Анализ и корректировка рекламной кампании</li>
+                        <li>Сбор аналитики</li>
+                        <li>Подбор и реклама у блогеров</li>
+                    </ul></div>
+                </div>
             </div>
         </div>
     </div>
 </div>
-<div id="rec263207531" class="r t-rec t-rec_pt_15 t-rec_pb_0" style="padding-top:60px;padding-bottom:0px; "
-     data-record-type="117"><!-- T106 -->
+<div id="rec263207531" class="r t-rec t-rec_pt_60"><!-- T106 -->
     <div class="t106">
         <div class="t-container">
             <div class="t106__wrapper">
-                <div class="t106__block">
-                    <div class="t106__title  t-title_xxs" style="" field="title"><p
-                                style="text-align: center;">Создание сайтов</p></div>
-                    <div class="t106__text " style="" field="text">Лендинги<br/>
-                        Корпоративные сайты<br/>Интернет-магазины
-                    </div>
+                <div class="imtxt-block">
+                    <h3>Создание сайтов</h3>
+                    <div class="content" style="margin-left: 170px"><ul>
+                        <li>Лендинги</li>
+                        <li>Корпоративные сайты</li>
+                        <li>Интернет-магазины</li>
+                    </ul></div>
                 </div>
-                <div class="t106__block"><img
+                <div class="imtxt-block"><img
                             src="/templates/knopka/img/photo_2021-03-17_23-16-39.jpg"
                             class="t106__img t-img" imgfield="img"/></div>
             </div>
         </div>
     </div>
 </div>
-<div id="rec263207518" class="r t-rec t-rec_pt_15 t-rec_pb_0" style="padding-top:60px;padding-bottom:0px; "
-     data-record-type="117"><!-- T106 -->
+<div id="rec263207518" class="r t-rec t-rec_pt_60"><!-- T106 -->
     <div class="t106">
         <div class="t-container">
             <div class="t106__wrapper">
-                <div class="t106__block">
-                    <div class="t106__title  t-title_xxs" style="" field="title">Фото и видео продакшн</div>
-                    <div class="t106__text " style="" field="text"><p style="text-align: center;">
-                            Фотосъемка</p>
-                        <p style="text-align: center;">Съемка и монтаж видеороликов</p>
-                        <p style="text-align: center;">Моушн-анимация</p>
-                        <p style="text-align: center;">Создание стоп-моушн роликов</p></div>
-                </div>
-                <div class="t106__block"><img
+                <div class="imtxt-block"><img
                             src="https://static.tildacdn.com/tild6531-3536-4139-a231-333465646262/-/empty/video-editor-his-stu.jpg"
                             data-original="https://static.tildacdn.com/tild6531-3536-4139-a231-333465646262/video-editor-his-stu.jpg"
                             class="t106__img t-img" imgfield="img"/></div>
+                <div class="imtxt-block">
+                    <h3>Фото и видео продакшн</h3>
+                    <div class="content" style="margin-left: 130px"><ul style="line-height: 40px">
+                        <li>Фотосъемка</li>
+                        <li>Съемка и монтаж видеороликов</li>
+                        <li>Моушн-анимация</li>
+                        <li>Создание стоп-моушн роликов</li>
+                    </ul></div>
+                </div>
             </div>
         </div>
     </div>
 </div>
-<div id="rec262088258" class="r t-rec t-rec_pt_15 t-rec_pb_0" style="padding-top:60px;padding-bottom:0px; "
-     data-record-type="117"><!-- T106 -->
+<div id="rec262088258" class="r t-rec t-rec_pt_60"><!-- T106 -->
     <div class="t106">
         <div class="t-container">
             <div class="t106__wrapper">
-                <div class="t106__block">
-                    <div class="t106__title  t-title_xxs" style="" field="title">Сувенирная продукция</div>
-                    <div class="t106__text " style="" field="text">Поможем создать ваш личный мерч:<br/>Разработка
-                        дизайна<br/>
-                        <p style="text-align: center;">Печать на футболках, чашках, флагах, подушках, фирменные
-                            календари, буклеты, баннера и др.</p></div>
+                <div class="imtxt-block">
+                    <h3>Сувенирная продукция</h3>
+                    <div class="content">Поможем создать ваш личный мерч:
+                        <ul>
+                            <li>Разработка дизайна</li>
+                            <li>Печать на футболках, чашках, флагах, подушках, фирменные календари, буклеты, баннера и др.</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="t106__block"><img
+                <div class="imtxt-block"><img
                             src="https://static.tildacdn.com/tild3562-3132-4166-a230-616364343030/-/empty/accessories-wooden-t.jpg"
                             data-original="https://static.tildacdn.com/tild3562-3132-4166-a230-616364343030/accessories-wooden-t.jpg"
                             class="t106__img t-img" imgfield="img"/></div>
@@ -253,24 +263,25 @@
         </div>
     </div>
 </div>
-<div id="rec263207531" class="r t-rec t-rec_pt_15 t-rec_pb_45" style="padding-top:60px;padding-bottom:60px; "
-     data-record-type="117"><!-- T106 -->
+<div id="rec263207531" class="r t-rec t-rec_pt_60 t-rec_pb_60"><!-- T106 -->
     <div class="t106">
         <div class="t-container">
             <div class="t106__wrapper">
-                <div class="t106__block">
-                        <div class="t106__title  t-title_xxs" style="" field="title"><p
-                                    style="text-align: center;">Другое</p></div>
-                        <div class="t106__text " style="" field="text"><strong>SEO-копирайтинг и
-                                рерайтинг</strong><br/><strong>PR, репутационный маркетинг</strong><br/><strong>Оформление и
-                                планирование ивентов</strong><br/>
-                            <p style="text-align: center;"><strong>Создание чат-ботов для вашего бизнеса</strong></p>
+                <div class="imtxt-block"><img
+                            src="https://static.tildacdn.com/tild3336-3065-4934-a133-643138616665/-/empty/d.jpg"
+                            data-original="https://static.tildacdn.com/tild3336-3065-4934-a133-643138616665/d.jpg"
+                            class="t106__img t-img" imgfield="img"/></div>
+                <div class="imtxt-block">
+                        <h3>Другое</h3>
+                        <div class="content">
+                            <ul>
+                                <li>SEO-копирайтинг и рерайтинг</li>
+                                <li>PR, репутационный маркетинг</li>
+                                <li>Оформление и планирование ивентов</li>
+                                <li>Создание чат-ботов для вашего бизнеса</li>
+                            </ul>
                         </div>
                     </div>
-                <div class="t106__block"><img
-                                src="https://static.tildacdn.com/tild3336-3065-4934-a133-643138616665/-/empty/d.jpg"
-                                data-original="https://static.tildacdn.com/tild3336-3065-4934-a133-643138616665/d.jpg"
-                                class="t106__img t-img" imgfield="img"/></div>
             </div>
         </div>
     </div>
