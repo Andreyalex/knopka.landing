@@ -152,9 +152,10 @@
     <div class="t106">
         <div class="t-container">
             <div class="t106__wrapper">
-                <div class="imtxt-block">
-                    <h3>SMM продвижение</h3>
-                    <div class="content narrow">Ведём аккаунты, как боги:
+                <div class="imtxt-block block-left">
+                    <div class="decorator-right"></div>
+                    <div class="title">SMM продвижение</div>
+                    <div class="content narrower">Ведём аккаунты, как боги:
                         <ul>
                             <li>Оформление профиля</li>
                             <li>Анализ конкурентов</li>
@@ -167,9 +168,8 @@
                             <li>Коммуникации с подписчиками</li>
                         </ul>
                     </div>
-                    <div class="decorator"></div>
                 </div>
-                <div class="imtxt-block"><img
+                <div class="imtxt-block block-right"><img
                             src="https://static.tildacdn.com/tild6136-3431-4235-b165-646264353363/-/empty/social-media-marketi.jpg"
                             data-original="https://static.tildacdn.com/tild6136-3431-4235-b165-646264353363/social-media-marketi.jpg"
                             class="t106__img t-img" imgfield="img"/></div>
@@ -181,12 +181,9 @@
     <div class="t106">
         <div class="t-container">
             <div class="t106__wrapper">
-                <div class="imtxt-block"><img
-                            src="https://static.tildacdn.com/tild6534-3934-4438-b436-333036333338/-/empty/targeting-concept-wi.jpg"
-                            data-original="https://static.tildacdn.com/tild6534-3934-4438-b436-333036333338/targeting-concept-wi.jpg"
-                            class="t106__img t-img" imgfield="img"/></div>
-                <div class="imtxt-block">
-                    <h3>Настройка таргетированной рекламы</h3>
+                <div class="imtxt-block block-right">
+                    <div class="decorator-left"></div>
+                    <div class="title">Настройка таргетированной рекламы</div>
                     <div class="content narrow"><ul>
                         <li>Разработка УТП</li>
                         <li>Анализ конкурентов</li>
@@ -198,6 +195,10 @@
                         <li>Подбор и реклама у блогеров</li>
                     </ul></div>
                 </div>
+                <div class="imtxt-block block-left"><img
+                            src="https://static.tildacdn.com/tild6534-3934-4438-b436-333036333338/-/empty/targeting-concept-wi.jpg"
+                            data-original="https://static.tildacdn.com/tild6534-3934-4438-b436-333036333338/targeting-concept-wi.jpg"
+                            class="t106__img t-img" imgfield="img"/></div>
             </div>
         </div>
     </div>
@@ -206,15 +207,16 @@
     <div class="t106">
         <div class="t-container">
             <div class="t106__wrapper">
-                <div class="imtxt-block">
-                    <h3>Создание сайтов</h3>
-                    <div class="content" style="margin-left: 170px"><ul>
+                <div class="imtxt-block block-left">
+                    <div class="decorator-right"></div>
+                    <div class="title">Создание сайтов</div>
+                    <div class="content" style="margin-left:30%"><ul>
                         <li>Лендинги</li>
                         <li>Корпоративные сайты</li>
                         <li>Интернет-магазины</li>
                     </ul></div>
                 </div>
-                <div class="imtxt-block"><img
+                <div class="imtxt-block block-right"><img
                             src="/templates/knopka/img/photo_2021-03-17_23-16-39.jpg"
                             class="t106__img t-img" imgfield="img"/></div>
             </div>
@@ -225,19 +227,20 @@
     <div class="t106">
         <div class="t-container">
             <div class="t106__wrapper">
-                <div class="imtxt-block"><img
-                            src="https://static.tildacdn.com/tild6531-3536-4139-a231-333465646262/-/empty/video-editor-his-stu.jpg"
-                            data-original="https://static.tildacdn.com/tild6531-3536-4139-a231-333465646262/video-editor-his-stu.jpg"
-                            class="t106__img t-img" imgfield="img"/></div>
-                <div class="imtxt-block">
-                    <h3>Фото и видео продакшн</h3>
-                    <div class="content" style="margin-left: 130px"><ul style="line-height: 40px">
+                <div class="imtxt-block block-right">
+                    <div class="decorator-left"></div>
+                    <div class="title">Фото и видео продакшн</div>
+                    <div class="content" style="margin-left:20%"><ul style="line-height: 40px">
                         <li>Фотосъемка</li>
                         <li>Съемка и монтаж видеороликов</li>
                         <li>Моушн-анимация</li>
                         <li>Создание стоп-моушн роликов</li>
                     </ul></div>
                 </div>
+                <div class="imtxt-block block-left"><img
+                            src="https://static.tildacdn.com/tild6531-3536-4139-a231-333465646262/-/empty/video-editor-his-stu.jpg"
+                            data-original="https://static.tildacdn.com/tild6531-3536-4139-a231-333465646262/video-editor-his-stu.jpg"
+                            class="t106__img t-img" imgfield="img"/></div>
             </div>
         </div>
     </div>
@@ -246,16 +249,17 @@
     <div class="t106">
         <div class="t-container">
             <div class="t106__wrapper">
-                <div class="imtxt-block">
-                    <h3>Сувенирная продукция</h3>
-                    <div class="content">Поможем создать ваш личный мерч:
+                <div class="imtxt-block block-left">
+                    <div class="decorator-right"></div>
+                    <div class="title">Сувенирная продукция</div>
+                    <div class="content" style="margin-left:7%">Поможем создать ваш личный мерч:
                         <ul>
                             <li>Разработка дизайна</li>
                             <li>Печать на футболках, чашках, флагах, подушках, фирменные календари, буклеты, баннера и др.</li>
                         </ul>
                     </div>
                 </div>
-                <div class="imtxt-block"><img
+                <div class="imtxt-block block-right"><img
                             src="https://static.tildacdn.com/tild3562-3132-4166-a230-616364343030/-/empty/accessories-wooden-t.jpg"
                             data-original="https://static.tildacdn.com/tild3562-3132-4166-a230-616364343030/accessories-wooden-t.jpg"
                             class="t106__img t-img" imgfield="img"/></div>
@@ -263,25 +267,26 @@
         </div>
     </div>
 </div>
-<div id="rec263207531" class="r t-rec t-rec_pt_60 t-rec_pb_60"><!-- T106 -->
+<div id="rec263207532" class="r t-rec t-rec_pt_60 t-rec_pb_60"><!-- T106 -->
     <div class="t106">
         <div class="t-container">
-            <div class="t106__wrapper">
-                <div class="imtxt-block"><img
+            <div class="t106__wrapper txtim">
+                <div class="imtxt-block block-right">
+                    <div class="decorator-left"></div>
+                    <div class="title">Другое</div>
+                    <div class="content">
+                        <ul>
+                            <li>SEO-копирайтинг и рерайтинг</li>
+                            <li>PR, репутационный маркетинг</li>
+                            <li>Оформление и планирование ивентов</li>
+                            <li>Создание чат-ботов для вашего бизнеса</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="imtxt-block block-left"><img
                             src="https://static.tildacdn.com/tild3336-3065-4934-a133-643138616665/-/empty/d.jpg"
                             data-original="https://static.tildacdn.com/tild3336-3065-4934-a133-643138616665/d.jpg"
                             class="t106__img t-img" imgfield="img"/></div>
-                <div class="imtxt-block">
-                        <h3>Другое</h3>
-                        <div class="content">
-                            <ul>
-                                <li>SEO-копирайтинг и рерайтинг</li>
-                                <li>PR, репутационный маркетинг</li>
-                                <li>Оформление и планирование ивентов</li>
-                                <li>Создание чат-ботов для вашего бизнеса</li>
-                            </ul>
-                        </div>
-                    </div>
             </div>
         </div>
     </div>
