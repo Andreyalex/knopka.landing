@@ -59,35 +59,26 @@
 </script>
 <div id="rec262006573" class="r t-rec" style=" " data-record-type="215"><a name="about" style="font-size:0;"></a>
 </div>
-<div id="rec262006574" class="r t-rec t-rec_pt_45 t-rec_pb_0" style="padding-top:45px;padding-bottom:0px; "
-     data-record-type="480"><!-- T480 -->
-    <div style="width: 0; height: 0; overflow: hidden;">
-        <div class="t480__sizer t-col t-col_8" data-auto-correct-mobile-width="false" style="height:560px;"></div>
-    </div>
+<div id="rec262006574" class="r t-rec" style="padding-top:60px;"><!-- T480 -->
     <div class="t480">
         <div class="t-container">
             <div class="t480__col t-col t-col_8 t-prefix_2">
-                <div class="t480__textwrapper t-align_left" style="height:560px;">
-                    <div class="t480__content t-valign_middle">
-                        <div class="t480__title  t-title_xs " field="title" style="font-size:52px;"><p
-                                    style="text-align: center;">О нас</p></div>
-                        <div class="t480__descr  t-descr_md " field="descr" style=""><span style="background-color:#43dde0" class="inline-highlight">Кнопка</span> - онлайн
-                            рекламное агентство, специализирующееся на маркетинге в соцсетях, PR, создании брендов,
-                            оформлении ивентов, мерча и чат-ботах.<br/>Наша главная сила - это способность сочетать
-                            разные таланты для удовлетворения сложных коммуникационных потребностей, объединяя
-                            творческий подход, создание инфоповодов, дизайн, съёмку и технологии, позволяющие
-                            выстроить доверительные и открытые отношения между бизнесом клиента и
-                            потребителями.<br/>В нашей команде <span class="inline-highlight" style="background-color:#43dde0">лучшие медийщики Харькова</span>: профессиональные операторы
-                            и журналисты с опытом работы на ТВ, спичрайтеры политиков, участники и сценаристы КВН,
-                            опытные маркетологи и дизайнеры, блогеры и политтехнологи, сммщики, таргетологи и
-                            начинающие маркетологи.<br/>Под Ваши задачи мы привлекаем к выполнению наиболее
-                            релевантных специалистов.<br/>Многолетний опыт наших профессионалов и свежий взгляд
-                            молодых рекламщиков позволяют создавать креативы, которые попадают <span class="inline-highlight" style="background-color:#43dde0">в самое сердце потребителей</span>;
-                            вовлекающий контент с увлекательными иллюстрациями без грамматических
-                            ошибок; трендовую рекламу; стильные аккаунты; маркетинговые стратегии; индивидуальные PR
-                            акции любой сложности под разный бюджет.
-                        </div>
-                    </div>
+                <div class="t-title_lg">О нас</div>
+                <div class="t-descr_md " field="descr" style=""><span style="background-color:#43dde0" class="inline-highlight">Кнопка</span> - онлайн
+                    рекламное агентство, специализирующееся на маркетинге в соцсетях, PR, создании брендов,
+                    оформлении ивентов, мерча и чат-ботах.<br/>Наша главная сила - это способность сочетать
+                    разные таланты для удовлетворения сложных коммуникационных потребностей, объединяя
+                    творческий подход, создание инфоповодов, дизайн, съёмку и технологии, позволяющие
+                    выстроить доверительные и открытые отношения между бизнесом клиента и
+                    потребителями.<br/>В нашей команде <span class="inline-highlight" style="background-color:#43dde0">лучшие медийщики Харькова</span>: профессиональные операторы
+                    и журналисты с опытом работы на ТВ, спичрайтеры политиков, участники и сценаристы КВН,
+                    опытные маркетологи и дизайнеры, блогеры и политтехнологи, сммщики, таргетологи и
+                    начинающие маркетологи.<br/>Под Ваши задачи мы привлекаем к выполнению наиболее
+                    релевантных специалистов.<br/>Многолетний опыт наших профессионалов и свежий взгляд
+                    молодых рекламщиков позволяют создавать креативы, которые попадают <span class="inline-highlight" style="background-color:#43dde0">в самое сердце потребителей</span>;
+                    вовлекающий контент с увлекательными иллюстрациями без грамматических
+                    ошибок; трендовую рекламу; стильные аккаунты; маркетинговые стратегии; индивидуальные PR
+                    акции любой сложности под разный бюджет.
                 </div>
             </div>
         </div>
@@ -135,22 +126,27 @@
 </div>
 <div id="rec262006575" class="r t-rec" style=" " data-record-type="215"><a name="service" style="font-size:0;"></a>
 </div>
-<div id="rec262006576" class="r t-rec t-rec_pt_60 t-rec_pb_0" style="padding-top:60px;padding-bottom:0px; "
-     data-record-type="30"><!-- T015 -->
-    <div class="t015">
-        <div class="t-container t-align_center">
-            <div class="t-col t-col_8 t-prefix_2">
-                <div class="t015__title  t-title_lg" field="title" style="font-size:52px;">Наши услуги</div>
-                <div class="t015__descr  t-descr_xl" field="descr" style="">Работаем по формуле:<br/>Знание
-                    стратегий + умение выделить продукт, апеллируя к болям и эмоциям клиентов = прибыль!
-                </div>
+
+<div id="rec262006577" class="r t-rec">
+    <div class="t-container">
+        <div class="t-title_lg">Работаем по формуле</div>
+        <div class="theme-formula">
+            <div class="braces"><img src="/templates/knopka/img/brace-open.png" /></div>
+            <div class="text">
+                Знание стратегий + умение выделить продукт, апеллируя&nbsp;к&nbsp;болям&nbsp;и&nbsp;эмоциям клиентов = прибыль!
             </div>
+            <div class="braces"><img src="/templates/knopka/img/brace-close.png" /></div>
         </div>
     </div>
 </div>
-<div id="rec262006578" class="r t-rec t-rec_pt_60"><!-- T106 -->
+
+
+<div id="rec262006578" class="r t-rec"><!-- T106 -->
     <div class="t106">
         <div class="t-container">
+            <div class="t-col t-col_8 t-prefix_2">
+                <div class="t-title_lg">Наши услуги</div>
+            </div>
             <div class="t106__wrapper">
                 <div class="imtxt-block block-left">
                     <div class="decorator-right"></div>
@@ -402,13 +398,13 @@
         }
       });</script>
 </div>
-<div id="rec262006581" class="r t-rec t-rec_pt_45 t-rec_pb_45" style="padding-top:45px;padding-bottom:45px; "
+<div id="rec262006581" class="r t-rec"
      data-record-type="491"><!-- t491 -->
     <div class="t491">
         <div class="t-section__container t-container">
             <div class="t-col t-col_12">
-                <div class="t-section__topwrapper t-align_center">
-                    <div class="t-section__title  t-title_xs" field="btitle">Почему мы?</div>
+                <div class="t-align_center">
+                    <div class="t-title_lg">Почему мы?</div>
                 </div>
             </div>
         </div>
@@ -505,11 +501,10 @@
 </div>
 <div id="rec262006582" class="r t-rec" style=" " data-record-type="215"><a name="contact" style="font-size:0;"></a>
 </div>
-<div id="rec262006583" class="r t-rec t-rec_pt_45 t-rec_pb_0" style="padding-top:45px;padding-bottom:0px; "
-     data-record-type="255"><!-- T225 -->
+<div id="rec262006583" class="r t-rec"><!-- T225 -->
     <div class="t225">
         <div class="t-container t-align_center">
-            <div class="t-col t-col_8 t-prefix_2">
+            <div class="t-col t-col_8 t-prefix_2" style="margin-top:20px;">
                 <div class="t225__title  t-title_md" field="title" style="">Бесплатная консультация</div>
                 <div class="t225__descr  t-descr_xxl" field="descr" style="">Оставьте заявку, и мы поможем
                     выбрать лучшую стратегию продвижения в соцсетях.
@@ -632,10 +627,9 @@
      data-record-type="574"><!-- t574-->
     <div class="t574">
         <div class="t-container">
-            <div class="t-col t-col_6 t-prefix_3 t-align_center">
-                <div class="t574__title  t-title_xs t574__bottom-margin_lg" style="" field="title">
-                    +380505080852<br/><span class="email">knopka.agency@gmail.com</span>
-                </div>
+            <div class="t-col t-col_8 t-prefix_2 t-align_center">
+                <div><span class="phone">+380505080852</span></div>
+                <div><span class="email">knopka.agency@gmail.com</span></div>
                 <div class="t-sociallinks">
                     <div class="t-sociallinks__wrapper">
                         <div class="t-sociallinks__item"><a href="http://facebook.com/knopka.agency" target="_blank">
