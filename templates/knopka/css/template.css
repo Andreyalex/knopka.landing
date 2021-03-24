@@ -1015,14 +1015,17 @@ ul.checked li {
 
 .theme-formula {
 	display:flex;
-	justify-content:space-around;
+	justify-content:center;
 }
 
 .theme-formula .text {
+	flex-basis: content;
 	font-size:32px;
 	font-weight:600;
 	text-align: center;
+	max-width: 840px;
 }
+
 .theme-formula .braces img {
 	height: 100px;
 }
@@ -1030,6 +1033,7 @@ ul.checked li {
 @media(max-width:960px) {
 	.theme-formula .text {
 		font-size:20px;
+		max-width: 540px;
 	}
 	.theme-formula .braces img {
 		height: 60px;
