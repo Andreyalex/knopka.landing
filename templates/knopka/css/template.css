@@ -80,7 +80,7 @@ a {
 }
 
 h2 {
-	font-weight: 600;
+	font-weight: 400;
 	color: #333333;
 	font-size: 52px;
 }
@@ -104,6 +104,22 @@ ul.checked li {
 	line-height: 2.2em;
 	vertical-align: middle;
 }
+
+
+ul.dashed {
+	list-style: none;
+	padding-left: 0 !important;
+}
+
+ul.dashed li {
+	margin: 8px 0 10px 0px;
+	padding: 2px 0 0 0;
+	line-height: 30px;
+	border-left: 6px solid rgb(67, 221, 224, 0.5);
+	padding-left: 20px;
+}
+
+
 
 .page-header {
 	padding-bottom: 8px;
