@@ -11,14 +11,14 @@
                 <div class="first-title-text">Digital агентство</div>
             </div>
             <div class="first-descr">
-                <div style="letter-spacing: 1.11px;">Помогаем зарабатывать больше</div>
-                <div>Продвигаем бизнесы в соцсетях</div>
+                <div style="letter-spacing: 1.11px;">Допомагаємо заробляти більше</div>
+                <div>Просуваємо бізнеси в соцмережах</div>
             </div>
             <div class="first-btn">
-                <a style="color:#111111" href="/order">Связаться c нами</a>
+                <a style="color:#111111" href="/order">Зв'язатися з нами</a>
             </div>
             <div class="welcome-badge">
-                <a class="welcome-text" style="color:#111111" href="#about">Давайте познакомимся</a>
+                <a class="welcome-text" style="color:#111111" href="#about">Давайте познайомимося</a>
                 <div class="wellcome-arrow" style="float: right; position: relative; top: 0;">
                     <i class="bi bi-arrow-down"></i>
                 </div>
@@ -63,22 +63,21 @@
     <div class="t480">
         <div class="t-container">
             <div class="t480__col t-col t-col_8 t-prefix_2">
-                <div class="t-title_lg">О нас</div>
-                <div class="t-descr_md " field="descr" style=""><span style="background-color:#43dde0" class="inline-highlight">Кнопка</span> - онлайн
-                    рекламное агентство, специализирующееся на маркетинге в соцсетях, PR, создании брендов,
-                    оформлении ивентов, мерча и чат-ботах.<br/>Наша главная сила - это способность сочетать
-                    разные таланты для удовлетворения сложных коммуникационных потребностей, объединяя
-                    творческий подход, создание инфоповодов, дизайн, съёмку и технологии, позволяющие
-                    выстроить доверительные и открытые отношения между бизнесом клиента и
-                    потребителями.<br/>В нашей команде <span class="inline-highlight" style="background-color:#43dde0">лучшие медийщики Харькова</span>: профессиональные операторы
-                    и журналисты с опытом работы на ТВ, спичрайтеры политиков, участники и сценаристы КВН,
-                    опытные маркетологи и дизайнеры, блогеры и политтехнологи, сммщики, таргетологи и
-                    начинающие маркетологи.<br/>Под Ваши задачи мы привлекаем к выполнению наиболее
-                    релевантных специалистов.<br/>Многолетний опыт наших профессионалов и свежий взгляд
-                    молодых рекламщиков позволяют создавать креативы, которые попадают <span class="inline-highlight" style="background-color:#43dde0">в самое сердце потребителей</span>;
-                    вовлекающий контент с увлекательными иллюстрациями без грамматических
-                    ошибок; трендовую рекламу; стильные аккаунты; маркетинговые стратегии; индивидуальные PR
-                    акции любой сложности под разный бюджет.
+                <div class="t-title_lg">Про нас</div>
+                <div class="t-descr_md " field="descr" style="">
+                    <span style="background-color:#43dde0" class="inline-highlight">Кнопка</span> - онлайн рекламне агентство,
+                    що спеціалізується на маркетингу в соціальних мережах, PR, створеннi брендів, оформленні івентів, мерчi і чат-ботах.<br/>
+                    Наша головна сила - це здатність поєднувати різні таланти для задоволення складних комунікаційних потреб, об'єднуючи
+                    творчий підхід, створення інфоприводів, дизайн, зйомку і технології, що дозволяють
+                    вибудувати довірчі й відкриті відносини між бізнесом клієнта та споживачами.<br/>
+                    В нашiй командi <span class="inline-highlight" style="background-color:#43dde0">кращі медійники Харкова</span>: професійні оператори
+                    і журналісти з досвідом роботи на ТБ, спічрайтери політиків, учасники і сценаристи КВН,
+                    досвідчені маркетологи і дизайнери, блогери і політтехнологи, СММ-щики, таргетологи і початківці маркетологи.<br/>
+                    Під Ваші завдання ми залучаємо до виконання найбільш релевантних фахівців.<br/>
+                    Багаторічний досвід наших професіоналів і свіжий погляд молодих рекламників дозволяють створювати креативи,
+                    які потрапляють <span class="inline-highlight" style="background-color:#43dde0">у саме серце споживачів</span>;
+                    контент що залучає цікавими ілюстраціями без граматичних помилок; трендову рекламу; стильні акаунти; маркетингові стратегії;
+                    індивідуальні PR акції будь-якої складності під різний бюджет.
                 </div>
             </div>
         </div>
@@ -117,7 +116,7 @@
                                                             data-btneffects-first="btneffects-ripple">
                     <table style="width:100%; height:100%;">
                         <tr>
-                            <td>Бесплатная консультация</td>
+                            <td>Безкоштовна консультація</td>
                         </tr>
                     </table>
                 </a></div>
@@ -129,11 +128,11 @@
 
 <div id="rec262006577" class="r t-rec">
     <div class="t-container">
-        <div class="t-title_lg">Работаем по формуле</div>
+        <div class="t-title_lg">Працюємо за формулою</div>
         <div class="theme-formula">
             <div class="braces"><img src="/templates/knopka/img/brace-open.png" /></div>
             <div class="text">
-                Знание стратегий + умение выделить продукт, апеллируя&nbsp;к&nbsp;болям&nbsp;и&nbsp;эмоциям клиентов = прибыль!
+                Знаня стратегiй + вміння виділити продукт, апелюючи&nbsp;до&nbsp;болю&nbsp;та&nbsp;емоцій клієнтів = прибуток!
             </div>
             <div class="braces"><img src="/templates/knopka/img/brace-close.png" /></div>
         </div>
@@ -145,23 +144,23 @@
     <div class="t106">
         <div class="t-container">
             <div class="t-col t-col_8 t-prefix_2">
-                <div class="t-title_lg">Наши услуги</div>
+                <div class="t-title_lg">Наші послуги</div>
             </div>
             <div class="t106__wrapper">
                 <div class="imtxt-block block-left">
                     <div class="decorator-right"></div>
-                    <div class="title">SMM продвижение</div>
-                    <div class="content narrower">Ведём аккаунты, как боги:
+                    <div class="title">SMM просування</div>
+                    <div class="content narrower">Ведемо акаунти, як боги:
                         <ul>
-                            <li>Оформление профиля</li>
-                            <li>Анализ конкурентов</li>
-                            <li>Анализ ЦА</li>
-                            <li>Составение контент-плана</li>
-                            <li>Составление плана продвижения</li>
-                            <li>Разработка стратегии позиционирования</li>
-                            <li>Подбор хэштегов, геолокаций</li>
-                            <li>Ведение аккаунта (сторис, посты)</li>
-                            <li>Коммуникации с подписчиками</li>
+                            <li>Оформлення профілю</li>
+                            <li>Аналіз конкурентів</li>
+                            <li>Аналіз ЦА</li>
+                            <li>Складання контент-плану</li>
+                            <li>Складання плану просування</li>
+                            <li>Розробка стратегії позиціонування</li>
+                            <li>Підбір хештегiв, геолокації</li>
+                            <li>Ведення аккаунта (Сторіс, пости)</li>
+                            <li>Комунікації з передплатниками</li>
                         </ul>
                     </div>
                 </div>
@@ -179,16 +178,16 @@
             <div class="t106__wrapper">
                 <div class="imtxt-block block-right">
                     <div class="decorator-left"></div>
-                    <div class="title">Настройка таргетированной рекламы</div>
+                    <div class="title">Налаштування таргетованої реклами</div>
                     <div class="content narrow"><ul>
-                        <li>Разработка УТП</li>
-                        <li>Анализ конкурентов</li>
-                        <li>Создание рекламных креативов</li>
-                        <li>Тестирование рекламных стратегий</li>
-                        <li>Настройка рекламы в Facebook, Instagram</li>
-                        <li>Анализ и корректировка рекламной кампании</li>
-                        <li>Сбор аналитики</li>
-                        <li>Подбор и реклама у блогеров</li>
+                            <li>Розробка УТП</li>
+                            <li>Аналіз конкурентів</li>
+                            <li>Створення рекламних креативів</li>
+                            <li>Тестування рекламних стратегій</li>
+                            <li>Налаштування реклами в Facebook, Instagram</li>
+                            <li>Аналіз і коригування рекламної кампанії</li>
+                            <li>Збір аналітики</li>
+                            <li>Підбір та реклама у блогерів</li>
                     </ul></div>
                 </div>
                 <div class="imtxt-block block-left"><img
@@ -205,11 +204,11 @@
             <div class="t106__wrapper">
                 <div class="imtxt-block block-left">
                     <div class="decorator-right"></div>
-                    <div class="title">Создание сайтов</div>
+                    <div class="title">Створення сайтів</div>
                     <div class="content" style="margin-left:30%"><ul>
-                        <li>Лендинги</li>
-                        <li>Корпоративные сайты</li>
-                        <li>Интернет-магазины</li>
+                        <li>Лендiнги</li>
+                        <li>Корпоративнi сайти</li>
+                        <li>Iнтернет-магазини</li>
                     </ul></div>
                 </div>
                 <div class="imtxt-block block-right"><img
@@ -225,12 +224,12 @@
             <div class="t106__wrapper">
                 <div class="imtxt-block block-right">
                     <div class="decorator-left"></div>
-                    <div class="title">Фото и видео продакшн</div>
+                    <div class="title">Фото і відео продакшн</div>
                     <div class="content" style="margin-left:20%"><ul style="line-height: 40px">
-                        <li>Фотосъемка</li>
-                        <li>Съемка и монтаж видеороликов</li>
-                        <li>Моушн-анимация</li>
-                        <li>Создание стоп-моушн роликов</li>
+                        <li>Фотозйомка</li>
+                        <li>Зйомка і монтаж відеороликів</li>
+                        <li>Моушн-анімація</li>
+                        <li>Створення стоп-Моушн роликів</li>
                     </ul></div>
                 </div>
                 <div class="imtxt-block block-left"><img
@@ -247,11 +246,11 @@
             <div class="t106__wrapper">
                 <div class="imtxt-block block-left">
                     <div class="decorator-right"></div>
-                    <div class="title">Сувенирная продукция</div>
-                    <div class="content" style="margin-left:7%">Поможем создать ваш личный мерч:
+                    <div class="title">Сувенірна продукція</div>
+                    <div class="content" style="margin-left:7%">Допоможемо створити ваш особистий Мерч:
                         <ul>
-                            <li>Разработка дизайна</li>
-                            <li>Печать на футболках, чашках, флагах, подушках, фирменные календари, буклеты, баннера и др.</li>
+                            <li>Розробка дизайну</li>
+                            <li>Друк на футболках, чашках, прапорах, подушках, фірмові календарі, буклети, банера та ін.</li>
                         </ul>
                     </div>
                 </div>
@@ -269,15 +268,13 @@
             <div class="t106__wrapper txtim">
                 <div class="imtxt-block block-right">
                     <div class="decorator-left"></div>
-                    <div class="title">Другое</div>
-                    <div class="content">
-                        <ul>
-                            <li>SEO-копирайтинг и рерайтинг</li>
-                            <li>PR, репутационный маркетинг</li>
-                            <li>Оформление и планирование ивентов</li>
-                            <li>Создание чат-ботов для вашего бизнеса</li>
-                        </ul>
-                    </div>
+                    <div class="title">Iнше</div>
+                    <div class="content"><ul>
+                        <li>SEO-копірайтинг та рерайтинг</li>
+                        <li>PR, репутаційний маркетинг</li>
+                        <li>Оформлення та планування івентів</li>
+                        <li>Cтворення чат-ботів для вашого бізнесу</li>
+                    </ul></div>
                 </div>
                 <div class="imtxt-block block-left"><img
                             src="https://static.tildacdn.com/tild3336-3065-4934-a133-643138616665/-/empty/d.jpg"
@@ -293,7 +290,7 @@
         <div class="t-container t-container_flex">
             <div class="t-col t-col_flex t-col_6 t-prefix_2">
                 <div class="t-text_lg" style="font-weight:700;" field="text">
-                    <div style="color: rgb(0, 0, 0);" data-customstyle="yes">Нажмите на кнопку вашего продвижения
+                    <div style="color: rgb(0, 0, 0);" data-customstyle="yes">Натисніть на кнопку вашого просування
                     </div>
                 </div>
             </div>
@@ -303,7 +300,7 @@
                                                             data-btneffects-first="btneffects-ripple">
                     <table style="width:100%; height:100%;">
                         <tr>
-                            <td>Оставить заявку</td>
+                            <td>Залишити заявку</td>
                         </tr>
                     </table>
                 </a></div>
@@ -404,7 +401,7 @@
         <div class="t-section__container t-container">
             <div class="t-col t-col_12">
                 <div class="t-align_center">
-                    <div class="t-title_lg">Почему мы?</div>
+                    <div class="t-title_lg">Чому ми?</div>
                 </div>
             </div>
         </div>
@@ -415,11 +412,11 @@
                                 src="https://static.tildacdn.com/lib/tildaicon/33376436-6634-4231-b732-306331373662/17bu_27.svg"
                                 class="t491__img t-img" imgfield="li_img__1476976310929"/>
                         <div class="t491__title t-name t-name_sm" style="" field="li_title__1476976310929">Команда
-                            профессионалов
+                            професіоналів
                         </div>
                     </div>
-                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976310929">Наши
-                        сотрудники имеют большой бэкграунд, каждый профессионал в своей сфере
+                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976310929">Наші
+                        співробітники мають великий бекграунд, кожен професіонал у своїй сфері
                     </div>
                 </div>
             </div>
@@ -429,11 +426,11 @@
                                 src="https://static.tildacdn.com/lib/tildaicon/33376436-6634-4231-b732-306331373662/17bu_27.svg"
                                 class="t491__img t-img" imgfield="li_img__1476976315081"/>
                         <div class="t491__title t-name t-name_sm" style="" field="li_title__1476976315081">
-                            Эффективность
+                            Ефективність
                         </div>
                     </div>
-                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976315081">Исповедуем
-                        креативный подход в сочетании с эффективными стратегиями, подтвержденными аналитикой
+                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976315081">Сповідуємо
+                        креативний підхід у поєднанні з ефективними стратегіями, підтвердженими аналітикою
                     </div>
                 </div>
             </div>
@@ -443,12 +440,12 @@
                                 src="https://static.tildacdn.com/lib/tildaicon/33376436-6634-4231-b732-306331373662/17bu_27.svg"
                                 class="t491__img t-img" imgfield="li_img__1476976330452"/>
                         <div class="t491__title t-name t-name_sm" style="" field="li_title__1476976330452">
-                            Эксклюзивный подход
+                            Ексклюзивний підхід
                         </div>
                     </div>
-                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976330452">Мы не
-                        сторонники универсальных решений для всех. Если вы хотите продвигаться как ваши конкуренты -
-                        вам не к нам
+                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976330452">Ми не
+                        прихильники універсальних рішень для всіх. Якщо ви хочете просуватися як ваші конкуренти -
+                        вам не до нас
                     </div>
                 </div>
             </div>
@@ -459,11 +456,11 @@
                                 src="https://static.tildacdn.com/lib/tildaicon/33376436-6634-4231-b732-306331373662/17bu_27.svg"
                                 class="t491__img t-img" imgfield="li_img__1476976334035"/>
                         <div class="t491__title t-name t-name_sm" style="" field="li_title__1476976334035">
-                            Объективность
+                            Об'єктивність
                         </div>
                     </div>
-                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976334035">Удерживаем
-                        баланс между ценой, качеством и сроками
+                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976334035">Утримуємо
+                        баланс між ціною, якістю та термінами
                     </div>
                 </div>
             </div>
@@ -473,12 +470,12 @@
                                 src="https://static.tildacdn.com/lib/tildaicon/33376436-6634-4231-b732-306331373662/17bu_27.svg"
                                 class="t491__img t-img" imgfield="li_img__1476976688514"/>
                         <div class="t491__title t-name t-name_sm" style="" field="li_title__1476976688514">
-                            Лояльность
+                            Лояльність
                         </div>
                     </div>
-                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976688514">Научим Ваш
-                        бизнес выделяться, запоминаться и располагать к себе клиентов, даже если мы с вами не
-                        сработаемся
+                        <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976688514">Навчимо Ваш
+                            бізнес виділятися, запам'ятовуватися і викликати до себе прихильність клієнтів, навіть якщо нам з вами
+                            не вдасться спрацюватися
                     </div>
                 </div>
             </div>
@@ -488,11 +485,11 @@
                                 src="https://static.tildacdn.com/lib/tildaicon/33376436-6634-4231-b732-306331373662/17bu_27.svg"
                                 class="t491__img t-img" imgfield="li_img__1476976692541"/>
                         <div class="t491__title t-name t-name_sm" style="" field="li_title__1476976692541">
-                            Постоянство
+                            Cталість
                         </div>
                     </div>
-                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976692541">Любим своих
-                        клиентов 24/7 без выходных и праздников
+                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976692541">Любимо своїх
+                        клієнтів 24/7 без вихідних і свят
                     </div>
                 </div>
             </div>
@@ -505,9 +502,9 @@
     <div class="t225">
         <div class="t-container t-align_center">
             <div class="t-col t-col_8 t-prefix_2" style="margin-top:20px;">
-                <div class="t225__title  t-title_md" field="title" style="">Бесплатная консультация</div>
-                <div class="t225__descr  t-descr_xxl" field="descr" style="">Оставьте заявку, и мы поможем
-                    выбрать лучшую стратегию продвижения в соцсетях.
+                <div class="t225__title  t-title_md" field="title" style="">Безкоштовна консультація</div>
+                <div class="t225__descr  t-descr_xxl" field="descr" style="">Залиште заявку, і ми допоможемо
+                    вибрати кращу стратегію просування в соціальних мережах.
                 </div>
             </div>
         </div>
@@ -522,7 +519,7 @@
                                               data-tilda-event-name="/tilda/click/rec262006584/button1"
                                               class="js-click-stat">
                         <div class="t-btn t142__submit " style="color:#ffffff;background-color:#43dde0;"
-                             data-btneffects-first="btneffects-ripple"><span class="t142__text">Оставить заявку</span>
+                             data-btneffects-first="btneffects-ripple"><span class="t142__text">Залишити заявку</span>
                         </div>
                     </a></div>
             </div>
