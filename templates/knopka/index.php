@@ -55,18 +55,14 @@ JHtml::_('script', 'https://static.tildacdn.com/js/tilda-menusub-1.0.min.js', ar
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/><!--metatextblock--><title>
-        Knopka.agency</title>
-    <meta name="description"
-          content="контент, smm, оформление и ведение аккаунта, настройка таргетированной рекламы, фото и видео съёмка, дизайн, копирайт, чат-боты, сувенирная продукция"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Knopka.agency</title>
     <meta property="og:url" content="https://knopka.agency"/>
     <meta property="og:title" content="Knopka.agency"/>
-    <meta property="og:description"
-          content="контент, smm, оформление и ведение аккаунта, настройка таргетированной рекламы, фото и видео съёмка, дизайн, копирайт, чат-боты, сувенирная продукция"/>
+    <meta property="og:description" content="<?=$doc->getDescription()?>"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:image"
-          content="https://static.tildacdn.com/tild3839-3161-4430-a335-636637303332/-/resize/504x/_.png"/>
-    <link rel="canonical" href="https://knopka.agency"><!--/metatextblock-->
+    <meta property="og:image" content="https://static.tildacdn.com/tild3839-3161-4430-a335-636637303332/-/resize/504x/_.png"/>
+    <link rel="canonical" href="https://knopka.agency">
     <meta property="fb:app_id" content="257953674358265"/>
     <meta name="format-detection" content="telephone=no"/>
     <meta http-equiv="x-dns-prefetch-control" content="on">
