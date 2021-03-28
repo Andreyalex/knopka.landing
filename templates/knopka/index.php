@@ -14,9 +14,10 @@ defined('_JEXEC') or die;
 /** @var \Joomla\CMS\Application\CMSApplication $app */
 $app = JFactory::getApplication();
 $menuItemActive = $app->getMenu()->getActive();
+$locale = $menuItemActive->get('language');
 $menuItemActiveAlias = $menuItemActive->alias;
 $isLanding = in_array($menuItemActiveAlias, ['home', 'home-ua', 'home-ru']);
-preg_match('/^\/(ru|uk|en)/', $_SERVER['REQUEST_URI'], $matches);
+preg_match('/^\/(ru|ua|en)/', $_SERVER['REQUEST_URI'], $matches);
 $path = $matches[1];
 $lang = $path? "/$path/" : '/';
 $anchorPrefix = $isLanding? '' : $lang;
@@ -30,7 +31,7 @@ $this->setHtml5(true);
 $doc = $app->getDocument();
 $doc->setMetaData('author', 'Knopka.agency');
 
-$ver = '0.9.1';
+$ver = '0.9.3';
 
 JHtml::_('stylesheet', 'template.css', array('version' => $ver, 'relative' => true));
 JHtml::_('stylesheet', '/media/jui/css/icomoon.css', array('relative' => true));
@@ -118,11 +119,11 @@ JHtml::_('script', 'https://static.tildacdn.com/js/tilda-menusub-1.0.min.js', ar
 <div id="allrecords" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="2512305"
      data-tilda-page-id="16032892" data-tilda-formskey="eed1b1688abf305dccd909096825c12e">
 
-<? include('navigation.php') ?>
+<? $locale == 'uk-UA'? include('navigation-uk.php') : include('navigation-ru.php'); ?>
 
 <?php
     if ($isLanding) {
-        include('landing.php');
+        $locale == 'uk-UA'? include('landing-uk.php') : include('landing-ru.php');
     } else {
         ?>
     <div class="r t-rec t-rec_pt_30 component_wrapper" data-record-type="480"
@@ -139,30 +140,8 @@ JHtml::_('script', 'https://static.tildacdn.com/js/tilda-menusub-1.0.min.js', ar
     }
 ?>
 
-    <div id="rec271139769" class="r t-rec t-rec_pt_60 t-rec_pb_75"
-         style="padding-top:60px;padding-bottom:75px;background-color:#171717; " data-animationappear="off"
-         data-record-type="457" data-bg-color="#171717"><!-- T457 -->
-        <div class="t457">
-            <div class="t-container">
-                <div class="t-col t-col_12">
-                    <ul class="t457__ul">
-                        <li class="t457__li"><a href="<?=$anchorPrefix?>#about" style="color:#ffffff;" data-menu-item-number="1">О нас</a>
-                        </li>
-                        <li class="t457__li"><a href="<?=$anchorPrefix?>#service" style="color:#ffffff;"
-                                                data-menu-item-number="2">Услуги</a></li>
-                        <li class="t457__li"><a href="<?=$anchorPrefix?>#contact" style="color:#ffffff;" data-menu-item-number="3">Контакты</a>
-                        </li>
-                        <li class="t457__li"><a href="<?=$lang?>terms" style="color:#ffffff;" data-menu-item-number="4">Пользовательское&nbsp;соглашение</a></li>
-                        <li class="t457__li"><a href="<?=$lang?>privacy" style="color:#ffffff;" data-menu-item-number="5">Политика&nbsp;конфиденциальности</a></li>
-                    </ul>
-                </div>
-                <div class="t-col t-col_12">
-                    <div class="t457__copyright" field="text" style="color: #ffffff;">© All Rights Reserved<br/>knopka.agency@gmail.com
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<? $locale == 'uk-UA'? include('footer-uk.php') : include('footer-ru.php'); ?>
+
 </div><!--/allrecords-->
 <jdoc:include type="modules" name="debug" />
 </body>
