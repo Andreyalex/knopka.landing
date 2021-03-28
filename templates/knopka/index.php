@@ -15,12 +15,6 @@ defined('_JEXEC') or die;
 $app = JFactory::getApplication();
 $menuItemActive = $app->getMenu()->getActive();
 $locale = $menuItemActive->get('language');
-
-// For dev testing only!
-if (strpos($_SERVER['REQUEST_URI'], 'lang=uk') !== false) {
-    $locale = 'uk-UA';
-}
-
 $menuItemActiveAlias = $menuItemActive->alias;
 $isLanding = in_array($menuItemActiveAlias, ['home', 'home-ua', 'home-ru']);
 preg_match('/^\/(ru|ua|en)/', $_SERVER['REQUEST_URI'], $matches);
@@ -37,7 +31,7 @@ $this->setHtml5(true);
 $doc = $app->getDocument();
 $doc->setMetaData('author', 'Knopka.agency');
 
-$ver = '0.9.2';
+$ver = '0.9.4';
 
 JHtml::_('stylesheet', 'template.css', array('version' => $ver, 'relative' => true));
 JHtml::_('stylesheet', '/media/jui/css/icomoon.css', array('relative' => true));
