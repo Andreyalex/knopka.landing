@@ -23,7 +23,7 @@ if (strpos($_SERVER['REQUEST_URI'], 'lang=uk') !== false) {
 
 $menuItemActiveAlias = $menuItemActive->alias;
 $isLanding = in_array($menuItemActiveAlias, ['home', 'home-ua', 'home-ru']);
-preg_match('/^\/(ru|uk|en)/', $_SERVER['REQUEST_URI'], $matches);
+preg_match('/^\/(ru|ua|en)/', $_SERVER['REQUEST_URI'], $matches);
 $path = $matches[1];
 $lang = $path? "/$path/" : '/';
 $anchorPrefix = $isLanding? '' : $lang;
