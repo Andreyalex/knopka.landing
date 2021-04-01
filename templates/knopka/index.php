@@ -104,6 +104,9 @@ JHtml::_('script', 'https://static.tildacdn.com/js/tilda-menusub-1.0.min.js', ar
             'https://connect.facebook.net/en_US/fbevents.js');
           fbq('init', '446732663104625');
           fbq('track', 'PageView');
+          <? if ($menuItemActiveAlias == 'order-created') { ?>
+          fbq('track', 'SubmitApplication');
+          <? } ?>
         </script>
         <noscript><img height="1" width="1" style="display:none"
                        src="https://www.facebook.com/tr?id=446732663104625&ev=PageView&noscript=1"
