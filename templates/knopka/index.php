@@ -102,11 +102,11 @@ JHtml::_('script', 'https://static.tildacdn.com/js/tilda-menusub-1.0.min.js', ar
             t.src=v;s=b.getElementsByTagName(e)[0];
             s.parentNode.insertBefore(t,s)}(window, document,'script',
             'https://connect.facebook.net/en_US/fbevents.js');
-          fbq('init', '881371576016688');
+          fbq('init', '446732663104625');
           fbq('track', 'PageView');
         </script>
         <noscript><img height="1" width="1" style="display:none"
-                       src="https://www.facebook.com/tr?id=881371576016688&ev=PageView&noscript=1"
+                       src="https://www.facebook.com/tr?id=446732663104625&ev=PageView&noscript=1"
             /></noscript>
         <!-- End Facebook Pixel Code -->
     <? } ?>
