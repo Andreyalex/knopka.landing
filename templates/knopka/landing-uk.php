@@ -562,29 +562,35 @@
     </div>
 </div>
 <script>
-  var splider, spliderIdx, spliderWinWidth;
-  splider = new Splide('.splide', {
-    type: 'loop',
-    perPage: 3,
-    pagination: false,
-    arrows: false,
-    autoplay: true,
-    interval: 1,
-    speed: 10000,
-    easing: 'linear',
-    gap: '3%'
-  });
-  spliderWinWidth = $(window).width();
-  (spliderWinWidth > 640) && splider.mount();
+  var splider, spliderPrevWidth;
+
+  var getSplider = function() {
+    splider || (splider = new Splide('.splide', {
+      type: 'loop',
+      perPage: 3,
+      pagination: false,
+      arrows: false,
+      autoplay: true,
+      interval: 1,
+      speed: 10000,
+      easing: 'linear',
+      gap: '3%'
+    }));
+
+    return splider;
+  };
+
+  spliderPrevWidth = $(window).width();
+  ($(window).width() > 640) && getSplider().mount();
 
   $(window).resize(function () {
-    spliderIdx && clearTimeout(spliderIdx);
-    var spliderIdx = setTimeout(function () {
-      if (spliderWinWidth === $(window).width()) return;
-      spliderWinWidth = $(window).width();
-      splider.destroy();
-      ($(window).width() > 640) && splider.mount();
-    }, 100);
+    if (spliderPrevWidth === $(window).width()) return;
+    spliderPrevWidth = $(window).width();
+
+    splider && splider.destroy();
+    if ($(window).width() > 640) {
+        getSplider().mount();
+    }
   });
 </script>
 
