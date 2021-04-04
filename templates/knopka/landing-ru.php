@@ -499,6 +499,98 @@
         </div>
     </div>
 </div>
+
+
+<div id="slider" class="r t-rec"><!-- T225 -->
+    <div class="t-section__container t-container">
+        <div class="t-col t-col_12">
+            <div class="t-align_center">
+                <div class="t-title_lg">Мы работаем с:</div>
+            </div>
+        </div>
+    </div>
+    <div class="t-container t-align_center">
+        <div class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="text">Ремонт и строительство</div>
+                        <img src="/templates/knopka/img/works/1.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Магазины одежды</div>
+                        <img src="/templates/knopka/img/works/2.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Косметика и парфюмерия</div>
+                        <img src="/templates/knopka/img/works/16.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Кафе и рестораны</div>
+                        <img src="/templates/knopka/img/works/4.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Обучающие курсы и школы</div>
+                        <img src="/templates/knopka/img/works/7.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Салоны красоты и SPA</div>
+                        <img src="/templates/knopka/img/works/9.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Детская одежда</div>
+                        <img src="/templates/knopka/img/works/10.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Товары для животных</div>
+                        <img src="/templates/knopka/img/works/11.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Медицина и стоматология</div>
+                        <img src="/templates/knopka/img/works/8.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Кофейни</div>
+                        <img src="/templates/knopka/img/works/13.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Барбершопы</div>
+                        <img src="/templates/knopka/img/works/14.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Украшения</div>
+                        <img src="/templates/knopka/img/works/15.jpg">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var splider, spliderIdx;
+    splider = new Splide( '.splide', {
+        type   : 'loop',
+        perPage: 3,
+        pagination: false,
+        arrows: false,
+        autoplay: true,
+        interval: 1,
+        speed: 10000,
+        easing: 'linear',
+        gap: '3%'
+    });
+    ($(window).width() > 640) && splider.mount();
+
+    $(window).resize(function(){
+        spliderIdx && clearTimeout(spliderIdx);
+        var spliderIdx = setTimeout(function() {
+            splider.destroy();
+            ($(window).width() > 640) && splider.mount();
+        }, 100);
+    });
+</script>
+
+
 <div id="rec262006582" class="r t-rec" style=" " data-record-type="215"><a name="contact" style="font-size:0;"></a>
 </div>
 <div id="rec262006583" class="r t-rec"><!-- T225 -->

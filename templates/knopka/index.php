@@ -37,12 +37,14 @@ JHtml::_('stylesheet', 'template.css', array('version' => $ver, 'relative' => tr
 JHtml::_('stylesheet', '/media/jui/css/icomoon.css', array('relative' => true));
 JHtml::_('stylesheet', 'https://static.tildacdn.com/css/tilda-grid-3.0.min.css', array('relative' => false));
 JHtml::_('stylesheet', 'tilda-blocks-2.12.css', array('relative' => true));
+JHtml::_('stylesheet', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css', array('relative' => false));
 
 JHtml::_('script', 'jui/jquery.min.js', array('relative' => true));
 JHtml::_('script', 'https://static.tildacdn.com/js/tilda-scripts-2.8.min.js', array('relative' => false));
 JHtml::_('script', 'tilda-blocks-2.7.js', array('relative' => true));
 JHtml::_('script', 'https://static.tildacdn.com/js/lazyload-1.3.min.js', array('relative' => false));
 JHtml::_('script', 'https://static.tildacdn.com/js/tilda-menusub-1.0.min.js', array('relative' => false));
+JHtml::_('script', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js', array('relative' => false));
 
 ?>
 <!DOCTYPE html>
