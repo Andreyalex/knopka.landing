@@ -514,12 +514,12 @@
             <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide">
-                        <div class="text">Ремонт и строительство</div>
-                        <img src="/templates/knopka/img/works/1.jpg">
-                    </li>
-                    <li class="splide__slide">
                         <div class="text">Магазины одежды</div>
                         <img src="/templates/knopka/img/works/2.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Ремонт и строительство</div>
+                        <img src="/templates/knopka/img/works/1.jpg">
                     </li>
                     <li class="splide__slide">
                         <div class="text">Косметика и парфюмерия</div>
@@ -534,8 +534,16 @@
                         <img src="/templates/knopka/img/works/7.jpg">
                     </li>
                     <li class="splide__slide">
+                        <div class="text">Барбершопы</div>
+                        <img src="/templates/knopka/img/works/14.jpg">
+                    </li>
+                    <li class="splide__slide">
                         <div class="text">Салоны красоты и SPA</div>
                         <img src="/templates/knopka/img/works/9.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Кофейни</div>
+                        <img src="/templates/knopka/img/works/13.jpg">
                     </li>
                     <li class="splide__slide">
                         <div class="text">Детская одежда</div>
@@ -550,14 +558,6 @@
                         <img src="/templates/knopka/img/works/8.jpg">
                     </li>
                     <li class="splide__slide">
-                        <div class="text">Кофейни</div>
-                        <img src="/templates/knopka/img/works/13.jpg">
-                    </li>
-                    <li class="splide__slide">
-                        <div class="text">Барбершопы</div>
-                        <img src="/templates/knopka/img/works/14.jpg">
-                    </li>
-                    <li class="splide__slide">
                         <div class="text">Украшения</div>
                         <img src="/templates/knopka/img/works/15.jpg">
                     </li>
@@ -567,27 +567,30 @@
     </div>
 </div>
 <script>
-    var splider, spliderIdx;
-    splider = new Splide( '.splide', {
-        type   : 'loop',
-        perPage: 3,
-        pagination: false,
-        arrows: false,
-        autoplay: true,
-        interval: 1,
-        speed: 10000,
-        easing: 'linear',
-        gap: '3%'
-    });
-    ($(window).width() > 640) && splider.mount();
+  var splider, spliderIdx, spliderWinWidth;
+  splider = new Splide('.splide', {
+    type: 'loop',
+    perPage: 3,
+    pagination: false,
+    arrows: false,
+    autoplay: true,
+    interval: 1,
+    speed: 10000,
+    easing: 'linear',
+    gap: '3%'
+  });
+  spliderWinWidth = $(window).width();
+  (spliderWinWidth > 640) && splider.mount();
 
-    $(window).resize(function(){
-        spliderIdx && clearTimeout(spliderIdx);
-        var spliderIdx = setTimeout(function() {
-            splider.destroy();
-            ($(window).width() > 640) && splider.mount();
-        }, 100);
-    });
+  $(window).resize(function () {
+    spliderIdx && clearTimeout(spliderIdx);
+    var spliderIdx = setTimeout(function () {
+      if (spliderWinWidth === $(window).width()) return;
+      spliderWinWidth = $(window).width();
+      splider.destroy();
+      ($(window).width() > 640) && splider.mount();
+    }, 100);
+  });
 </script>
 
 
