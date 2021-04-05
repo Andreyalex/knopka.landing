@@ -514,52 +514,52 @@
             <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide">
-                        <div class="text">Магазины одежды</div>
-                        <img src="/templates/knopka/img/works/2.jpg">
-                    </li>
-                    <li class="splide__slide">
-                        <div class="text">Ремонт и строительство</div>
-                        <img src="/templates/knopka/img/works/1.jpg">
-                    </li>
-                    <li class="splide__slide">
-                        <div class="text">Косметика и парфюмерия</div>
-                        <img src="/templates/knopka/img/works/16.jpg">
-                    </li>
-                    <li class="splide__slide">
                         <div class="text">Кафе и рестораны</div>
                         <img src="/templates/knopka/img/works/4.jpg">
-                    </li>
-                    <li class="splide__slide">
-                        <div class="text">Обучающие курсы и школы</div>
-                        <img src="/templates/knopka/img/works/7.jpg">
-                    </li>
-                    <li class="splide__slide">
-                        <div class="text">Барбершопы</div>
-                        <img src="/templates/knopka/img/works/14.jpg">
-                    </li>
-                    <li class="splide__slide">
-                        <div class="text">Салоны красоты и SPA</div>
-                        <img src="/templates/knopka/img/works/9.jpg">
-                    </li>
-                    <li class="splide__slide">
-                        <div class="text">Кофейни</div>
-                        <img src="/templates/knopka/img/works/13.jpg">
-                    </li>
-                    <li class="splide__slide">
-                        <div class="text">Детская одежда</div>
-                        <img src="/templates/knopka/img/works/10.jpg">
                     </li>
                     <li class="splide__slide">
                         <div class="text">Товары для животных</div>
                         <img src="/templates/knopka/img/works/11.jpg">
                     </li>
                     <li class="splide__slide">
-                        <div class="text">Медицина и стоматология</div>
-                        <img src="/templates/knopka/img/works/8.jpg">
+                        <div class="text">Барбершопы</div>
+                        <img src="/templates/knopka/img/works/14.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Магазины одежды</div>
+                        <img src="/templates/knopka/img/works/2.jpg">
                     </li>
                     <li class="splide__slide">
                         <div class="text">Украшения</div>
                         <img src="/templates/knopka/img/works/15.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Салоны красоты и SPA</div>
+                        <img src="/templates/knopka/img/works/9.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Детская одежда</div>
+                        <img src="/templates/knopka/img/works/10.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Кофейни</div>
+                        <img src="/templates/knopka/img/works/13.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Обучающие курсы и школы</div>
+                        <img src="/templates/knopka/img/works/7.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Косметика и парфюмерия</div>
+                        <img src="/templates/knopka/img/works/16.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Ремонт и строительство</div>
+                        <img src="/templates/knopka/img/works/1.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Медицина и стоматология</div>
+                        <img src="/templates/knopka/img/works/8.jpg">
                     </li>
                 </ul>
             </div>
