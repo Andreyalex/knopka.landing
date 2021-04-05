@@ -79,6 +79,7 @@ JHtml::_('script', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js
 
     <script type="text/javascript">window.dataLayer = window.dataLayer || [];</script>
 
+    <? if ($_SERVER['SERVER_NAME'] == 'knopka.agency') { ?>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-188479547-1">
     </script>
@@ -111,6 +112,7 @@ JHtml::_('script', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js
     </script>
     <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=446732663104625&ev=PageView&noscript=1"/></noscript>
     <!-- End Facebook Pixel Code -->
+    <? } ?>
 </head>
 <body class="t-body <?=($isLanding? 'landing-page' : 'component-page')?> <?='menu-'.$menuItemActiveAlias?>" style="margin:0;"><!--allrecords-->
 <div id="allrecords" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="2512305"
