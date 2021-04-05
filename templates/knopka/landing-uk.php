@@ -496,6 +496,105 @@
         </div>
     </div>
 </div>
+<div id="slider" class="r t-rec"><!-- T225 -->
+    <div class="t-section__container t-container">
+        <div class="t-col t-col_12">
+            <div class="t-align_center">
+                <div class="t-title_lg">Ми працюємо з:</div>
+            </div>
+        </div>
+    </div>
+    <div class="t-container t-align_center">
+        <div class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="text">Магазини одягу</div>
+                        <img src="/templates/knopka/img/works/2.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Ремонт та будiвництво</div>
+                        <img src="/templates/knopka/img/works/1.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Косметика та парфумерія</div>
+                        <img src="/templates/knopka/img/works/16.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Кафе та ресторани</div>
+                        <img src="/templates/knopka/img/works/4.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Навчальні курси та школи</div>
+                        <img src="/templates/knopka/img/works/7.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Барбершопи</div>
+                        <img src="/templates/knopka/img/works/14.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Салони краси та SPA</div>
+                        <img src="/templates/knopka/img/works/9.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Кофейнi</div>
+                        <img src="/templates/knopka/img/works/13.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Дитячий одяг</div>
+                        <img src="/templates/knopka/img/works/10.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Товари для тварин</div>
+                        <img src="/templates/knopka/img/works/11.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Медицина та стоматологiя</div>
+                        <img src="/templates/knopka/img/works/8.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Прикраси</div>
+                        <img src="/templates/knopka/img/works/15.jpg">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+  var splider, spliderPrevWidth;
+
+  var getSplider = function() {
+    splider || (splider = new Splide('.splide', {
+      type: 'loop',
+      perPage: 3,
+      pagination: false,
+      arrows: false,
+      autoplay: true,
+      interval: 1,
+      speed: 10000,
+      easing: 'linear',
+      gap: '3%'
+    }));
+
+    return splider;
+  };
+
+  spliderPrevWidth = $(window).width();
+  ($(window).width() > 640) && getSplider().mount();
+
+  $(window).resize(function () {
+    if (spliderPrevWidth === $(window).width()) return;
+    spliderPrevWidth = $(window).width();
+
+    splider && splider.destroy();
+    if ($(window).width() > 640) {
+        getSplider().mount();
+    }
+  });
+</script>
+
+
 <div id="rec262006582" class="r t-rec" style=" " data-record-type="215"><a name="contact" style="font-size:0;"></a>
 </div>
 <div id="rec262006583" class="r t-rec"><!-- T225 -->
