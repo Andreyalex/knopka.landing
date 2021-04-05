@@ -21,6 +21,7 @@ preg_match('/^\/(ru|ua|en)/', $_SERVER['REQUEST_URI'], $matches);
 $path = $matches[1];
 $lang = $path? "/$path/" : '/';
 $anchorPrefix = $isLanding? '' : $lang;
+$config = JFactory::getConfig();
 
 // Output as HTML5
 $this->setHtml5(true);
@@ -79,7 +80,7 @@ JHtml::_('script', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js
 
     <script type="text/javascript">window.dataLayer = window.dataLayer || [];</script>
 
-    <? if ($_SERVER['SERVER_NAME'] == 'knopka.agency') { ?>
+    <? if ($config->get('advertising') == '1') { ?>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-188479547-1">
     </script>
