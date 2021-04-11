@@ -170,6 +170,7 @@ ul.dashed li {
 .t574 .email {
 	font-size: 42px;
 	line-height: 1.23;
+	color: #333333 !important;
 }
 
 @media(max-width:640px) {
@@ -693,6 +694,7 @@ ul.dashed li {
 	font-family: 'PingFang SC Regular';
 	letter-spacing: 1px;
 	text-align: right;
+	z-index: 3;
 }
 
 .first-btn {
@@ -707,6 +709,20 @@ ul.dashed li {
 	text-transform: uppercase;
 	font-size: 26px;
 	line-height: 1.3em;
+	z-index: 2;
+}
+
+.first-socials {
+    position: absolute;
+    bottom: 0;
+    right: 6%;
+	margin-bottom: 0px;
+	font-size: 56px;
+	z-index: 1;
+}
+
+.first-socials a {
+	color: #43dde0 !important;
 }
 
 .welcome-badge {
@@ -782,7 +798,11 @@ ul.dashed li {
         line-height: 1.3em;
     }
 
-    .welcome-badge {
+	.first-socials {
+		font-size: 48px;
+	}
+
+	.welcome-badge {
         font-family: 'PingFang SC Semibold';
         position: absolute;
         bottom: 0;
@@ -837,7 +857,13 @@ ul.dashed li {
         line-height: 1.3em;
     }
 
-    .welcome-badge {
+	.first-socials {
+		font-size: 34px;
+		line-height: 50px;
+		margin-bottom: 10px;
+	}
+
+	.welcome-badge {
         font-family: 'PingFang SC Semibold';
         position: absolute;
         bottom: 0;
@@ -876,9 +902,10 @@ ul.dashed li {
         margin-top: -80px;
     }
 
-    .first-btn {
-        margin-top: -40px;
-    }
+	.first-socials {
+		font-size: 32px;
+		line-height: 50px;
+	}
 }
 
 
@@ -936,7 +963,18 @@ ul.dashed li {
         width: 200px;
     }
 
-    .welcome-badge {
+	.first-socials {
+		top: 1%;
+		right: 1%;
+		font-size: 40px;
+	}
+
+	.first-socials a {
+		display: block;
+		margin: 10px;
+	}
+
+	.welcome-badge {
         font-family: 'PingFang SC Semibold';
         position: absolute;
         bottom: 0;
@@ -1008,7 +1046,14 @@ ul.dashed li {
         padding: 8px 10px;
     }
 
-    .welcome-badge {
+	.first-socials {
+		top: 1%;
+		right: 1%;
+		font-size: 28px;
+		line-height: 32px;
+	}
+
+	.welcome-badge {
         font-family: 'PingFang SC Semibold';
         position: absolute;
         bottom: 0;

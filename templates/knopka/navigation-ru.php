@@ -56,13 +56,8 @@
             <div class="t446__rightwrapper" style="padding-right:20px; padding-left:0; width:auto; text-align: right;">
                 <div class="t446__additionalwrapper">
                     <div class="t446__right_descr phone">
-                        <div style="float:left;padding-right:10px">
-                            <span style="font-size:30px;line-height:30px;" class="icon-mobile"></span>
-                        </div>
-                        <div style="float:right;">
-                            <div style="line-height:20px;font-size:20px;">
-                                <a href="tel:+380505080852">+38 (050) 50 808 52</a>
-                            </div>
+                        <div style="line-height:20px;font-size:20px;">
+                            <a href="tel:+380505080852">+38 (050) 50 808 52</a>
                         </div>
                     </div>
                     <div class="position-langs">
