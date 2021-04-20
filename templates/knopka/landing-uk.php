@@ -518,6 +518,18 @@
             <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide">
+                        <div class="text">Центри вiдпочинку</div>
+                        <img src="/templates/knopka/img/works/19.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Готелi</div>
+                        <img src="/templates/knopka/img/works/17.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text">Тренувальнi зали</div>
+                        <img src="/templates/knopka/img/works/18.jpg">
+                    </li>
+                    <li class="splide__slide">
                         <div class="text">Кафе та ресторани</div>
                         <img src="/templates/knopka/img/works/4.jpg">
                     </li>
