@@ -14,7 +14,7 @@ defined('_JEXEC') or die;
 /** @var \Joomla\CMS\Application\CMSApplication $app */
 $app = JFactory::getApplication();
 $menuItemActive = $app->getMenu()->getActive();
-$locale = $menuItemActive->get('language');
+$locale = $menuItemActive? $menuItemActive->get('language') : 'uk-UA';
 $menuItemActiveAlias = $menuItemActive->alias;
 $isLanding = in_array($menuItemActiveAlias, ['home', 'home-ua', 'home-ru']);
 preg_match('/^\/(ru|ua|en)/', $_SERVER['REQUEST_URI'], $matches);
@@ -143,6 +143,39 @@ JHtml::_('script', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js
 <? $locale == 'uk-UA'? include('footer-uk.php') : include('footer-ru.php'); ?>
 
 </div><!--/allrecords-->
+
+<div class="position-contact">
+    <jdoc:include type="modules" name="position-contact" />
+</div>
+<script>
+    $(document).ready(function() {
+
+        var canCloseFlag = true;
+
+        $('#cf_3').hide();
+
+        $('#floatingbtn .jfab_main_btn').click(function(){
+            $('#cf_3').fadeOut();
+        })
+
+        $($('#floatingbtn .sub_fab_btn')[2]).mousedown(function(){
+            canCloseFlag = false;
+            $('#cf_3').show();
+            $('#cf_3 #form3_tel_3').focus();
+            setTimeout(function(){
+                canCloseFlag = true;
+            }, 200)
+        })
+
+        $(document).click(function(event) {
+            if (canCloseFlag && !$(event.target).closest("#cf_3").length) {
+                $('#cf_3').hide();
+            }
+        });
+    })
+</script>
+
+
 <jdoc:include type="modules" name="debug" />
 </body>
 </html>
