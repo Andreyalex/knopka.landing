@@ -155,14 +155,14 @@ JHtml::_('script', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js
         $('.position-contact .convertforms').hide();
 
         $('#floatingbtn .jfab_main_btn').click(function(){
-            $('#cf_3').fadeOut();
+            $('.position-contact .convertforms').fadeOut();
         })
 
         $($('#floatingbtn .sub_fab_btn')[2]).mousedown(function(){
             canCloseFlag = false;
             $('.position-contact .convertforms').show();
-            $('.position-contact .convertforms #form3_tel_3').focus();
             setTimeout(function(){
+                $('.position-contact .convertforms input[type="tel"]').focus();
                 canCloseFlag = true;
             }, 200)
         })
