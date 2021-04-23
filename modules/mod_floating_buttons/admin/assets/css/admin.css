@@ -1,0 +1,55 @@
+/* custom field : slider */
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+.main_item_icon input, .child_item_icon input {
+	display: none !important;
+}
+
+.main_item_icon label,.child_item_icon label {
+	margin-left: -20px !important;
+	display: inline-block;
+	margin-right: 40px;
+	opacity: 0.6;
+	border: 2px solid white;
+	font-family: 'Material Icons';
+    font-size: 40px;
+	line-height: 38px;
+	padding: 0!important;
+}
+.child_item_icon label {
+	font-size: 25px;
+	line-height: 25px;
+}
+.main_item_icon label img , .child_item_icon label img{
+	width: 200px;
+}
+
+.main_item_icon label:hover, .child_item_icon label:hover {
+	opacity: 1;
+}
+
+.main_item_icon>input:checked+label , .child_item_icon>input:checked+label{
+	border: 2px solid red;
+	border-radius: 4px;
+	opacity: 1;
+	font-weight: 700;
+	position: relative;
+	
+}
+
+.main_item_icon>input:checked+label:before,.child_item_icon>input:checked+label:before {
+	display: block;
+	position: absolute;
+	border-radius: 50%;
+	content: '';
+	width: 10px;
+	height: 10px;
+	background: red;
+	left: -5px;
+	bottom: -5px;
+}
+
+/*j4*/
+.card-body .main_item_icon input, .card-body .child_item_icon input {
+	display: inline-block !important;
+	margin-left: 20px!important;
+}
