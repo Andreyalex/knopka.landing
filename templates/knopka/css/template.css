@@ -1191,8 +1191,7 @@ ul.dashed li {
 	}
 }
 
-
-#cf_3 {
+.position-contact .convertforms {
 	margin: 0 !important;
 	position: fixed;
 	bottom: 100px;
@@ -1204,26 +1203,25 @@ ul.dashed li {
 	background: rgba(255, 255, 255, 0.95) !important;
 }
 
-#cf_3 .cf-form-wrap {
+.position-contact .convertforms .cf-form-wrap {
 	padding: 0;
 }
 
-#cf_3 .cf-fields {
+.position-contact .convertforms .cf-fields {
 	margin: 0 !important;
 }
 
-#cf_3 .cf-control-group {
+.position-contact .convertforms .cf-control-group {
 	margin: 0 !important;
 }
 
-#cf_3 .cf-control-input {
+.position-contact .convertforms .cf-control-input {
 	margin: 0 !important;
 }
 
-#cf_3 .cf-text-left {
+.position-contact .convertforms .cf-text-left {
 	margin: 0 !important;
 }
-
 
 .t446__mobile_container .socials {
 	display: none;
