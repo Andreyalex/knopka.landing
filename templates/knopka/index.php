@@ -152,7 +152,7 @@ JHtml::_('script', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js
 
         var canCloseFlag = true;
 
-        $('#cf_3').hide();
+        $('.position-contact .convertforms').hide();
 
         $('#floatingbtn .jfab_main_btn').click(function(){
             $('#cf_3').fadeOut();
@@ -160,16 +160,16 @@ JHtml::_('script', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js
 
         $($('#floatingbtn .sub_fab_btn')[2]).mousedown(function(){
             canCloseFlag = false;
-            $('#cf_3').show();
-            $('#cf_3 #form3_tel_3').focus();
+            $('.position-contact .convertforms').show();
+            $('.position-contact .convertforms #form3_tel_3').focus();
             setTimeout(function(){
                 canCloseFlag = true;
             }, 200)
         })
 
         $(document).click(function(event) {
-            if (canCloseFlag && !$(event.target).closest("#cf_3").length) {
-                $('#cf_3').hide();
+            if (canCloseFlag && !$(event.target).closest(".position-contact .convertforms").length) {
+                $('.position-contact .convertforms').hide();
             }
         });
     })
