@@ -11,8 +11,8 @@
                 <div class="first-title-text">Digital агентство</div>
             </div>
             <div class="first-descr">
-                <div style="letter-spacing: 1.11px;">Помогаем зарабатывать больше</div>
-                <div>Продвигаем бизнесы в соцсетях</div>
+                <div style="letter-spacing: 1.11px;">Ведём аккаунты красиво</div>
+                <div>Настраиваем таргет эффективно</div>
             </div>
             <div class="first-btn">
                 <a style="color:#111111" href="/order">Связаться c нами</a>
