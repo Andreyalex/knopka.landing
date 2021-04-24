@@ -21,8 +21,8 @@ defined('_JEXEC') or die;
                 "color":"<?php echo $main_item_color;?>",
             },
             <?php 
-            foreach ($child_item_items as $item) : 
-               if(in_array($item->access, $levels)) : 
+            foreach ($child_item_items as $item) :
+               if(in_array($item->access, $levels)) :
                 $child_item_icon_custom = $item->child_item_icon_custom;
                 if($child_item_icon_custom){
                     $child_item_icon = "<img class='child_item_icon_custom' src='".JURI::base(true)."/".$item->child_item_icon_custom."' alt=''/>";
@@ -35,7 +35,8 @@ defined('_JEXEC') or die;
                 "url":"<?php echo $item->child_item_url; ?>",
                 "bgcolor":"<?php echo $item->child_item_bgcolor; ?>",
                 "color":"<?php echo $item->child_item_color; ?>",
-                "icon":"<?php echo $child_item_icon; ?>"
+                "icon":"<?php echo $child_item_icon; ?>",
+                "target": "_blank"
             },
             <?php 
                 endif; 
