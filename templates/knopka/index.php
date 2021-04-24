@@ -172,6 +172,39 @@ JHtml::_('script', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js
                 $('.position-contact .convertforms').hide();
             }
         });
+
+        setTimeout(function() {
+
+            var btn = $('#floatingbtn .jfab_main_btn');
+
+            btn.css('transition', '0s');
+            btn
+                .animate({'margin-right': 15}, 70, 'linear')
+                .animate({'margin-right': 0}, 70, 'linear')
+                .animate({'margin-right': 15}, 70, 'linear')
+                .animate({'margin-right': 0}, 70, 'linear');
+
+            setTimeout(function() {
+                btn
+                    .animate({'margin-right': 15}, 70, 'linear')
+                    .animate({'margin-right': 0}, 70, 'linear')
+                    .animate({'margin-right': 15}, 70, 'linear')
+                    .animate({'margin-right': 0}, 70, 'linear');
+            }, 500);
+
+            setTimeout(function() {
+                btn
+                    .animate({'margin-right': 15}, 70, 'linear')
+                    .animate({'margin-right': 0}, 70, 'linear')
+                    .animate({'margin-right': 15}, 70, 'linear')
+                    .animate({'margin-right': 0}, 70, 'linear', function () {
+                        setTimeout(function () {
+                            btn.css('transition', '')
+                        }, 300);
+                    });
+            }, 1000);
+
+        }, 5000);
     })
 </script>
 

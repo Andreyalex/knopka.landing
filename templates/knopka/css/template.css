@@ -1239,3 +1239,7 @@ ul.dashed li {
 		padding: 0 5px;
 	}
 }
+
+.tooltip_light .jfab_tooltip {
+	background: rgba(255,255,255,0.95) !important;
+}
