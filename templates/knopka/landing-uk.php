@@ -11,8 +11,8 @@
                 <div class="first-title-text">Digital агентство</div>
             </div>
             <div class="first-descr">
-                <div style="letter-spacing: 1.11px;">Допомагаємо заробляти більше</div>
-                <div>Просуваємо бізнеси в соцмережах</div>
+                <div style="letter-spacing: 1.11px;">Ведемо акаунти красиво</div>
+                <div>Налаштовуємо таргет ефективно</div>
             </div>
             <div class="first-btn">
                 <a style="color:#111111" href="/order">Зв'язатися з нами</a>
@@ -23,9 +23,9 @@
             </div>
             <div class="welcome-badge">
                 <a class="welcome-text" style="color:#111111" href="#about">Давайте познайомимося</a>
-                <div class="wellcome-arrow" style="float: right; position: relative; top: 0;">
+                <a class="welcome-arrow" style="float: right; position: relative; top: 0;" href="#about">
                     <i class="bi bi-arrow-down"></i>
-                </div>
+                </a>
             </div>
         </div>
     </div>
@@ -40,9 +40,10 @@
                 h = $( window ).height(),
                 w = $( window ).width();
             switch(true) {
-                case (w > 1440): (h < 540) && (h = 540); break;
+                case (w > 1440): (h < 600) && (h = 600); break;
                 case (w >  960): (h < 460) && (h = 460); break;
-                case (w <= 980): (h < 460) && (h = 460); h-=64; break;
+                case (w >  460): (h < 460) && (h = 460); h-=64; break;
+                case (w <= 460): (h < 500) && (h = 500); h-=64; break;
             }
             el.height(h);
         };
@@ -55,7 +56,7 @@
 
 
         var loop = function() {
-            var arrow = $('.wellcome-arrow');
+            var arrow = $('.welcome-arrow');
             var top = arrow.position().top;
             top = (top === 0)? -10 : 0;
             arrow.animate({top: top}, 500, 'swing', loop);

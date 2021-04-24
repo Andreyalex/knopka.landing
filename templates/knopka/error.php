@@ -111,7 +111,7 @@ if ($this->error->getCode() == 404) {
 <div id="allrecords" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="2512305"
      data-tilda-page-id="16032892" data-tilda-formskey="eed1b1688abf305dccd909096825c12e">
 
-    <? include('navigation.php') ?>
+    <? include(JPATH_ROOT . '/templates/knopka/navigation-uk.php') ?>
 
     <div class="r t-rec t-rec_pt_70 t-rec_pb_60 component_wrapper"
          style="padding-top:70px;" data-record-type="480"

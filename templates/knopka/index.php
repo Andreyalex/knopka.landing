@@ -14,7 +14,7 @@ defined('_JEXEC') or die;
 /** @var \Joomla\CMS\Application\CMSApplication $app */
 $app = JFactory::getApplication();
 $menuItemActive = $app->getMenu()->getActive();
-$locale = $menuItemActive->get('language');
+$locale = $menuItemActive? $menuItemActive->get('language') : 'uk-UA';
 $menuItemActiveAlias = $menuItemActive->alias;
 $isLanding = in_array($menuItemActiveAlias, ['home', 'home-ua', 'home-ru']);
 preg_match('/^\/(ru|ua|en)/', $_SERVER['REQUEST_URI'], $matches);
@@ -32,7 +32,7 @@ $this->setHtml5(true);
 $doc = $app->getDocument();
 $doc->setMetaData('author', 'Knopka.agency');
 
-$ver = '0.9.6';
+$ver = '0.9.8';
 
 JHtml::_('stylesheet', 'template.css', array('version' => $ver, 'relative' => true));
 JHtml::_('stylesheet', '/media/jui/css/icomoon.css', array('relative' => true));
@@ -143,6 +143,72 @@ JHtml::_('script', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js
 <? $locale == 'uk-UA'? include('footer-uk.php') : include('footer-ru.php'); ?>
 
 </div><!--/allrecords-->
+
+<div class="position-contact">
+    <jdoc:include type="modules" name="position-contact" />
+</div>
+<script>
+    $(document).ready(function() {
+
+        var canCloseFlag = true;
+
+        $('.position-contact .convertforms').hide();
+
+        $('#floatingbtn .jfab_main_btn').click(function(){
+            $('.position-contact .convertforms').fadeOut();
+        })
+
+        $($('#floatingbtn .sub_fab_btn')[2]).mousedown(function(){
+            canCloseFlag = false;
+            $('.position-contact .convertforms').show();
+            setTimeout(function(){
+                $('.position-contact .convertforms input[type="tel"]').focus();
+                canCloseFlag = true;
+            }, 200)
+        })
+
+        $(document).click(function(event) {
+            if (canCloseFlag && !$(event.target).closest(".position-contact .convertforms").length) {
+                $('.position-contact .convertforms').hide();
+            }
+        });
+
+        setTimeout(function() {
+
+            var btn = $('#floatingbtn .jfab_main_btn');
+
+            btn.css('transition', '0s');
+            btn
+                .animate({'margin-right': 15}, 70, 'linear')
+                .animate({'margin-right': 0}, 70, 'linear')
+                .animate({'margin-right': 15}, 70, 'linear')
+                .animate({'margin-right': 0}, 70, 'linear');
+
+            setTimeout(function() {
+                btn
+                    .animate({'margin-right': 15}, 70, 'linear')
+                    .animate({'margin-right': 0}, 70, 'linear')
+                    .animate({'margin-right': 15}, 70, 'linear')
+                    .animate({'margin-right': 0}, 70, 'linear');
+            }, 500);
+
+            setTimeout(function() {
+                btn
+                    .animate({'margin-right': 15}, 70, 'linear')
+                    .animate({'margin-right': 0}, 70, 'linear')
+                    .animate({'margin-right': 15}, 70, 'linear')
+                    .animate({'margin-right': 0}, 70, 'linear', function () {
+                        setTimeout(function () {
+                            btn.css('transition', '')
+                        }, 300);
+                    });
+            }, 1000);
+
+        }, 5000);
+    })
+</script>
+
+
 <jdoc:include type="modules" name="debug" />
 </body>
 </html>

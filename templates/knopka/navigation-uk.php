@@ -3,12 +3,17 @@
     <div class="t446__mobile">
         <div class="t446__mobile_container">
             <div class="t446__mobile_text t-name t-name_md" field="text">
-                <a href="/"><img
-                            src="https://static.tildacdn.com/tild3839-3161-4430-a335-636637303332/_.png"
-                            class="t446__imglogo t446__imglogomobile" imgfield="img"
-                            style="max-width: 70px; width: 70px;" alt=""></a>
+                <a href="/"><img src="/templates/knopka/images/logo.png"
+                    class="t446__imglogo t446__imglogomobile" imgfield="img"
+                    style="max-width: 40px; width: 40px;" alt=""></a>
             </div>
             <div class="t446__mobile_burger"><span></span> <span></span> <span></span> <span></span></div>
+
+            <div class="socials">
+                <a href="http://facebook.com/knopka.agency" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="http://instagram.com/knopka.agency" target="_blank"><i class="bi bi-instagram"></i></a>
+            </div>
+
         </div>
     </div>
 
