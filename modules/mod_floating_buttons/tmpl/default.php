@@ -36,7 +36,7 @@ defined('_JEXEC') or die;
                 "bgcolor":"<?php echo $item->child_item_bgcolor; ?>",
                 "color":"<?php echo $item->child_item_color; ?>",
                 "icon":"<?php echo $child_item_icon; ?>",
-                "target": "_blank"
+                //"target": "_blank"
             },
             <?php 
                 endif; 
