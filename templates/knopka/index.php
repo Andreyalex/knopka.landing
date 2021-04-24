@@ -32,7 +32,7 @@ $this->setHtml5(true);
 $doc = $app->getDocument();
 $doc->setMetaData('author', 'Knopka.agency');
 
-$ver = '0.9.6';
+$ver = '0.9.8';
 
 JHtml::_('stylesheet', 'template.css', array('version' => $ver, 'relative' => true));
 JHtml::_('stylesheet', '/media/jui/css/icomoon.css', array('relative' => true));
