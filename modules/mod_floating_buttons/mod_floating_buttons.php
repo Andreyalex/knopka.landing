@@ -42,7 +42,7 @@ if($main_item_position){
     }
     ");
 }
-$doc->addStyleSheet('https://fonts.googleapis.com/icon?family=Material+Icons');
+//$doc->addStyleSheet('https://fonts.googleapis.com/icon?family=Material+Icons');
 $doc->addScript(JURI::root()."modules/mod_floating_buttons/assets/js/script.min.js");
 $main_item_bgcolor		    = $params->get("main_item_bgcolor","#4285F4");
 $main_item_icon		        = $params->get("main_item_icon","&#xE145;");
