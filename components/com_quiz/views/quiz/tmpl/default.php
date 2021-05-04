@@ -172,6 +172,11 @@ defined('_JEXEC') or die;
         background: rgba(255, 255, 255, 0.7);
         height: 500px;
     }
+
+    .knp-submit.knp-selected {
+        background-color: green;
+    }
+
 </style>
 
 <script>
