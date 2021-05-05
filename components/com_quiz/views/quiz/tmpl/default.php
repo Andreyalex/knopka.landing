@@ -38,21 +38,15 @@ include_once(JPATH_ADMINISTRATOR . '/components/com_convertforms/autoload.php');
                         <li>Обувь</li>
                         <li>Косметика</li>
                         <li>Косметологические услуги</li>
-                    </ul>
-                </div>
-                <div class="knp-block">
-                    <ul class="dashed">
-                        <li>Товары для детей</li>
                         <li>Товары для женщин</li>
                     </ul>
-                </div>
-                <div class="knp-block">
-                    <ul class="dashed"><li>Товары для животных</li></ul>
                 </div>
                 <div class="knp-block">
                     <ul class="dashed">
                         <li>Еда</li>
                         <li>Отдых</li>
+                        <li>Товары для детей</li>
+                        <li>Товары для животных</li>
                     </ul>
                 </div>
             </div>
@@ -62,7 +56,6 @@ include_once(JPATH_ADMINISTRATOR . '/components/com_convertforms/autoload.php');
             <input class="knp-answer knp-submit" type="button" value="Нет" data-score="3,4" />
         </div>
         <div class="knp-bottom">
-            <div></div>
             <div class="knp-next"></div>
         </div>
     </div>
@@ -98,7 +91,7 @@ include_once(JPATH_ADMINISTRATOR . '/components/com_convertforms/autoload.php');
 
     <div class="knp-item knp-step" data-id="4">
             <div class="knp-question">
-                Является ли вашбизнес сезонным?
+                Является ли Ваш бизнес сезонным?
             </div>
             <div class="knp-answers">
                 <input class="knp-answer knp-submit" type="button" value="Да" data-score="3,4" />
@@ -190,54 +183,54 @@ include_once(JPATH_ADMINISTRATOR . '/components/com_convertforms/autoload.php');
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        flex-basis: 70%;
         padding: 40px 20px 20px;
-        font-size: 24px;
+        font-size: 36px;
         text-align: center;
     }
 
     .knp-answers {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        flex-wrap: wrap;
+        justify-content: space-around;
         align-items: center;
-        flex-basis: 15%;
-        min-height: 108px;
-        padding: 0 20px;
+        padding: 20px 0;
     }
 
     .knp-bottom {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
-        flex-basis: 15%;
-        min-height: 108px;
-        padding: 0 40px 40px;
+        padding: 20px 0 40px;
     }
 
     .knp-next {
-        width: 20%;
+        min-width: 20%;
         height: 68px;
-        clip-path:polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%, 10% 50%);
+        clip-path:polygon(0 0, 80% 0, 100% 50%, 80% 100%, 0 100%, 20% 50%);
         background-color: rgba(255, 255, 255, 0.7);
     }
 
     .knp-prev {
-        width: 20%;
+        flex-basis: 20%;
+        margin: 10px;
         height: 68px;
-        clip-path:polygon(10% 0, 100% 0, 90% 50%, 100% 100%, 10% 100%, 0% 50%);
+        clip-path:polygon(20% 0, 100% 0, 80% 50%, 100% 100%, 20% 100%, 0% 50%);
         background-color: rgba(255, 255, 255, 0.7);
     }
 
     .knp-submit {
+        flex-basis: 20%;
+        flex-grow: 1;
+        margin: 10px 20px;
+        padding: 20px;
         border: none;
         background: rgba(67, 221, 224, 1);
-        padding: 20px 40px;
         color: #ffffff;
         font-size: 24px;
         text-transform: uppercase;
-        width: 20%;
+        max-width: 570px;
     }
 
     .knp-submit.knp-selected {
@@ -248,26 +241,52 @@ include_once(JPATH_ADMINISTRATOR . '/components/com_convertforms/autoload.php');
     .knp-blocks {
         display:flex;
         flex-direction:row;
-        justify-content:center;
+        justify-content:space-between;
         flex-wrap:wrap;
         font-size: 18px;
+        width: 100%;
+        margin-top: 20px;
     }
 
     .knp-block {
         display: flex;
+        flex-basis: 40%;
+        flex-grow: 1;
         justify-content: space-evenly;
         flex-direction: column;
         background: rgba(255, 255, 255, 0.3);
-        margin: 0 2.5% 5%;
-        flex-grow: 0;
-        flex-basis: 40%;
-        flex-shrink: 0;
+        margin: 10px 20px;
     }
 
     .knp-block ul {
         text-align: left;
-        display: inline-block;
-        margin: 20px 20px 20px 40px;
+        margin: 20px 40px 20px 40px;
+        font-size: 16px;
+    }
+
+    .knp-block ul li {
+        line-height:18px;
+        margin: 4px 0 4px;
+    }
+
+    @media(max-width: 640px) {
+        .knp-quiz .knp-question {
+            font-size: 28px;
+        }
+
+        .knp-block ul {
+            margin: 10px 10px 10px 20px;
+        }
+    }
+
+    @media(max-width: 500px) {
+        .knp-block {
+            width: 100%;
+        }
+        .knp-block ul {
+            flex-basis: 100%;
+            margin: 10px 10px 10px 10%;
+        }
     }
 
 </style>
@@ -339,18 +358,20 @@ include_once(JPATH_ADMINISTRATOR . '/components/com_convertforms/autoload.php');
     var showNextItem = function(current) {
         var next = current.next();
         if (!next.length || !state[next.data('id')].canView) return;
+        next.css('display', 'flex');
         next.css('margin-left', '100%');
         onShowItem(next);
-        current.animate({'margin-left': '-100%'}, 500, 'swing');
+        current.animate({'margin-left': '-100%'}, 500, 'swing', function() { current.css({'display': 'none'}); });
         next.animate({'margin-left': '0%'}, 500);
     };
 
     var showPrevItem = function(current) {
         var prev = current.prev();
         if (!prev.length || !state[prev.data('id')].canView) return;
+        prev.css('display', 'flex');
         prev.css('margin-left', '-100%');
         onShowItem(prev);
-        current.animate({'margin-left': '100%'}, 500, 'swing');
+        current.animate({'margin-left': '100%'}, 500, 'swing', function() { current.css({'display': 'none'}); });
         prev.animate({'margin-left': '0%'}, 500);
     };
 
@@ -411,7 +432,12 @@ include_once(JPATH_ADMINISTRATOR . '/components/com_convertforms/autoload.php');
         });
 
         // UI initialization
-        var firstPanel = $($('.knp-quiz .knp-item')[0]);
+        var h = $('.knp-quiz').height();
+        $('.knp-quiz').height(h); // Fix the max height that is on start
+
+        var panels = $('.knp-quiz .knp-item');
+        panels.css({'display': 'none'});
+        var firstPanel = $(panels[0]);
         firstPanel.show();
         onShowItem(firstPanel);
     });
