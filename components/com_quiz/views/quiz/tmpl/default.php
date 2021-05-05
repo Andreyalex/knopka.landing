@@ -27,7 +27,8 @@ include_once(JPATH_ADMINISTRATOR . '/components/com_convertforms/autoload.php');
     </div>
 
     <div class="knp-item knp-step" data-id="1">
-            <div class="knp-question">
+        <div class="knp-question">
+            <div>
                 <span>Относится ли Ваш бизнес к одной из этих ниш?</span>
             </div>
             <div class="knp-blocks">
@@ -55,14 +56,15 @@ include_once(JPATH_ADMINISTRATOR . '/components/com_convertforms/autoload.php');
                     </ul>
                 </div>
             </div>
-            <div class="knp-answers">
-                <input class="knp-answer knp-submit" type="button" value="Да" data-score="1" />
-                <input class="knp-answer knp-submit" type="button" value="Нет" data-score="3,4" />
-            </div>
-            <div class="knp-bottom">
-                <div></div>
-                <div class="knp-next"></div>
-            </div>
+        </div>
+        <div class="knp-answers">
+            <input class="knp-answer knp-submit" type="button" value="Да" data-score="1" />
+            <input class="knp-answer knp-submit" type="button" value="Нет" data-score="3,4" />
+        </div>
+        <div class="knp-bottom">
+            <div></div>
+            <div class="knp-next"></div>
+        </div>
     </div>
 
     <div class="knp-item knp-step" data-id="2">
@@ -138,6 +140,7 @@ include_once(JPATH_ADMINISTRATOR . '/components/com_convertforms/autoload.php');
     </div>
 
     <div class="knp-item knp-finish" data-id="finish">
+        <div class="knp-question">
             <div>Отлично!</div>
             <div class="knp-case-single">На основании Ваших ответов мы сделали вывод, что Вам лучше всего подходит</div>
             <div class="knp-case-multiple">На основании Ваших ответов мы сделали вывод, что Вам одинаково хорошо подходят</div>
@@ -163,6 +166,7 @@ include_once(JPATH_ADMINISTRATOR . '/components/com_convertforms/autoload.php');
                 <div class="knp-prev"></div>
             </div>
         </div>
+    </div>
 </div>
 
 <style>
@@ -177,58 +181,56 @@ include_once(JPATH_ADMINISTRATOR . '/components/com_convertforms/autoload.php');
         display: flex;
         width: 100%;
         flex-shrink: 0;
-        flex-grow: 0;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     .knp-question {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
+        flex-basis: 70%;
+        padding: 40px 20px 20px;
         font-size: 24px;
-        margin:7% 10% 3%;
         text-align: center;
-        flex-grow: 10;
     }
 
     .knp-answers {
         display: flex;
-        justify-content: space-evenly;
         flex-direction: row;
-        height: 10%;
-        flex-shrink: 0;
-        flex-grow: 0;
-        text-align: center;
-        margin: 3% 10% 3%;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-basis: 15%;
+        min-height: 108px;
+        padding: 0 20px;
     }
 
     .knp-bottom {
         display: flex;
-        justify-content: space-between;
         flex-direction: row;
-        height: 10%;
-        flex-shrink: 0;
-        flex-grow: 0;
-        margin: 3% 10% 7%;
+        justify-content: space-between;
+        align-items: center;
+        flex-basis: 15%;
+        min-height: 108px;
+        padding: 0 40px 40px;
     }
 
     .knp-next {
         width: 20%;
-        height: 100%;
+        height: 68px;
         clip-path:polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%, 10% 50%);
         background-color: rgba(255, 255, 255, 0.7);
     }
 
     .knp-prev {
         width: 20%;
-        height: 100%;
+        height: 68px;
         clip-path:polygon(10% 0, 100% 0, 90% 50%, 100% 100%, 10% 100%, 0% 50%);
         background-color: rgba(255, 255, 255, 0.7);
     }
 
     .knp-submit {
-        display: inline-block;
         border: none;
         background: rgba(67, 221, 224, 1);
         padding: 20px 40px;
