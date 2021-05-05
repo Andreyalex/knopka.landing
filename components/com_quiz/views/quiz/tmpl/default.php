@@ -15,7 +15,7 @@ include_once(JPATH_ADMINISTRATOR . '/components/com_convertforms/autoload.php');
 
 <div class="knp-quiz">
 
-    <div class="knp-item knp-start" data-id="start">
+    <div class="knp-item knp-start" data-id="start" style="justify-content: center">
             <div class="knp-question">
                 Давайте выберем способ продвижения, наиболее подходящий именно Вам!
             </div>
@@ -135,8 +135,8 @@ include_once(JPATH_ADMINISTRATOR . '/components/com_convertforms/autoload.php');
     <div class="knp-item knp-finish" data-id="finish">
         <div class="knp-question">
             <div>Отлично!</div>
-            <div class="knp-case-single">На основании Ваших ответов мы сделали вывод, что Вам лучше всего подходит</div>
-            <div class="knp-case-multiple">На основании Ваших ответов мы сделали вывод, что Вам одинаково хорошо подходят</div>
+            <div class="knp-case-single" style="display:none;">На основании Ваших ответов мы сделали вывод, что Вам лучше всего подходит</div>
+            <div class="knp-case-multiple" style="display:none;">На основании Ваших ответов мы сделали вывод, что Вам одинаково хорошо подходят</div>
             <div class="knp-result" data-id="1">
                 Instagram
             </div>
@@ -168,6 +168,7 @@ include_once(JPATH_ADMINISTRATOR . '/components/com_convertforms/autoload.php');
         align-items: stretch;
         overflow: hidden;
         background: rgba(255, 255, 255, 0.1);
+        transition: height 1s
     }
 
     .knp-item {
