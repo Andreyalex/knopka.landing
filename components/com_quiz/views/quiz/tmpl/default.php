@@ -9,43 +9,63 @@
 
 defined('_JEXEC') or die;
 
+// Initialize Convert Forms Library
+include_once(JPATH_ADMINISTRATOR . '/components/com_convertforms/autoload.php');
 ?>
 
 <div class="knp-quiz">
 
     <div class="knp-item knp-start" data-id="start">
-        <div class="knp-panel">
-            <div>
+            <div class="knp-question">
                 Давайте выберем способ продвижения, наиболее подходящий именно Вам!
             </div>
-            <div>
+            <div class="knp-bottom">
+                <div></div>
                 <input class="knp-submit" type="button" value="Начать" />
+                <div></div>
             </div>
-        </div>
     </div>
 
     <div class="knp-item knp-step" data-id="1">
-        <div class="knp-panel">
             <div class="knp-question">
-                Относится ли Ваш бизнес к одной из ниш
-                <div>Одежда, обувь, косметика, косметологические услуги</div>
-                <div>Еда</div>
-                <div>Товары для детей, товары для женщин</div>
-                <div>Товары для животных</div>
-                <div>Отдых</div>
+                <span>Относится ли Ваш бизнес к одной из этих ниш?</span>
+            </div>
+            <div class="knp-blocks">
+                <div class="knp-block">
+                    <ul class="dashed">
+                        <li>Одежда</li>
+                        <li>Обувь</li>
+                        <li>Косметика</li>
+                        <li>Косметологические услуги</li>
+                    </ul>
+                </div>
+                <div class="knp-block">
+                    <ul class="dashed">
+                        <li>Товары для детей</li>
+                        <li>Товары для женщин</li>
+                    </ul>
+                </div>
+                <div class="knp-block">
+                    <ul class="dashed"><li>Товары для животных</li></ul>
+                </div>
+                <div class="knp-block">
+                    <ul class="dashed">
+                        <li>Еда</li>
+                        <li>Отдых</li>
+                    </ul>
+                </div>
             </div>
             <div class="knp-answers">
                 <input class="knp-answer knp-submit" type="button" value="Да" data-score="1" />
                 <input class="knp-answer knp-submit" type="button" value="Нет" data-score="3,4" />
             </div>
-            <div>
-                <input class="knp-next" type="button" value="Вперед" />
+            <div class="knp-bottom">
+                <div></div>
+                <div class="knp-next"></div>
             </div>
-        </div>
     </div>
 
     <div class="knp-item knp-step" data-id="2">
-        <div class="knp-panel">
             <div class="knp-question">
                 Есть ли у вас сайт?
             </div>
@@ -53,17 +73,13 @@ defined('_JEXEC') or die;
                 <input class="knp-answer knp-submit" type="button" value="Да" data-score="1,2,3" />
                 <input class="knp-answer knp-submit" type="button" value="Нет" data-score="1,2,4" />
             </div>
-            <div>
-                <input class="knp-prev" type="button" value="Назад" />
+            <div class="knp-bottom">
+                <div class="knp-prev"></div>
+                <div class="knp-next"></div>
             </div>
-            <div>
-                <input class="knp-next" type="button" value="Вперед" />
-            </div>
-        </div>
     </div>
 
     <div class="knp-item knp-step" data-id="3">
-        <div class="knp-panel">
             <div class="knp-question">
                 Какой возраст у ваших клиентов?
             </div>
@@ -72,17 +88,13 @@ defined('_JEXEC') or die;
                 <input class="knp-answer knp-submit" type="button" value="35 - 46 лет" data-score="3,2,4" />
                 <input class="knp-answer knp-submit" type="button" value="47 - 60 лет" data-score="2,3,4" />
             </div>
-            <div>
-                <input class="knp-prev" type="button" value="Назад" />
+            <div class="knp-bottom">
+                <div class="knp-prev"></div>
+                <div class="knp-next"></div>
             </div>
-            <div>
-                <input class="knp-next" type="button" value="Вперед" />
-            </div>
-        </div>
     </div>
 
     <div class="knp-item knp-step" data-id="4">
-        <div class="knp-panel">
             <div class="knp-question">
                 Является ли вашбизнес сезонным?
             </div>
@@ -90,17 +102,13 @@ defined('_JEXEC') or die;
                 <input class="knp-answer knp-submit" type="button" value="Да" data-score="3,4" />
                 <input class="knp-answer knp-submit" type="button" value="Нет" data-score="1,2" />
             </div>
-            <div>
-                <input class="knp-prev" type="button" value="Назад" />
+            <div class="knp-bottom">
+                <div class="knp-prev"></div>
+                <div class="knp-next"></div>
             </div>
-            <div>
-                <input class="knp-next" type="button" value="Вперед" />
-            </div>
-        </div>
     </div>
 
     <div class="knp-item knp-step" data-id="5">
-        <div class="knp-panel">
             <div class="knp-question">
                 Получаете ли вы с одного человека в своем бизнесе доход более $20 ?
             </div>
@@ -108,17 +116,13 @@ defined('_JEXEC') or die;
                 <input class="knp-answer knp-submit" type="button" value="Да" data-score="1,2,3,4" />
                 <input class="knp-answer knp-submit" type="button" value="Нет" data-score="4" />
             </div>
-            <div>
-                <input class="knp-prev" type="button" value="Назад" />
+            <div class="knp-bottom">
+                <div class="knp-prev"></div>
+                <div class="knp-next"></div>
             </div>
-            <div>
-                <input class="knp-next" type="button" value="Вперед" />
-            </div>
-        </div>
     </div>
 
     <div class="knp-item knp-step" data-id="6">
-        <div class="knp-panel">
             <div class="knp-question">
                 Сколько покупок у Вас, в среднем, совершает один клиент?
             </div>
@@ -127,17 +131,13 @@ defined('_JEXEC') or die;
                 <input class="knp-answer knp-submit" type="button" value="2-5 раз" data-score="1,2,3,4" />
                 <input class="knp-answer knp-submit" type="button" value="Более 5 раз" data-score="1,2,3,4" />
             </div>
-            <div>
-                <input class="knp-prev" type="button" value="Назад" />
+            <div class="knp-bottom">
+                <div class="knp-prev"></div>
+                <div class="knp-next"></div>
             </div>
-            <div>
-                <input class="knp-next" type="button" value="Вперед" />
-            </div>
-        </div>
     </div>
 
     <div class="knp-item knp-finish" data-id="finish">
-        <div class="knp-panel">
             <div>Отлично!</div>
             <div class="knp-case-single">На основании Ваших ответов мы сделали вывод, что Вам лучше всего подходит</div>
             <div class="knp-case-multiple">На основании Ваших ответов мы сделали вывод, что Вам одинаково хорошо подходят</div>
@@ -156,31 +156,121 @@ defined('_JEXEC') or die;
             <div>
                 <input class="knp-submit" type="button" value="Давайте же начнем продвигать!" />
             </div>
-            <div>
+<!--            <div>--><?// echo ConvertForms\Helper::renderFormById(4); ?><!--</div>-->
+
+            <div class="knp-bottom">
                 Вы также можете вернуться к вопросам и подкорректировать Ваши ответы
-                <input class="knp-prev" type="button" value="Назад" />
+                <div class="knp-prev"></div>
+            </div>
         </div>
-    </div>
 </div>
 
 <style>
-    .knp-item {
-        display: none;
+    .knp-quiz {
+        display: flex;
+        align-items: stretch;
+        overflow: hidden;
+        background: rgba(255, 255, 255, 0.1);
     }
 
-    .knp-quiz {
-        background: rgba(255, 255, 255, 0.7);
-        height: 500px;
+    .knp-item {
+        display: flex;
+        width: 100%;
+        flex-shrink: 0;
+        flex-grow: 0;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .knp-question {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        margin:7% 10% 3%;
+        text-align: center;
+        flex-grow: 10;
+    }
+
+    .knp-answers {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        height: 10%;
+        flex-shrink: 0;
+        flex-grow: 0;
+        text-align: center;
+        margin: 3% 10% 3%;
+    }
+
+    .knp-bottom {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        height: 10%;
+        flex-shrink: 0;
+        flex-grow: 0;
+        margin: 3% 10% 7%;
+    }
+
+    .knp-next {
+        width: 20%;
+        height: 100%;
+        clip-path:polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%, 10% 50%);
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+
+    .knp-prev {
+        width: 20%;
+        height: 100%;
+        clip-path:polygon(10% 0, 100% 0, 90% 50%, 100% 100%, 10% 100%, 0% 50%);
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+
+    .knp-submit {
+        display: inline-block;
+        border: none;
+        background: rgba(67, 221, 224, 1);
+        padding: 20px 40px;
+        color: #ffffff;
+        font-size: 24px;
+        text-transform: uppercase;
+        width: 20%;
     }
 
     .knp-submit.knp-selected {
         background-color: green;
     }
 
+
+    .knp-blocks {
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        flex-wrap:wrap;
+        font-size: 18px;
+    }
+
+    .knp-block {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        background: rgba(255, 255, 255, 0.3);
+        margin: 0 2.5% 5%;
+        flex-grow: 0;
+        flex-basis: 40%;
+        flex-shrink: 0;
+    }
+
+    .knp-block ul {
+        text-align: left;
+        display: inline-block;
+        margin: 20px 20px 20px 40px;
+    }
+
 </style>
 
 <script>
-
     // Model
     var state = {
         'start': {
@@ -244,8 +334,25 @@ defined('_JEXEC') or die;
     };
 
     // DOM methods
-    var showItem = function(el) {
-        $('.knp-quiz .knp-item').hide();
+    var showNextItem = function(current) {
+        var next = current.next();
+        if (!next.length || !state[next.data('id')].canView) return;
+        next.css('margin-left', '100%');
+        onShowItem(next);
+        current.animate({'margin-left': '-100%'}, 500, 'swing');
+        next.animate({'margin-left': '0%'}, 500);
+    };
+
+    var showPrevItem = function(current) {
+        var prev = current.prev();
+        if (!prev.length || !state[prev.data('id')].canView) return;
+        prev.css('margin-left', '-100%');
+        onShowItem(prev);
+        current.animate({'margin-left': '100%'}, 500, 'swing');
+        prev.animate({'margin-left': '0%'}, 500);
+    };
+
+    var onShowItem = function(el) {
         var item = $(el);
         var nextBtn = item.find('.knp-next');
         var prevBtn = item.find('.knp-prev');
@@ -256,21 +363,7 @@ defined('_JEXEC') or die;
             (item.prev().length && state[item.prev().data('id')].canView)? prevBtn.show() : prevBtn.hide();
         }
 
-        item.fadeIn();
-
         (item.data('id') === 'finish') && onShowFinish();
-    };
-
-    var showNextItem = function(el) {
-        var next = el.next();
-        if (!next.length || !state[next.data('id')].canView) return;
-        showItem(next);
-    };
-
-    var showPrevItem = function(el) {
-        var prev = el.prev();
-        if (!prev.length || !state[prev.data('id')].canView) return;
-        showItem(prev);
     };
 
     var onShowFinish = function() {
@@ -304,7 +397,7 @@ defined('_JEXEC') or die;
             setTimeout(function(){
                 nextId && (state[nextId].canView = true);
                 showNextItem(item);
-            }, 500);
+            }, 250);
         });
 
         $('.knp-quiz .knp-prev').click(function(){
@@ -316,7 +409,9 @@ defined('_JEXEC') or die;
         });
 
         // UI initialization
-        showItem($('.knp-quiz .knp-item')[0]);
+        var firstPanel = $($('.knp-quiz .knp-item')[0]);
+        firstPanel.show();
+        onShowItem(firstPanel);
     });
 
 </script>
