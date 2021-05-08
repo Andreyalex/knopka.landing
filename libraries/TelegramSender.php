@@ -21,6 +21,11 @@ class TelegramSender
                 '<b>Имейл</b>: ' . htmlspecialchars($data['email']) . "\n" .
                 '<b>Телефон</b>: ' . htmlspecialchars($data['tel_3']);
 
+            if (isset($data['textarea_4'])) {
+                $text .= "\n\n" . '<b>Прошел квиз:</b>' . "\n" .
+                      htmlspecialchars($data['textarea_4']);
+            }
+
             $result = self::sendTo($text, $chatId);
 
             $json = json_decode($result, true);
