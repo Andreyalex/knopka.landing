@@ -34,7 +34,7 @@ class ExceptionHandler
         if ($isException && !in_array($error->getCode(), ['404', '403']))
         {
             try {
-                require(JPATH_LIBRARIES . DIRECTORY_SEPARATOR . 'TelegramSender.php');
+                require_once(JPATH_LIBRARIES.DIRECTORY_SEPARATOR.'knopka'.DIRECTORY_SEPARATOR.'TelegramSender.php');
                 \TelegramSender::sendToAdmin(sprintf(
                     'Uncaught %1$s of type %2$s thrown.' . "\n" .
                     'Query string: %3$s.' . "\n" .

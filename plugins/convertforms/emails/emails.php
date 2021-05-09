@@ -247,8 +247,13 @@ class plgConvertFormsEmails extends JPlugin
      */
     public function onConvertFormsConversionAfterSave($lead, $model, $isNew)
     {
-        require (JPATH_LIBRARIES . DIRECTORY_SEPARATOR . 'TelegramSender.php');
+        require_once (JPATH_LIBRARIES.DIRECTORY_SEPARATOR.'knopka'.DIRECTORY_SEPARATOR.'TelegramSender.php');
         TelegramSender::sendToOwner($lead->get('params'));
+
+        if ($lead->form->id == 4) {
+            require_once(JPATH_LIBRARIES.DIRECTORY_SEPARATOR.'knopka'.DIRECTORY_SEPARATOR.'email'.DIRECTORY_SEPARATOR.'EmailSender.php');
+            EmailSender::sendToLead($lead->get('params')['email'], $lead->get('params')['textarea_5'], 'QuizResultsToLead');
+        }
 
         if (!isset($lead->form->sendnotifications) || !$lead->form->sendnotifications)
         {
@@ -277,5 +282,5 @@ class plgConvertFormsEmails extends JPlugin
                 throw new \Exception($mailer->error);
             }
         }
-    }   
+    }
 }
