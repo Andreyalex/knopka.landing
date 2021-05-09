@@ -56,6 +56,7 @@ include_once(JPATH_ADMINISTRATOR . '/components/com_convertforms/autoload.php');
             <input class="knp-answer knp-submit" type="button" value="Нет" data-score="3,4" />
         </div>
         <div class="knp-bottom">
+            <div></div>
             <div class="knp-next"></div>
         </div>
     </div>
@@ -146,8 +147,8 @@ include_once(JPATH_ADMINISTRATOR . '/components/com_convertforms/autoload.php');
                         <div style="display:flex;align-items:center;margin:0 20px;">
                             <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="60px" height="60px" viewBox="0 0 30 30" xml:space="preserve"><desc>Instagram</desc><path style="fill:#43dde0;" d="M15,11.014 C12.801,11.014 11.015,12.797 11.015,15 C11.015,17.202 12.802,18.987 15,18.987 C17.199,18.987 18.987,17.202 18.987,15 C18.987,12.797 17.199,11.014 15,11.014 L15,11.014 Z M15,17.606 C13.556,17.606 12.393,16.439 12.393,15 C12.393,13.561 13.556,12.394 15,12.394 C16.429,12.394 17.607,13.561 17.607,15 C17.607,16.439 16.444,17.606 15,17.606 L15,17.606 Z"></path><path style="fill:#43dde0;" d="M19.385,9.556 C18.872,9.556 18.465,9.964 18.465,10.477 C18.465,10.989 18.872,11.396 19.385,11.396 C19.898,11.396 20.306,10.989 20.306,10.477 C20.306,9.964 19.897,9.556 19.385,9.556 L19.385,9.556 Z"></path><path style="fill:#43dde0;" d="M15.002,0.15 C6.798,0.15 0.149,6.797 0.149,15 C0.149,23.201 6.798,29.85 15.002,29.85 C23.201,29.85 29.852,23.202 29.852,15 C29.852,6.797 23.201,0.15 15.002,0.15 L15.002,0.15 Z M22.666,18.265 C22.666,20.688 20.687,22.666 18.25,22.666 L11.75,22.666 C9.312,22.666 7.333,20.687 7.333,18.28 L7.333,11.734 C7.333,9.312 9.311,7.334 11.75,7.334 L18.25,7.334 C20.688,7.334 22.666,9.312 22.666,11.734 L22.666,18.265 L22.666,18.265 Z"></path></svg>
                         </div>
-                        <div>
-                            <b>Через Инстаграм</b><br/>
+                        <div class="knp-description">
+                            <b>Через Инстаграм.</b><br/>
                             В этой сети хорошо работают товары с красивыми картинками. Здесь активная целевая аудитория на 60% - это женщины 18-45лет, которые решение о покупке принимают восновном эмоционально.
                         </div>
                     </div>
@@ -157,8 +158,8 @@ include_once(JPATH_ADMINISTRATOR . '/components/com_convertforms/autoload.php');
                     <div style="display:flex;padding:20px 40px 20px 0;">
                         <div style="display:flex;align-items:center;margin:0 20px;">
                             <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="60px" height="60px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve"><desc>Facebook</desc><path style="fill:#43dde0;" d="M47.761,24c0,13.121-10.638,23.76-23.758,23.76C10.877,47.76,0.239,37.121,0.239,24c0-13.124,10.638-23.76,23.764-23.76C37.123,0.24,47.761,10.876,47.761,24 M20.033,38.85H26.2V24.01h4.163l0.539-5.242H26.2v-3.083c0-1.156,0.769-1.427,1.308-1.427h3.318V9.168L26.258,9.15c-5.072,0-6.225,3.796-6.225,6.224v3.394H17.1v5.242h2.933V38.85z"></path></svg>                        </div>
-                        <div>
-                            <b>Через Фейсбук</b><br/>
+                        <div class="knp-description">
+                            <b>Через Фейсбук.</b><br/>
                             В этой соцсети наиболее активна думающая зрелая аудитория, 35-60лет.
                         </div>
                 </li>
@@ -168,8 +169,8 @@ include_once(JPATH_ADMINISTRATOR . '/components/com_convertforms/autoload.php');
                         <div style="display:flex;align-items:center;margin:0 20px;">
                             <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 640 640"><path style="fill:#43dde0;" d="M326.331 274.255v109.761h181.49c-7.37 47.115-54.886 138.002-181.49 138.002-109.242 0-198.369-90.485-198.369-202.006 0-111.509 89.127-201.995 198.369-201.995 62.127 0 103.761 26.516 127.525 49.359l86.883-83.635C484.99 31.512 412.741-.012 326.378-.012 149.494-.012 6.366 143.116 6.366 320c0 176.884 143.128 320.012 320.012 320.012 184.644 0 307.256-129.876 307.256-312.653 0-21-2.244-36.993-5.008-52.997l-302.248-.13-.047.024z"/></svg>
                         </div>
-                        <div>
-                            <b>Через Гугл КМС</b><br/>
+                        <div class="knp-description">
+                            <b>Через Гугл КМС.</b><br/>
                             Этот способ лучше всего подходит тем бизнесам, у которых есть сайт, нет ярких картинок и покупатель принимает решение рационально.
                         </div>
                     </div>
@@ -181,8 +182,8 @@ include_once(JPATH_ADMINISTRATOR . '/components/com_convertforms/autoload.php');
                             <svg version="1.1" id="layer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
                                  viewBox="-153 -46 652 652" style="enable-background:new -153 -46 652 652;" xml:space="preserve"><path style="fill:#43dde0;" d="M273,107.6v342.9h-85.7V107.6H273z M15.9,136.1c78.9,0,142.9,64,142.9,142.9s-64,142.9-142.9,142.9S-127,357.9-127,279 S-63,136.1,15.9,136.1z M362.2,193.3l25.1,25.1l25.1-25.1H473v60.6L447.9,279l25.1,25.1v60.6h-60.6l-25.1-25.1l-25.1,25.1h-60.6 v-60.6l25.1-25.1l-25.1-25.1v-60.6H362.2z M15.9,221.9c-31.5,0-57.1,25.6-57.1,57.1s25.6,57.1,57.1,57.1S73,310.5,73,279 S47.4,221.9,15.9,221.9z"/></svg>
                         </div>
-                        <div>
-                            <b>Через доски объявлений</b><br/>
+                        <div class="knp-description">
+                            <b>Через доски объявлений.</b><br/>
                             Этот способ лучше всего подходит бизнесам с маржинальностью менее 20у.е. и единоразовым контактом с каждым клиентом, а другим бизнесам подходит в качестве дополнительной рекламной площадки.
                         </div>
                     </div>
@@ -239,13 +240,14 @@ include_once(JPATH_ADMINISTRATOR . '/components/com_convertforms/autoload.php');
     .knp-bottom {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         padding: 20px 0 40px;
     }
 
     .knp-next {
-        min-width: 20%;
+        flex-basis: 20%;
+        margin: 10px 20px;
         height: 68px;
         clip-path:polygon(0 0, 80% 0, 100% 50%, 80% 100%, 0 100%, 20% 50%);
         background-color: rgba(255, 255, 255, 0.7);
@@ -253,7 +255,7 @@ include_once(JPATH_ADMINISTRATOR . '/components/com_convertforms/autoload.php');
 
     .knp-prev {
         flex-basis: 20%;
-        margin: 10px;
+        margin: 10px 20px;
         height: 68px;
         clip-path:polygon(20% 0, 100% 0, 80% 50%, 100% 100%, 20% 100%, 0% 50%);
         background-color: rgba(255, 255, 255, 0.7);
@@ -401,8 +403,6 @@ include_once(JPATH_ADMINISTRATOR . '/components/com_convertforms/autoload.php');
         if (!score) return;
         state[id].score = score.toString().split(',');
         var question = el.parents('.knp-item').find('.knp-question').text();
-        question = question.replaceAll(/\n+/g, ' ');
-        question = question.replaceAll(/\s+/g, ' ');
         state[id].verbal.question = question;
         state[id].verbal.answer = el.attr('value');
     };
@@ -435,8 +435,25 @@ include_once(JPATH_ADMINISTRATOR . '/components/com_convertforms/autoload.php');
         var h = quiz.height();
         quiz.height(h); // Fix the max height that is on start
 
+        var interval = setInterval(function(){
+            if (quiz.find('.knp-finish .convertforms').hasClass('cf-success')) {
+                clearInterval(interval);
+                setTimeout(function(){
+                    quiz.find('.knp-finish .convertforms').fadeOut();
+                }, 5000);
+            }
+        }, 2000);
+
+        quiz.find().click(function(){
+        });
+
+
         var panels = quiz.find('.knp-item');
         panels.css({'display': 'none'});
+
+
+
+
         var firstPanel = $(panels[0]);
         firstPanel.show();
         onShowItem(firstPanel);
@@ -486,23 +503,38 @@ include_once(JPATH_ADMINISTRATOR . '/components/com_convertforms/autoload.php');
             quiz.find('.knp-finish .knp-case-single').show() :
             quiz.find('.knp-finish .knp-case-multiple').show();
 
-        quiz.find('.knp-finish .knp-result').hide();
-        for (var i = 0; i < top.length; i++) {
-            quiz.find('.knp-finish .knp-result[data-id="' + top[i] + '"]').show();
-        }
 
-        quiz.find('.knp-finish .knp-details').show();
-        quiz.height('auto');
-        var h = quiz.height();
-        quiz.height(h); // Fix the max height that is on start
 
-        var res = '';
+        // Creating verbal result for client
+        var verbalResult = '';
         for (var idx in state) {
             if (state[idx].verbal && state[idx].verbal.answer) {
-                res += state[idx].verbal.question + " >> " + state[idx].verbal.answer + "\n";
+                verbalResult += state[idx].verbal.question.replaceAll(/\n+/g, ' ').replaceAll(/\s+/g, ' ')
+                    + " >> " + state[idx].verbal.answer + "\n";
             }
         }
-        quiz.find('.knp-finish textarea').html(res);
+        verbalResult += "\n\n Результат:\n";
+
+        quiz.find('.knp-finish .knp-result').hide();
+        for (var i = 0; i < top.length; i++) {
+            var item = quiz.find('.knp-finish .knp-result[data-id="' + top[i] + '"]');
+            item.show();
+            verbalResult += item.find('.knp-description').text().replaceAll(/\n+/g, ' ').replaceAll(/\s+/g, ' ') + "\n";
+        }
+
+
+        // show results
+        quiz.find('.knp-finish .knp-details').show();
+
+
+        // Fix the max height that is on start
+        quiz.height('auto');
+        var h = quiz.height();
+        quiz.height(h);
+
+
+        // set verbal result to form to send it
+        quiz.find('.knp-finish textarea').html(verbalResult);
     };
 
     // Initialization
