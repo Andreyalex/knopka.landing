@@ -250,9 +250,10 @@ class plgConvertFormsEmails extends JPlugin
         require_once (JPATH_LIBRARIES.DIRECTORY_SEPARATOR.'knopka'.DIRECTORY_SEPARATOR.'TelegramSender.php');
         TelegramSender::sendToOwner($lead->get('params'));
 
-        if ($lead->form->id == 4) {
+        if ($lead->form->id == 4 || $lead->form->id == 5) {
             require_once(JPATH_LIBRARIES.DIRECTORY_SEPARATOR.'knopka'.DIRECTORY_SEPARATOR.'email'.DIRECTORY_SEPARATOR.'EmailSender.php');
             EmailSender::sendQuizTo($lead->get('params')['email'], $lead->get('params')['textarea_5']);
+            EmailSender::sendQuizTo('knopka.agency@gmail.com', $lead->get('params')['textarea_5'], 'Новый лид с квиза. Копия его письма');
         }
 
         if (!isset($lead->form->sendnotifications) || !$lead->form->sendnotifications)

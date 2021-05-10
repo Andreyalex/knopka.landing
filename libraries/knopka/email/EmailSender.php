@@ -9,7 +9,7 @@
 
 class EmailSender
 {
-    public static function sendQuizTo($recipient, $data)
+    public static function sendQuizTo($recipient, $data, $subject = null)
     {
         $lang = JFactory::getLanguage();
         $extension = 'com_quiz';
@@ -51,7 +51,8 @@ class EmailSender
         $body = str_replace('{FINAL_WORD_PLACEHOLDER}', JText::_('COM_QUIZ_QUIZEMAILFINALWORD'), $body);
         $body = str_replace('{BYE_PLACEHOLDER}', JText::_('COM_QUIZ_QUIZEMAILBYE'), $body);
 
-        return self::sendTo($recipient, $body, JText::_('COM_QUIZ_QUIZMAILSUBJECT'));
+        $subject || ($subject = JText::_('COM_QUIZ_QUIZMAILSUBJECT'));
+        return self::sendTo($recipient, $body, $subject);
 
     }
 
