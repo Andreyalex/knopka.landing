@@ -252,7 +252,7 @@ class plgConvertFormsEmails extends JPlugin
 
         if ($lead->form->id == 4) {
             require_once(JPATH_LIBRARIES.DIRECTORY_SEPARATOR.'knopka'.DIRECTORY_SEPARATOR.'email'.DIRECTORY_SEPARATOR.'EmailSender.php');
-            EmailSender::sendToLead($lead->get('params')['email'], $lead->get('params')['textarea_5'], 'QuizResultsToLead');
+            EmailSender::sendQuizTo($lead->get('params')['email'], $lead->get('params')['textarea_5']);
         }
 
         if (!isset($lead->form->sendnotifications) || !$lead->form->sendnotifications)
