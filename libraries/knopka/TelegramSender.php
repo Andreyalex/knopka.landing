@@ -23,7 +23,7 @@ class TelegramSender
 
             if (isset($data['textarea_4'])) {
                 $text .= "\n\n" . '<b>Прошел квиз:</b>' . "\n" .
-                      htmlspecialchars($data['textarea_4']);
+                      htmlspecialchars($data['results']);
             }
 
             $result = self::sendTo($text, $chatId);
