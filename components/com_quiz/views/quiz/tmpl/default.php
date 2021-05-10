@@ -198,7 +198,7 @@ $lang->load($extension, $base_dir);
                 <div style="margin: 20px 40px;">
                     <b><?=JText::_('COM_QUIZ_YESLIHOTITEUZNATBOLSHEOSTAVTEDANNIE')?></b>
                 </div>
-                <? echo ConvertForms\Helper::renderFormById(4); ?>
+                <? echo ConvertForms\Helper::renderFormById($lang->getTag()=='uk-UA'? 5:4); ?>
             </div>
             <div class="knp-bottom">
                 <div class="knp-prev"></div>
