@@ -21,7 +21,7 @@ class TelegramSender
                 '<b>Имейл</b>: ' . htmlspecialchars($data['email']) . "\n" .
                 '<b>Телефон</b>: ' . htmlspecialchars($data['tel_3']);
 
-            if (isset($data['textarea_4'])) {
+            if (isset($data['results'])) {
                 $text .= "\n\n" . '<b>Прошел квиз:</b>' . "\n" .
                       htmlspecialchars($data['results']);
             }
