@@ -108,10 +108,9 @@
         </div>
     </div>
 </div>
-<div id="rec262006575" class="r t-rec" style=" " data-record-type="215"><a name="service" style="font-size:0;"></a>
-</div>
 
 <div id="rec262006577" class="r t-rec">
+    <a name="service" style="font-size:0;"></a>
     <div class="t-container">
         <div class="t-title_lg">Работаем по формуле</div>
         <div class="theme-formula">

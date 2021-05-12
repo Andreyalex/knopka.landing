@@ -512,8 +512,6 @@ var Quiz = function (root) {
         var firstPanel = $(quiz.find('.knp-item')[0]);
         firstPanel.show();
         onShowItem(firstPanel);
-
-        $(window).scrollTop(quiz.find('.knp-start .knp-question').offset().top);
     };
 
     var showNextItem = function (current) {
@@ -548,6 +546,8 @@ var Quiz = function (root) {
         }
 
         (item.data('id') === 'finish') && onShowFinish();
+
+        $(window).scrollTop(item.find('.knp-question').offset().top);
     };
 
     var onShowFinish = function () {
