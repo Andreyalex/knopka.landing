@@ -41,42 +41,6 @@
     </div>
 </div>
 
-<script>
-    $(function(){
-        var firstContainer = $('.t-cover');
-
-        var resetFirstHeight = function (el) {
-            var
-                h = $( window ).height(),
-                w = $( window ).width();
-            switch(true) {
-                case (w > 1440): (h < 600) && (h = 600); break;
-                case (w >  960): (h < 460) && (h = 460); break;
-                case (w >  460): (h < 460) && (h = 460); h-=64; break;
-                case (w <= 460): (h < 500) && (h = 500); h-=64; break;
-            }
-            el.height(h);
-        };
-
-        window.addEventListener('resize', function() {
-            resetFirstHeight(firstContainer);
-        });
-
-        resetFirstHeight(firstContainer);
-
-
-        var loop = function() {
-            var arrow = $('.welcome-arrow');
-            var top = arrow.position().top;
-            top = (top === 0)? -10 : 0;
-            arrow.animate({top: top}, 500, 'swing', loop);
-        };
-        loop(-10);
-
-
-        $(document).scroll();
-    });
-</script>
 <div id="rec262006573" class="r t-rec" style=" " data-record-type="215"><a name="about" style="font-size:0;"></a>
 </div>
 <div id="rec262006574" class="r t-rec" style="padding-top:60px;"><!-- T480 -->

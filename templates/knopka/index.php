@@ -135,7 +135,11 @@ JHtml::_('script', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js
 <div class="position-contact">
     <jdoc:include type="modules" name="position-contact" />
 </div>
+
 <script>
+
+    // Contact button widget handling
+
     $(document).ready(function() {
 
         var canCloseFlag = true;
@@ -205,6 +209,70 @@ JHtml::_('script', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js
             })
             .attr("src", "/templates/knopka/img/ezgif.com-gif-maker-600-15.webp");
     })
+</script>
+
+<script>
+
+    // Adjusting height of landing's first top screen
+
+    $(function(){
+        var firstContainer = $('.t-cover');
+
+        if (!firstContainer.length) return;
+
+        var resetFirstHeight = function (el) {
+            var
+                h = $( window ).height(),
+                w = $( window ).width();
+            switch(true) {
+                case (w > 1440): (h < 600) && (h = 600); break;
+                case (w >  960): (h < 460) && (h = 460); break;
+                case (w >  460): (h < 460) && (h = 460); h-=64; break;
+                case (w <= 460): (h < 500) && (h = 500); h-=64; break;
+            }
+            el.height(h);
+        };
+
+        window.addEventListener('resize', function() {
+            resetFirstHeight(firstContainer);
+        });
+
+        resetFirstHeight(firstContainer);
+
+        var loop = function() {
+            var arrow = $('.welcome-arrow');
+            var top = arrow.position().top;
+            top = (top === 0)? -10 : 0;
+            arrow.animate({top: top}, 500, 'swing', loop);
+        };
+        loop(-10);
+    });
+</script>
+
+<script>
+
+    // Footer to bottom handling
+
+    $(function(){
+        var resetComponentWrapperHeight = function (el) {
+
+            var wrapper =  $('.component_wrapper'),
+                offset = wrapper.offset().top,
+                padding = parseInt($('.component_wrapper').css('padding-top')),
+                footer = $('#rec271139769').outerHeight(),
+                viewPort = $(window).height(),
+                h = viewPort - footer - offset + padding;
+                if (h <= 0) h = '';
+
+            wrapper.css({'min-height': h});
+        };
+
+        window.addEventListener('resize', function() {
+            resetComponentWrapperHeight();
+        });
+
+        resetComponentWrapperHeight();
+    });
 </script>
 
 

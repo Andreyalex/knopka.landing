@@ -19,7 +19,7 @@ $lang->load($extension, $base_dir);
 ?>
 
 <div class="knp-quiz">
-
+    <div class="knp-slider">
     <div class="knp-item knp-start" data-id="start" style="justify-content: center">
             <div class="knp-question">
                 <?=JText::_('COM_QUIZ_DAVAYTE_VYBEREM');?>
@@ -205,19 +205,26 @@ $lang->load($extension, $base_dir);
             </div>
         </div>
     </div>
+    </div>
 </div>
 
 <style>
     .knp-quiz {
+        overflow: hidden;
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    .knp-slider {
         display: flex;
         align-items: stretch;
         overflow: hidden;
         background: rgba(255, 255, 255, 0.1);
-        transition: height 1s
+        height: 100%;
     }
 
     .knp-item {
         display: flex;
+        overflow: hidden;
         width: 100%;
         flex-shrink: 0;
         flex-direction: column;
@@ -369,6 +376,13 @@ $lang->load($extension, $base_dir);
 </style>
 
 <script>
+var Quiz = function (root) {
+
+    var quiz = $(root),
+        slider = quiz.find('.knp-slider'),
+        items = quiz.find('.knp-item'),
+        slidingOffset = 0;
+
     // Model
     var state = {
         'start': {
@@ -410,7 +424,7 @@ $lang->load($extension, $base_dir);
     };
 
     // Business methods
-    var storeAnswer = function(el, id) {
+    var storeAnswer = function (el, id) {
         if (!el) return;
         var score = el.data('score');
         if (!score) return;
@@ -420,7 +434,7 @@ $lang->load($extension, $base_dir);
         state[id].verbal.answer = el.attr('value');
     };
 
-    var calculateResults = function() {
+    var calculateResults = function () {
         var score = {},
             results = [];
 
@@ -441,18 +455,51 @@ $lang->load($extension, $base_dir);
     };
 
     // DOM methods
-    var initialize = function(root) {
-        var quiz = $(root);
+    var initialize = function () {
+
+        // DOM event listeners
+        quiz.find('.knp-item .knp-submit').click(function () {
+            var item = $(this).parents('.knp-item'),
+                nextId = item.next().data('id'),
+                id = item.data('id');
+
+            storeAnswer($(this), id);
+            item.find('.knp-submit').removeClass('knp-selected');
+            $(this).addClass('knp-selected');
+
+            setTimeout(function () {
+                nextId && (state[nextId].canView = true);
+                showNextItem(item);
+            }, 250);
+        });
+
+        quiz.find('.knp-prev').click(function () {
+            showPrevItem($(this).parents('.knp-item'));
+        });
+
+        quiz.find('.knp-next').click(function () {
+            showNextItem($(this).parents('.knp-item'));
+        });
+
+        slider.width((items.length * 100) + '%');
+        items.width(100 / items.length + '%');
+
+        $(window).resize(function () {
+            quiz.height('auto');
+            var h = quiz.height();
+            quiz.height(h);
+        });
+
         quiz.find('.knp-finish .knp-details').hide();
 
         var h = quiz.height();
         quiz.height(h); // Fix the max height that is on start
 
-        var interval = setInterval(function(){
+        var interval = setInterval(function () {
             if (quiz.find('.knp-finish .convertforms').hasClass('cf-success')) {
                 clearInterval(interval);
-                setTimeout(function(){
-                    quiz.find('.knp-finish .knp-form').fadeOut(function(){
+                setTimeout(function () {
+                    quiz.find('.knp-finish .knp-form').fadeOut(function () {
                         // Fix the max height that is on start
                         quiz.height('auto');
                         var h = quiz.height();
@@ -462,52 +509,48 @@ $lang->load($extension, $base_dir);
             }
         }, 2000);
 
-
-        var panels = quiz.find('.knp-item');
-        panels.css({'display': 'none'});
-
-
-        var firstPanel = $(panels[0]);
+        var firstPanel = $(quiz.find('.knp-item')[0]);
         firstPanel.show();
         onShowItem(firstPanel);
+
+        $(window).scrollTop(quiz.find('.knp-start .knp-question').offset().top);
     };
 
-    var showNextItem = function(current) {
+    var showNextItem = function (current) {
         var next = current.next();
         if (!next.length || !state[next.data('id')].canView) return;
-        next.css('display', 'flex');
-        next.css('margin-left', '100%');
+
         onShowItem(next);
-        current.animate({'margin-left': '-100%'}, 500, 'swing', function() { current.css({'display': 'none'}); });
-        next.animate({'margin-left': '0%'}, 500);
+
+        slidingOffset -=100;
+        slider.animate({'margin-left': slidingOffset + '%'}, 500, 'swing');
     };
 
-    var showPrevItem = function(current) {
+    var showPrevItem = function (current) {
         var prev = current.prev();
         if (!prev.length || !state[prev.data('id')].canView) return;
-        prev.css('display', 'flex');
-        prev.css('margin-left', '-100%');
+
         onShowItem(prev);
-        current.animate({'margin-left': '100%'}, 500, 'swing', function() { current.css({'display': 'none'}); });
-        prev.animate({'margin-left': '0%'}, 500);
+
+        slidingOffset += 100;
+        slider.animate({'margin-left': slidingOffset + '%'}, 500, 'swing');
     };
 
-    var onShowItem = function(el) {
+    var onShowItem = function (el) {
         var item = $(el);
         var nextBtn = item.find('.knp-next');
         var prevBtn = item.find('.knp-prev');
         if (nextBtn.length) {
-            (item.next().length && state[item.next().data('id')].canView)? nextBtn.show() : nextBtn.hide();
+            (item.next().length && state[item.next().data('id')].canView) ? nextBtn.show() : nextBtn.hide();
         }
         if (prevBtn.length) {
-            (item.prev().length && state[item.prev().data('id')].canView)? prevBtn.show() : prevBtn.hide();
+            (item.prev().length && state[item.prev().data('id')].canView) ? prevBtn.show() : prevBtn.hide();
         }
 
         (item.data('id') === 'finish') && onShowFinish();
     };
 
-    var onShowFinish = function() {
-        var quiz = $('.knp-quiz');
+    var onShowFinish = function () {
         var results = calculateResults();
         var top = results.pop();
 
@@ -522,7 +565,7 @@ $lang->load($extension, $base_dir);
 
         verbalResult += "\n--- Результат ---\n";
         quiz.find('.knp-finish .knp-case-single, .knp-quiz .knp-finish .knp-case-multiple').hide();
-        (top.length === 1)?
+        (top.length === 1) ?
             quiz.find('.knp-finish .knp-case-single').show() :
             quiz.find('.knp-finish .knp-case-multiple').show();
 
@@ -532,7 +575,7 @@ $lang->load($extension, $base_dir);
             var item = quiz.find('.knp-finish .knp-result[data-id="' + top[i] + '"]');
             item.show();
             verbalResult += item.find('.knp-description b').text() + " >>> "
-                         + item.find('.knp-description div').text().replaceAll(/\n+/g, ' ').replaceAll(/\s+/g, ' ').trim() + "\n";
+                + item.find('.knp-description div').text().replaceAll(/\n+/g, ' ').replaceAll(/\s+/g, ' ').trim() + "\n";
         }
         // set verbal result to form to send it
         quiz.find('.knp-finish textarea').html(verbalResult);
@@ -548,36 +591,14 @@ $lang->load($extension, $base_dir);
         quiz.height(h);
     };
 
-    // Initialization
-    $(document).ready(function($){
+    initialize();
+};
 
-        // DOM event listeners
-        $('.knp-quiz .knp-item .knp-submit').click(function(){
-            var item = $(this).parents('.knp-item'),
-                nextId = item.next().data('id'),
-                id = item.data('id');
-
-            storeAnswer($(this), id);
-            item.find('.knp-submit').removeClass('knp-selected');
-            $(this).addClass('knp-selected');
-
-            setTimeout(function(){
-                nextId && (state[nextId].canView = true);
-                showNextItem(item);
-            }, 250);
-        });
-
-        $('.knp-quiz .knp-prev').click(function(){
-            showPrevItem($(this).parents('.knp-item'));
-        });
-
-        $('.knp-quiz .knp-next').click(function(){
-            showNextItem($(this).parents('.knp-item'));
-        });
-
-        // UI initialization
-        initialize($('.knp-quiz'));
-    });
+// Quiz initialization
+$(document).ready(function ($) {
+    // Quiz initialization
+    Quiz($('.knp-quiz'));
+});
 
 </script>
 

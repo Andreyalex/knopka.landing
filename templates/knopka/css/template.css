@@ -114,14 +114,9 @@ ul.dashed li {
 	margin: 18px 0 27px;
 }
 
-.component_wrapper {
-	min-height:290px;
-}
-
 @media (min-width:981px) {
 	.component_wrapper {
 		margin-top: 20px;
-		min-height: 530px;
 	}
 }
 
