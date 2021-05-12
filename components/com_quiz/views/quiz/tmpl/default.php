@@ -229,7 +229,9 @@ $lang->load($extension, $base_dir);
         flex-shrink: 0;
         flex-direction: column;
         justify-content: space-evenly;
+        word-break: break-word;
     }
+
 
     .knp-question {
         display: flex;
