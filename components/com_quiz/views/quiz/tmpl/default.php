@@ -228,7 +228,7 @@ $lang->load($extension, $base_dir);
         width: 100%;
         flex-shrink: 0;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-between;
         word-break: break-word;
     }
 
