@@ -30,10 +30,10 @@
             <div class="t446__leftwrapper"
                  style="padding-left:20px; padding-right:0px; width:auto; text-align: left;">
                 <div class="t446__leftmenuwrapper">
-                    <div class="web-logo" style="margin-top:5px;"><a href="/"><img
-                                src="https://static.tildacdn.com/tild3839-3161-4430-a335-636637303332/_.png"
-                                class="t446__imglogo t446__imglogomobile" imgfield="img"
-                                style="max-width: 70px; width: 70px;" alt=""></a></div>
+                    <div class="web-logo" style="margin:15px 10px 0 0;"><a href="/"><img
+                                    src="/templates/knopka/images/logo.png"
+                                    class="t446__imglogo t446__imglogomobile" imgfield="img"
+                                    style="max-width: 48px; width: 48px;" alt=""></a></div>
                     <ul class="t446__list">
                         <li class="t446__list_item"><a class="t-menu__link-item" href="<?=$anchorPrefix?>#about"
                                                        data-menu-submenu-hook=""
@@ -58,6 +58,9 @@
                         <li class="t446__list_item"><a class="t-menu__link-item" href="<?=$anchorPrefix?>#contact"
                                                        data-menu-submenu-hook=""
                                                        data-menu-item-number="3">Контакты</a></li>
+                        <li class="t446__list_item"><a class="t-menu__link-item" href="<?=$lang?>quiz"
+                                                       data-menu-submenu-hook=""
+                                                       data-menu-item-number="3">Опрос</a></li>
 
                     </ul>
                 </div>
@@ -65,9 +68,7 @@
             <div class="t446__rightwrapper" style="padding-right:20px; padding-left:0; width:auto; text-align: right;">
                 <div class="t446__additionalwrapper">
                     <div class="t446__right_descr phone">
-                        <div style="line-height:20px;font-size:20px;">
-                            <a href="tel:+380505080852">+38 (050) 50 808 52</a>
-                        </div>
+                        <a href="tel:+380505080852">+38 (050) 50 808 52</a>
                     </div>
                     <div class="position-langs">
                         <jdoc:include type="modules" name="position-1" />
