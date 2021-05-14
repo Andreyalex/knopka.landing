@@ -37,7 +37,7 @@ $lang->load($extension, $base_dir);
                 <span><?=JText::_('COM_QUIZ_OTNOSITSYALIVASHBIZNES')?></span>
             </div>
             <div class="knp-blocks">
-                <div class="knp-block">
+                <div class="knp-block desktop-only">
                     <ul class="dashed">
                         <li><?=JText::_('COM_QUIZ_ODEZDA')?></li>
                         <li><?=JText::_('COM_QUIZ_OBUV')?></li>
@@ -46,8 +46,21 @@ $lang->load($extension, $base_dir);
                         <li><?=JText::_('COM_QUIZ_TOVARIDLYAGENSHIN')?></li>
                     </ul>
                 </div>
-                <div class="knp-block">
+                <div class="knp-block desktop-only">
                     <ul class="dashed">
+                        <li><?=JText::_('COM_QUIZ_YEDA')?></li>
+                        <li><?=JText::_('COM_QUIZ_OTDYH')?></li>
+                        <li><?=JText::_('COM_QUIZ_TOVARIDLYADETEY')?></li>
+                        <li><?=JText::_('COM_QUIZ_TOVARYDLYAGIVOTNIH')?></li>
+                    </ul>
+                </div>
+                <div class="knp-block mobile-only">
+                    <ul class="dashed">
+                        <li><?=JText::_('COM_QUIZ_ODEZDA')?></li>
+                        <li><?=JText::_('COM_QUIZ_OBUV')?></li>
+                        <li><?=JText::_('COM_QUIZ_KOSMETIKA')?></li>
+                        <li><?=JText::_('COM_QUIZ_KOSMETUSLUGI')?></li>
+                        <li><?=JText::_('COM_QUIZ_TOVARIDLYAGENSHIN')?></li>
                         <li><?=JText::_('COM_QUIZ_YEDA')?></li>
                         <li><?=JText::_('COM_QUIZ_OTDYH')?></li>
                         <li><?=JText::_('COM_QUIZ_TOVARIDLYADETEY')?></li>
@@ -319,6 +332,24 @@ $lang->load($extension, $base_dir);
         flex-direction: column;
         background: rgba(255, 255, 255, 0.3);
         margin: 10px 20px;
+    }
+
+    @media(max-width: 520px) {
+        .knp-block.mobile-only {
+            display: flex;
+        }
+        .knp-block.desktop-only {
+            display: none;
+        }
+    }
+
+    @media(min-width: 521px) {
+        .knp-block.mobile-only {
+            display: none;
+        }
+        .knp-block.desktop-only {
+            display: flex;
+        }
     }
 
     .knp-block ul {

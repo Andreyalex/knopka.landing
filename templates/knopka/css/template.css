@@ -231,11 +231,6 @@ ul.dashed li {
 	#nav262006571 .mod-languages-column {
 		margin-top: 28px;
 	}
-
-	#nav262006571 .mod-languages-column .toggle-mode li a img {
-		width: 32px;
-		height: 22px;
-	}
 }
 
 @media screen and (max-width: 980px) {
@@ -407,8 +402,8 @@ ul.dashed li {
 }
 
 .mod-languages-column .toggle-mode li a img {
-	height: 28px;
-	width: 42px;
+	width: 32px;
+	height: 22px;
 	border: 1px solid black;
 }
 
