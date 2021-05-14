@@ -23,28 +23,19 @@ $lang = $path? "/$path/" : '/';
 $anchorPrefix = $isLanding? '' : $lang;
 $config = JFactory::getConfig();
 
-// Output as HTML5
-$this->setHtml5(true);
-// Add html5 shiv
-//JHtml::_('script', 'jui/html5.js', array('version' => 'auto', 'relative' => true, 'conditional' => 'lt IE 9'));
-
 /** @var \Joomla\CMS\Document\HtmlDocument $doc */
 $doc = $app->getDocument();
 $doc->setMetaData('author', 'Knopka.agency');
 
-$ver = '0.9.8';
+$ver = '0.9.10';
 
-JHtml::_('stylesheet', 'template.css', array('version' => $ver, 'relative' => true));
-JHtml::_('stylesheet', '/media/jui/css/icomoon.css', array('relative' => true));
-JHtml::_('stylesheet', 'https://static.tildacdn.com/css/tilda-grid-3.0.min.css', array('relative' => false));
-JHtml::_('stylesheet', 'tilda-blocks-2.12.css', array('relative' => true));
+JHtml::_('stylesheet', 'template.min.css', array('version' => $ver, 'relative' => true));
 JHtml::_('stylesheet', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css', array('relative' => false));
 
 JHtml::_('script', 'jui/jquery.min.js', array('relative' => true));
 JHtml::_('script', 'https://static.tildacdn.com/js/tilda-scripts-2.8.min.js', array('relative' => false));
 JHtml::_('script', 'tilda-blocks-2.7.js', array('relative' => true));
 JHtml::_('script', 'https://static.tildacdn.com/js/lazyload-1.3.min.js', array('relative' => false));
-JHtml::_('script', 'https://static.tildacdn.com/js/tilda-menusub-1.0.min.js', array('relative' => false));
 JHtml::_('script', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js', array('relative' => false));
 
 ?>
@@ -70,13 +61,10 @@ JHtml::_('script', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js
 
     <jdoc:include type="head" />
 
-    <link rel="preload" href="/templates/knopka/fonts/pingfangsc-bold-webfont.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="/templates/knopka/fonts/pingfangsc-light-webfont.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="/templates/knopka/fonts/pingfangsc-regular-webfont.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="/templates/knopka/fonts/pingfangsc-semibold-webfont.woff2" as="font" type="font/woff2" crossorigin />
     <link href="/templates/knopka/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
 
     <script type="text/javascript">window.dataLayer = window.dataLayer || [];</script>
 
@@ -147,7 +135,11 @@ JHtml::_('script', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js
 <div class="position-contact">
     <jdoc:include type="modules" name="position-contact" />
 </div>
+
 <script>
+
+    // Contact button widget handling
+
     $(document).ready(function() {
 
         var canCloseFlag = true;
@@ -205,7 +197,82 @@ JHtml::_('script', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js
             }, 1000);
 
         }, 5000);
+    });
+
+    $( window ).load(function() {
+        $('.firstpage-bkg')
+            .load(function(){
+                $(this).css('opacity', 1);
+                setTimeout(function(){
+                    $('.firstpage-loader').css('display', 'none');
+                }, 1000);
+            })
+            .attr("src", "/templates/knopka/img/ezgif.com-gif-maker-600-15.webp");
     })
+</script>
+
+<script>
+
+    // Adjusting height of landing's first top screen
+
+    $(function(){
+        var firstContainer = $('.t-cover');
+
+        if (!firstContainer.length) return;
+
+        var resetFirstHeight = function (el) {
+            var
+                h = $( window ).height(),
+                w = $( window ).width();
+            switch(true) {
+                case (w > 1440): (h < 600) && (h = 600); break;
+                case (w >  960): (h < 460) && (h = 460); break;
+                case (w >  460): (h < 460) && (h = 460); h-=64; break;
+                case (w <= 460): (h < 500) && (h = 500); h-=64; break;
+            }
+            el.height(h);
+        };
+
+        window.addEventListener('resize', function() {
+            resetFirstHeight(firstContainer);
+        });
+
+        resetFirstHeight(firstContainer);
+
+        var loop = function() {
+            var arrow = $('.welcome-arrow');
+            var top = arrow.position().top;
+            top = (top === 0)? -10 : 0;
+            arrow.animate({top: top}, 500, 'swing', loop);
+        };
+        loop(-10);
+    });
+</script>
+
+<script>
+
+    // Footer to bottom handling
+
+    $(function(){
+        var resetComponentWrapperHeight = function (el) {
+
+            var wrapper =  $('.component_wrapper'),
+                offset = wrapper.offset().top,
+                padding = parseInt($('.component_wrapper').css('padding-top')),
+                footer = $('#rec271139769').outerHeight(),
+                viewPort = $(window).height(),
+                h = viewPort - footer - offset + padding;
+                if (h <= 0) h = '';
+
+            wrapper.css({'min-height': h});
+        };
+
+        window.addEventListener('resize', function() {
+            resetComponentWrapperHeight();
+        });
+
+        resetComponentWrapperHeight();
+    });
 </script>
 
 
