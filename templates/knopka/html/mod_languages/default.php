@@ -50,7 +50,7 @@ $switch = [];
                     </a>
                 </li>
             <?php endif; ?>
-        <?php $idx--; endforeach; ?>
+        <?php $idx++; if ($idx == count($list)) $idx = 0; endforeach; ?>
     </ul>
 
     <ul class="toggle-mode <?php echo $params->get('inline', 1) ? 'lang-inline' : 'lang-block'; ?>" dir="<?php echo JFactory::getLanguage()->isRtl() ? 'rtl' : 'ltr'; ?>">
