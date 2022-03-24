@@ -16,7 +16,7 @@ $app = JFactory::getApplication();
 $menuItemActive = $app->getMenu()->getActive();
 $locale = $menuItemActive? $menuItemActive->get('language') : 'uk-UA';
 $menuItemActiveAlias = $menuItemActive->alias;
-$isLanding = in_array($menuItemActiveAlias, ['home', 'home-ua', 'home-ru']);
+$isLanding = in_array($menuItemActiveAlias, ['home-en', 'home-ua', 'home-ru']);
 preg_match('/^\/(ru|ua|en)/', $_SERVER['REQUEST_URI'], $matches);
 $path = $matches[1];
 $lang = $path? "/$path/" : '/';
@@ -107,11 +107,19 @@ JHtml::_('script', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js
 <div id="allrecords" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="2512305"
      data-tilda-page-id="16032892" data-tilda-formskey="eed1b1688abf305dccd909096825c12e">
 
-<? $locale == 'uk-UA'? include('navigation-uk.php') : include('navigation-ru.php'); ?>
+<?
+    switch($locale) {
+        case 'uk-UA': include('navigation-uk.php'); break;
+        case 'ru-RU': include('navigation-ru.php'); break;
+        default: include('navigation-en.php');
+    }
 
-<?php
     if ($isLanding) {
-        $locale == 'uk-UA'? include('landing-uk.php') : include('landing-ru.php');
+        switch ($locale) {
+            case 'uk-UA': include('landing-uk.php'); break;
+            case 'ru-RU': include('landing-ru.php'); break;
+            default: include('landing-en.php');
+        }
     } else {
         ?>
     <div class="r t-rec t-rec_pt_30 component_wrapper" data-record-type="480"
@@ -128,7 +136,18 @@ JHtml::_('script', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js
     }
 ?>
 
-<? $locale == 'uk-UA'? include('footer-uk.php') : include('footer-ru.php'); ?>
+<?
+    switch($locale) {
+        case 'uk-UA':
+            include('footer-uk.php');
+            break;
+        case 'ru-RU':
+            include('footer-ru.php');
+            break;
+        default:
+            include('footer-en.php');
+    }
+?>
 
 </div><!--/allrecords-->
 
