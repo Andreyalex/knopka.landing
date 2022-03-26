@@ -21,7 +21,7 @@
                 <div>Seting up a targeting effectively</div>
             </div>
             <div class="first-btn">
-                <a style="color:#111111" href="/order">Contact us</a>
+                <a style="color:#111111" href="/en/order">Contact us</a>
             </div>
             <div class="first-socials">
                 <a href="http://facebook.com/knopka.agency" target="_blank">

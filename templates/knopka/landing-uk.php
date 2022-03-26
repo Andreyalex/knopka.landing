@@ -21,7 +21,7 @@
                 <div>Налаштовуємо таргет ефективно</div>
             </div>
             <div class="first-btn">
-                <a style="color:#111111" href="/order">Зв'язатися з нами</a>
+                <a style="color:#111111" href="/ua/order">Зв'язатися з нами</a>
             </div>
             <div class="first-socials">
                 <a href="http://facebook.com/knopka.agency" target="_blank">
