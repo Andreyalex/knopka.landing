@@ -8,20 +8,20 @@
         <img class="firstpage-bkg"/>
         <div class="fader">
             <div class="first-title">
-                <div class="first-title-text text-mask">Digital агентство</div>
+                <div class="first-title-text text-mask">Digital agency</div>
                 <div class="first-title-figure">
                     <div class="first-title-figure-c"></div>
                     <div class="first-title-figure-t"></div>
                 </div>
-                <div class="first-title-name">Кнопка</div>
-                <div class="first-title-text">Digital агентство</div>
+                <div class="first-title-name">Knopka</div>
+                <div class="first-title-text">Digital agency</div>
             </div>
             <div class="first-descr">
-                <div style="letter-spacing: 1.11px;">Ведемо акаунти красиво</div>
-                <div>Налаштовуємо таргет ефективно</div>
+                <div style="letter-spacing: 1.11px;">Leading accounts beautifully</div>
+                <div>Seting up a targeting effectively</div>
             </div>
             <div class="first-btn">
-                <a style="color:#111111" href="/ua/order">Зв'язатися з нами</a>
+                <a style="color:#111111" href="/en/order">Contact us</a>
             </div>
             <div class="first-socials">
                 <a href="http://facebook.com/knopka.agency" target="_blank">
@@ -32,7 +32,7 @@
                 </a>
             </div>
             <div class="welcome-badge">
-                <a class="welcome-text" style="color:#111111" href="#about">Давайте познайомимося</a>
+                <a class="welcome-text" style="color:#111111" href="#about">Let's meet</a>
                 <a class="welcome-arrow" style="float: right; position: relative; top: 0;" href="#about">
                     <svg width="60" height="60" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path style="fill:#43dde0;" d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z"/></svg>
                 </a>
@@ -47,21 +47,22 @@
     <div class="t480">
         <div class="t-container">
             <div class="t480__col t-col t-col_8 t-prefix_2">
-                <div class="t-title_lg">Про нас</div>
+                <div class="t-title_lg">About us</div>
                 <div class="t-descr_md " field="descr" style="">
-                    <span style="background-color:#43dde0" class="inline-highlight">Кнопка</span> - онлайн рекламне агентство,
-                    що спеціалізується на маркетингу в соціальних мережах, PR, створеннi брендів, оформленні івентів, мерчi та чат-ботах.<br/>
-                    Наша головна сила - це здатність поєднувати різні таланти для вирiшення складних комунікаційних потреб, об'єднуючи
-                    творчий підхід, створення інфоприводів, дизайн, зйомку і технології, що дозволяють
-                    вибудувати відкриті відносини між бізнесом клієнта та споживачами.<br/>
-                    У нашiй командi <span class="inline-highlight" style="background-color:#43dde0">кращі медійники Харкова</span>: професійні оператори
-                    і журналісти з досвідом роботи на ТБ, спічрайтери політиків, учасники і сценаристи КВН,
-                    досвідчені маркетологи і дизайнери, блогери і політтехнологи, СММ-щики, таргетологи і маркетологи.<br/>
-                    Під Ваші завдання ми залучаємо до виконання найбільш релевантних фахівців.<br/>
-                    Багаторічний досвід наших професіоналів і свіжий погляд молодих рекламників дозволяють створювати креативи,
-                    які потрапляють <span class="inline-highlight" style="background-color:#43dde0">у саме серце споживачів</span>;
-                    контент що залучає цікавими ілюстраціями без граматичних помилок; трендову рекламу; стильні акаунти; маркетингові стратегії;
-                    індивідуальні PR акції будь-якої складності під різний бюджет.
+                    <span style="background-color:#43dde0" class="inline-highlight">Knopka</span> - is an online advertising agency that specializes in
+                    social media marketing, PR, brand building, event design, merchandise and chatbots.<br/>
+                    Our main strength is the ability of consolidating different talents for the development of complex
+                    communication needs, combining creative intelligence, modern design, making videos and technologies
+                    that allow you to create open relationships between business and it's consumers.<br/>
+                    Our team has <span class="inline-highlight" style="background-color:#43dde0">the best media workers of Kharkiv</span>:
+                    professional video cameramen and journalists that have an experience of work on TV, political speech writers,
+                    stand up participants and screenwriters, informed marketers and designers, bloggers and political technologists,
+                    SMM specialists, targeted advertising specialists and marketers.<br/>
+                    We involve the most relevant specialists for your projects.<br/>
+                    The rich knowledge of our professionals and the fresh look of young advertisers allow us to make creatives
+                    that <span class="inline-highlight" style="background-color:#43dde0">hit the hearts of consumers</span>;
+                    the content that involves by interesting illustrations without grammatical errors;  trend advertising;
+                    stylish accounts;  marketing strategies; individual PR campaigns of a different complexity for a different budget.
                 </div>
             </div>
         </div>
@@ -99,7 +100,7 @@
                                                             data-btneffects-first="btneffects-ripple">
                     <table style="width:100%; height:100%;">
                         <tr>
-                            <td>Безкоштовна консультація</td>
+                            <td>Free consultation</td>
                         </tr>
                     </table>
                 </a></div>
@@ -110,11 +111,11 @@
 <div id="rec262006577" class="r t-rec">
     <a name="service" style="font-size:0;"></a>
     <div class="t-container">
-        <div class="t-title_lg">Працюємо за формулою</div>
+        <div class="t-title_lg">We work according to the formula</div>
         <div class="theme-formula">
             <div class="braces"><img src="/templates/knopka/img/brace-open.png" /></div>
             <div class="text">
-                Знаня стратегiй + вміння виділити продукт, апелюючи&nbsp;до&nbsp;болей&nbsp;та&nbsp;емоцій клієнтів = прибуток!
+                Knowledge of strategies + the ability to highlight the product by appealing to the pains and emotions of customers = profit!
             </div>
             <div class="braces"><img src="/templates/knopka/img/brace-close.png" /></div>
         </div>
@@ -126,23 +127,23 @@
     <div class="t106">
         <div class="t-container">
             <div class="t-col t-col_8 t-prefix_2">
-                <div class="t-title_lg">Наші послуги</div>
+                <div class="t-title_lg">Our services</div>
             </div>
             <div class="t106__wrapper">
                 <div class="imtxt-block block-left">
                     <div class="decorator-right"></div>
-                    <div class="title">SMM просування</div>
-                    <div class="content narrower">Ведемо акаунти, як боги:
+                    <div class="title">SMM promotion</div>
+                    <div class="content narrower">We manage accounts like gods:
                         <ul>
-                            <li>Оформлення профілю</li>
-                            <li>Аналіз конкурентів</li>
-                            <li>Аналіз ЦА</li>
-                            <li>Складання контент-плану</li>
-                            <li>Складання плану просування</li>
-                            <li>Розробка стратегії позиціонування</li>
-                            <li>Підбір хештегiв, геолокації</li>
-                            <li>Ведення аккаунта (сторіс, пости)</li>
-                            <li>Комунікації з пiдписниками</li>
+                            <li>Profile design</li>
+                            <li>Competitor analysis</li>
+                            <li>Target audience analysis</li>
+                            <li>Creating a content plan</li>
+                            <li>Creating a promotion plan</li>
+                            <li>Positioning strategy development</li>
+                            <li>Selection of hashtags, geolocations</li>
+                            <li>Account management (story, posts)</li>
+                            <li>Communication with subscribers</li>
                         </ul>
                     </div>
                 </div>
@@ -160,16 +161,16 @@
             <div class="t106__wrapper">
                 <div class="imtxt-block block-right">
                     <div class="decorator-left"></div>
-                    <div class="title">Налаштування таргетованої реклами</div>
+                    <div class="title">Setting up the targeted advertising</div>
                     <div class="content narrow"><ul>
-                            <li>Розробка УТП</li>
-                            <li>Аналіз конкурентів</li>
-                            <li>Створення рекламних креативів</li>
-                            <li>Тестування рекламних стратегій</li>
-                            <li>Налаштування реклами в Facebook, Instagram</li>
-                            <li>Аналіз і коригування рекламної кампанії</li>
-                            <li>Збір аналітики</li>
-                            <li>Підбір та реклама у блогерів</li>
+                            <li>Development of a Unique Selling Proposition</li>
+                            <li>Competitor analysis</li>
+                            <li>Creation of advertising creatives</li>
+                            <li>Testing advertising strategies</li>
+                            <li>Setting up advertising for Facebook, Instagram</li>
+                            <li>Analysis and adjustment of the advertising campaign</li>
+                            <li>Analytics gathering</li>
+                            <li>Selection of blogges and advertising with bloggers</li>
                     </ul></div>
                 </div>
                 <div class="imtxt-block block-left"><img
@@ -186,11 +187,11 @@
             <div class="t106__wrapper">
                 <div class="imtxt-block block-left">
                     <div class="decorator-right"></div>
-                    <div class="title">Створення сайтів</div>
+                    <div class="title">Sites development</div>
                     <div class="content" style="margin-left:30%"><ul>
-                        <li>Лендiнги</li>
-                        <li>Корпоративнi сайти</li>
-                        <li>Iнтернет-магазини</li>
+                        <li>Landing pages</li>
+                        <li>Corporative sites</li>
+                        <li>Online shopping</li>
                     </ul></div>
                 </div>
                 <div class="imtxt-block block-right"><img
@@ -206,12 +207,12 @@
             <div class="t106__wrapper">
                 <div class="imtxt-block block-right">
                     <div class="decorator-left"></div>
-                    <div class="title">Фото і відео продакшн</div>
+                    <div class="title">Photo and video production</div>
                     <div class="content" style="margin-left:20%"><ul style="line-height: 40px">
-                        <li>Фотозйомка</li>
-                        <li>Зйомка та монтаж відеороликів</li>
-                        <li>Моушн-анімація</li>
-                        <li>Створення стоп-моушн роликів</li>
+                        <li>Photography</li>
+                        <li>Making and editing videos</li>
+                        <li>Motion animation</li>
+                        <li>Creating stop-motion videos</li>
                     </ul></div>
                 </div>
                 <div class="imtxt-block block-left"><img
@@ -228,11 +229,11 @@
             <div class="t106__wrapper">
                 <div class="imtxt-block block-left">
                     <div class="decorator-right"></div>
-                    <div class="title">Сувенірна продукція</div>
-                    <div class="content" style="margin-left:7%">Допоможемо створити ваш особистий мерч:
+                    <div class="title">Souvenirs</div>
+                    <div class="content" style="margin-left:7%">Let us help you to create your personal merch:
                         <ul>
-                            <li>Розробка дизайну</li>
-                            <li>Друк на футболках, чашках, прапорах, подушках, фірмові календарі, буклети, банера та ін.</li>
+                            <li>Design development</li>
+                            <li>Printing on T-shirts, cups, flags, pillows, corporate calendars, booklets, banners, etc.</li>
                         </ul>
                     </div>
                 </div>
@@ -250,12 +251,12 @@
             <div class="t106__wrapper txtim">
                 <div class="imtxt-block block-right">
                     <div class="decorator-left"></div>
-                    <div class="title">Iнше</div>
+                    <div class="title">Other</div>
                     <div class="content"><ul>
-                        <li>SEO-копірайтинг та рерайтинг</li>
-                        <li>PR, репутаційний маркетинг</li>
-                        <li>Оформлення та планування івентів</li>
-                        <li>Cтворення чат-ботів для вашого бізнесу</li>
+                        <li>SEO copywriting and rewriting</li>
+                        <li>PR, reputation marketing</li>
+                        <li>Designing and planning of events</li>
+                        <li>Building chatbots for your business</li>
                     </ul></div>
                 </div>
                 <div class="imtxt-block block-left"><img
@@ -272,7 +273,7 @@
         <div class="t-container t-container_flex">
             <div class="t-col t-col_flex t-col_6 t-prefix_2">
                 <div class="t-text_lg" style="font-weight:700;" field="text">
-                    <div style="color: rgb(0, 0, 0);" data-customstyle="yes">Натисніть на кнопку вашого просування
+                    <div style="color: rgb(0, 0, 0);" data-customstyle="yes">Click on your promotion button
                     </div>
                 </div>
             </div>
@@ -282,7 +283,7 @@
                                                             data-btneffects-first="btneffects-ripple">
                     <table style="width:100%; height:100%;">
                         <tr>
-                            <td>Залишити заявку</td>
+                            <td>Create a request</td>
                         </tr>
                     </table>
                 </a></div>
@@ -383,7 +384,7 @@
         <div class="t-section__container t-container">
             <div class="t-col t-col_12">
                 <div class="t-align_center">
-                    <div class="t-title_lg">Чому ми?</div>
+                    <div class="t-title_lg">Why us?</div>
                 </div>
             </div>
         </div>
@@ -393,12 +394,11 @@
                     <div class="t491__wrapper"><img
                                 src="https://static.tildacdn.com/lib/tildaicon/33376436-6634-4231-b732-306331373662/17bu_27.svg"
                                 class="t491__img t-img" imgfield="li_img__1476976310929"/>
-                        <div class="t491__title t-name t-name_sm" style="" field="li_title__1476976310929">Команда
-                            професіоналів
+                        <div class="t491__title t-name t-name_sm" style="" field="li_title__1476976310929">Team of professionals
                         </div>
                     </div>
-                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976310929">Наші
-                        співробітники мають великий бекграунд, кожен професіонал у своїй сфері
+                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976310929">Our employees have a
+                        great background, each professional in their field
                     </div>
                 </div>
             </div>
@@ -408,11 +408,11 @@
                                 src="https://static.tildacdn.com/lib/tildaicon/33376436-6634-4231-b732-306331373662/17bu_27.svg"
                                 class="t491__img t-img" imgfield="li_img__1476976315081"/>
                         <div class="t491__title t-name t-name_sm" style="" field="li_title__1476976315081">
-                            Ефективність
+                            Efficiency
                         </div>
                     </div>
-                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976315081">Сповідуємо
-                        креативний підхід у поєднанні з ефективними стратегіями, підтвердженими аналітикою
+                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976315081">We profess a creative
+                        approach combined with effective strategies confirmed by analytics
                     </div>
                 </div>
             </div>
@@ -422,12 +422,12 @@
                                 src="https://static.tildacdn.com/lib/tildaicon/33376436-6634-4231-b732-306331373662/17bu_27.svg"
                                 class="t491__img t-img" imgfield="li_img__1476976330452"/>
                         <div class="t491__title t-name t-name_sm" style="" field="li_title__1476976330452">
-                            Ексклюзивний підхід
+                            Exclusive approach
                         </div>
                     </div>
-                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976330452">Ми не
-                        прихильники універсальних рішень для всіх. Якщо ви хочете просуватися як ваші конкуренти -
-                        вам не до нас
+                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976330452">We are not supporters
+                        of universal solutions for everyone. If you want to be promoted in the same way as your competitors,
+                        we recommend you to find other specialists
                     </div>
                 </div>
             </div>
@@ -438,11 +438,11 @@
                                 src="https://static.tildacdn.com/lib/tildaicon/33376436-6634-4231-b732-306331373662/17bu_27.svg"
                                 class="t491__img t-img" imgfield="li_img__1476976334035"/>
                         <div class="t491__title t-name t-name_sm" style="" field="li_title__1476976334035">
-                            Об'єктивність
+                            Objectivity
                         </div>
                     </div>
-                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976334035">Утримуємо
-                        баланс між ціною, якістю та термінами
+                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976334035">We maintain a balance
+                        between price, quality and timing
                     </div>
                 </div>
             </div>
@@ -452,12 +452,11 @@
                                 src="https://static.tildacdn.com/lib/tildaicon/33376436-6634-4231-b732-306331373662/17bu_27.svg"
                                 class="t491__img t-img" imgfield="li_img__1476976688514"/>
                         <div class="t491__title t-name t-name_sm" style="" field="li_title__1476976688514">
-                            Лояльність
+                            Loyalty
                         </div>
                     </div>
-                        <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976688514">Навчимо Ваш
-                            бізнес виділятися, запам'ятовуватися і викликати до себе прихильність клієнтів, навіть якщо нам з вами
-                            не вдасться спрацюватися
+                        <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976688514">We will teach your
+                            business to stand out, be remembered and attract customers, even if we do not work together
                     </div>
                 </div>
             </div>
@@ -467,11 +466,11 @@
                                 src="https://static.tildacdn.com/lib/tildaicon/33376436-6634-4231-b732-306331373662/17bu_27.svg"
                                 class="t491__img t-img" imgfield="li_img__1476976692541"/>
                         <div class="t491__title t-name t-name_sm" style="" field="li_title__1476976692541">
-                            Cталість
+                            Permanence
                         </div>
                     </div>
-                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976692541">Любимо своїх
-                        клієнтів 24/7 без вихідних і свят
+                    <div class="t491__descr  t-descr_xs" style="" field="li_descr__1476976692541">We love our customers
+                        24/7 without days off and holidays
                     </div>
                 </div>
             </div>
@@ -482,7 +481,7 @@
     <div class="t-section__container t-container">
         <div class="t-col t-col_12">
             <div class="t-align_center">
-                <div class="t-title_lg">Ми працюємо з:</div>
+                <div class="t-title_lg">We work with:</div>
             </div>
         </div>
     </div>
@@ -491,63 +490,63 @@
             <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide">
-                        <div class="text">Центри вiдпочинку</div>
+                        <div class="text">Recreation centers</div>
                         <img src="/templates/knopka/img/works/19.jpg">
                     </li>
                     <li class="splide__slide">
-                        <div class="text">Готелi</div>
+                        <div class="text">Hotels</div>
                         <img src="/templates/knopka/img/works/17.jpg">
                     </li>
                     <li class="splide__slide">
-                        <div class="text">Тренувальнi зали</div>
+                        <div class="text">Gyms</div>
                         <img src="/templates/knopka/img/works/18.jpg">
                     </li>
                     <li class="splide__slide">
-                        <div class="text">Кафе та ресторани</div>
+                        <div class="text">Caffes and restaurants</div>
                         <img src="/templates/knopka/img/works/4.jpg">
                     </li>
                     <li class="splide__slide">
-                        <div class="text">Товари для тварин</div>
+                        <div class="text">Goods for animals</div>
                         <img src="/templates/knopka/img/works/11.jpg">
                     </li>
                     <li class="splide__slide">
-                        <div class="text">Барбершопи</div>
+                        <div class="text">Barbershops</div>
                         <img src="/templates/knopka/img/works/14.jpg">
                     </li>
                     <li class="splide__slide">
-                        <div class="text">Магазини одягу</div>
+                        <div class="text">Clothing stores</div>
                         <img src="/templates/knopka/img/works/2.jpg">
                     </li>
                     <li class="splide__slide">
-                        <div class="text">Прикраси</div>
+                        <div class="text">Jewelries</div>
                         <img src="/templates/knopka/img/works/15.jpg">
                     </li>
                     <li class="splide__slide">
-                        <div class="text">Салони краси та SPA</div>
+                        <div class="text">Beauty salons and SPA</div>
                         <img src="/templates/knopka/img/works/9.jpg">
                     </li>
                     <li class="splide__slide">
-                        <div class="text">Дитячий одяг</div>
+                        <div class="text">Children's clothing</div>
                         <img src="/templates/knopka/img/works/10.jpg">
                     </li>
                     <li class="splide__slide">
-                        <div class="text">Кофейнi</div>
+                        <div class="text">Caffeine</div>
                         <img src="/templates/knopka/img/works/13.jpg">
                     </li>
                     <li class="splide__slide">
-                        <div class="text">Навчальні курси та школи</div>
+                        <div class="text">Training courses and schools</div>
                         <img src="/templates/knopka/img/works/7.jpg">
                     </li>
                     <li class="splide__slide">
-                        <div class="text">Косметика та парфумерія</div>
+                        <div class="text">Cosmetics and perfumes</div>
                         <img src="/templates/knopka/img/works/16.jpg">
                     </li>
                     <li class="splide__slide">
-                        <div class="text">Ремонт та будiвництво</div>
+                        <div class="text">Repair and construction</div>
                         <img src="/templates/knopka/img/works/1.jpg">
                     </li>
                     <li class="splide__slide">
-                        <div class="text">Медицина та стоматологiя</div>
+                        <div class="text">Medicine and dentistry</div>
                         <img src="/templates/knopka/img/works/8.jpg">
                     </li>
                 </ul>
@@ -595,9 +594,9 @@
     <div class="t225">
         <div class="t-container t-align_center">
             <div class="t-col t-col_8 t-prefix_2" style="margin-top:20px;">
-                <div class="t225__title  t-title_md" field="title" style="">Безкоштовна консультація</div>
-                <div class="t225__descr  t-descr_xxl" field="descr" style="">Залиште заявку, і ми допоможемо
-                    вибрати кращу стратегію просування в соціальних мережах.
+                <div class="t225__title  t-title_md" field="title" style="">Free consultation</div>
+                <div class="t225__descr  t-descr_xxl" field="descr" style="">Create a request and we will help you to
+                    choose the best strategy for promotion on social networks.
                 </div>
             </div>
         </div>
@@ -612,7 +611,7 @@
                                               data-tilda-event-name="/tilda/click/rec262006584/button1"
                                               class="js-click-stat">
                         <div class="t-btn t142__submit " style="color:#ffffff;background-color:#43dde0;"
-                             data-btneffects-first="btneffects-ripple"><span class="t142__text">Залишити заявку</span>
+                             data-btneffects-first="btneffects-ripple"><span class="t142__text">Create a request</span>
                         </div>
                     </a></div>
             </div>
