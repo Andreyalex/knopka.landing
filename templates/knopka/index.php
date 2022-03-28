@@ -27,7 +27,7 @@ $config = JFactory::getConfig();
 $doc = $app->getDocument();
 $doc->setMetaData('author', 'Knopka.agency');
 
-$ver = '0.9.10';
+$ver = '0.10.0';
 
 JHtml::_('stylesheet', 'template.min.css', array('version' => $ver, 'relative' => true));
 JHtml::_('stylesheet', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css', array('relative' => false));
