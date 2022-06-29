@@ -36,12 +36,21 @@
             justify-content: space-around;
             flex-wrap: wrap;
             margin-top: 50px;
+            max-width: 1600px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .item {
-            width: 32%;
-            min-width: 400px;
+            display: flex;
+            justify-content: center;
+            width: 390px;
             margin-bottom: 60px;
+        }
+
+        .item .inner {
+            text-decoration: none;
+            color: #333333;
         }
 
         .item .title {
@@ -51,10 +60,7 @@
         }
         .item .content {
             text-align: center;
-        }
-        .item .content a {
-            text-decoration: none;
-            color: #333333
+            color: #555555
         }
         .item .content {
             text-align: center;
@@ -64,7 +70,7 @@
             text-align: center;
         }
         .item .flag img {
-            max-height: 300px;
+            height: 300px;
         }
 
     </style>
@@ -72,135 +78,179 @@
 <body>
     <div class="container">
         <div class="item">
-            <div class="flag"><img src="images/channels/vn.png" /></div>
-            <div class="title">Вінниця</div>
-            <div class="content"><a href="https://t.me/vinnytsia_4at">https://t.me/vinnytsia_4at</a></div>
+            <a href="https://t.me/vinnytsia_4at" class="inner">
+                <div class="flag"><img src="images/channels/vn.png" /></div>
+                <div class="title">Вінниця</div>
+                <div class="content">https://t.me/vinnytsia_4at</div>
+            </a>
         </div>
         <div class="item">
-            <div class="flag"><img src="images/channels/dp.png" /></div>
-            <div class="title">Дніпро</div>
-            <div class="content"><a href="https://t.me/dnipro_4at">https://t.me/dnipro_4at</a></div>
+            <a href="https://t.me/dnipro_4at" class="inner">
+                <div class="flag"><img src="images/channels/dp.png" /></div>
+                <div class="title">Дніпро</div>
+                <div class="content">https://t.me/dnipro_4at</div>
+            </a>
         </div>
         <div class="item">
-            <div class="flag"><img src="images/channels/donetsk.png" /></div>
-            <div class="title">Донецьк</div>
-            <div class="content"><a href="https://t.me/donetsk_4at">https://t.me/donetsk_4at</a></div>
+            <a href="https://t.me/zhytomyr_4at" class="inner">
+                <div class="flag"><img src="images/channels/zytomyr.png" /></div>
+                <div class="title">Житомир</div>
+                <div class="content">https://t.me/zhytomyr_4at</div>
+            </a>
         </div>
         <div class="item">
-            <div class="flag"><img src="images/channels/zytomyr.png" /></div>
-            <div class="title">Житомир</div>
-            <div class="content"><a
-                    href="https://t.me/zhytomyr_4at">https://t.me/zhytomyr_4at</a></div>
+            <a href="https://t.me/zapprizhzhya_4at" class="inner">
+                <div class="flag"><img src="images/channels/zp.png" /></div>
+                <div class="title">Запоріжжя</div>
+                <div class="content">https://t.me/zapprizhzhya_4at</div>
+            </a>
         </div>
         <div class="item">
-            <div class="flag"><img src="images/channels/zp.png" /></div>
-            <div class="title">Запоріжжя</div>
-            <div class="content"><a href="https://t.me/zapprizhzhya_4at">https://t.me/zapprizhzhya_4at</a></div>
+            <a href="https://t.me/ivanofrankivsk_4at" class="inner">
+                <div class="flag"><img src="images/channels/franek.png" /></div>
+                <div class="title">Івано-Франківськ</div>
+                <div class="content">https://t.me/ivanofrankivsk_4at</div>
+            </a>
         </div>
         <div class="item">
-            <div class="flag"><img src="images/channels/franek.png" /></div>
-            <div class="title">Івано-Франківськ</div>
-            <div class="content"><a href="https://t.me/ivanofrankivsk_4at">https://t.me/ivanofrankivsk_4at</a></div>
+            <a href="https://t.me/kyiv_4at" class="inner">
+                <div class="flag"><img src="images/channels/kyiv.png" /></div>
+                <div class="title">Київ</div>
+                <div class="content">https://t.me/kyiv_4at</div>
+            </a>
         </div>
         <div class="item">
-            <div class="flag"><img src="images/channels/kyiv.png" /></div>
-            <div class="title">Київ</div>
-            <div class="content"><a href="https://t.me/kyiv_4at">https://t.me/kyiv_4at</a></div>
+            <a href="https://t.me/kremenchuk_4at" class="inner">
+                <div class="flag"><img src="images/channels/kremen.png" /></div>
+                <div class="title">Кременчук</div>
+                <div class="content">https://t.me/kremenchuk_4at</div>
+            </a>
         </div>
         <div class="item">
-            <div class="flag"><img src="images/channels/kremen.png" /></div>
-            <div class="title">Кременчук</div>
-            <div class="content"><a href="https://t.me/kremenchuk_4at">https://t.me/kremenchuk_4at</a></div>
+            <a href="https://t.me/kryvyyrih_4at" class="inner">
+                <div class="flag"><img src="images/channels/krig.png" /></div>
+                <div class="title">Кривий Ріг</div>
+                <div class="content">https://t.me/kryvyyrih_4at</div>
+            </a>
         </div>
         <div class="item">
-            <div class="flag"><img src="images/channels/krig.png" /></div>
-            <div class="title">Кривий Ріг</div>
-            <div class="content"><a href="https://t.me/kryvyyrih_4at">https://t.me/kryvyyrih_4at</a></div>
+            <a href="https://t.me/kropivnitsky_4at" class="inner">
+                <div class="flag"><img src="images/channels/kropyv.png" /></div>
+                <div class="title">Кропивницький</div>
+                <div class="content">https://t.me/kropivnitsky_4at</div>
+            </a>
         </div>
         <div class="item">
-            <div class="flag"><img src="images/channels/kropyv.png" /></div>
-            <div class="title">Кропивницький</div>
-            <div class="content"><a href="https://t.me/kropivnitsky_4at">https://t.me/kropivnitsky_4at</a></div>
+            <a href="https://t.me/lutsk_4at" class="inner">
+                <div class="flag"><img src="images/channels/lutsk.png" /></div>
+                <div class="title">Луцьк</div>
+                <div class="content">https://t.me/lutsk_4at</div>
+            </a>
         </div>
         <div class="item">
-            <div class="flag"><img src="images/channels/lugansk.png" /></div>
-            <div class="title">Луганськ</div>
-            <div class="content"><a href="https://t.me/luhansk_4at">https://t.me/luhansk_4at</a></div>
+            <a href="https://t.me/lviv_4at" class="inner">
+                <div class="flag"><img src="images/channels/lviv.png" /></div>
+                <div class="title">Львів</div>
+                <div class="content">https://t.me/lviv_4at</div>
+            </a>
         </div>
         <div class="item">
-            <div class="flag"><img src="images/channels/lutsk.png" /></div>
-            <div class="title">Луцьк</div>
-            <div class="content"><a href="https://t.me/lutsk_4at">https://t.me/lutsk_4at</a></div>
+            <a href="https://t.me/mykolayiv_4at" class="inner">
+                <div class="flag"><img src="images/channels/mykol.png" /></div>
+                <div class="title">Миколаїв</div>
+                <div class="content">https://t.me/mykolayiv_4at</div>
+            </a>
         </div>
         <div class="item">
-            <div class="flag"><img src="images/channels/lviv.png" /></div>
-            <div class="title">Львів</div>
-            <div class="content"><a href="https://t.me/lviv_4at">https://t.me/lviv_4at</a></div>
+            <a href="https://t.me/poltava_4at" class="inner">
+                <div class="flag"><img src="images/channels/poltava.png" /></div>
+                <div class="title">Полтава</div>
+                <div class="content">https://t.me/poltava_4at</div>
+            </a>
         </div>
         <div class="item">
-            <div class="flag"><img src="images/channels/mykol.png" /></div>
-            <div class="title">Миколаїв</div>
-            <div class="content"><a
-                    href="https://t.me/mykolayiv_4at">https://t.me/mykolayiv_4at</a></div>
+            <a href="https://t.me/rivne_4at" class="inner">
+                <div class="flag"><img src="images/channels/rivne.png" /></div>
+                <div class="title">Рівне</div>
+                <div class="content">https://t.me/rivne_4at</div>
+            </a>
         </div>
         <div class="item">
-            <div class="flag"><img src="images/channels/poltava.png" /></div>
-            <div class="title">Полтава</div>
-            <div class="content"><a href="https://t.me/poltava_4at">https://t.me/poltava_4at</a></div>
+            <a href="https://t.me/sumy_4at" class="inner">
+                <div class="flag"><img src="images/channels/sumy.png" /></div>
+                <div class="title">Суми</div>
+                <div class="content">https://t.me/sumy_4at</div>
+            </a>
         </div>
         <div class="item">
-            <div class="flag"><img src="images/channels/rivne.png" /></div>
-            <div class="title">Рівне</div>
-            <div class="content"><a href="https://t.me/rivne_4at">https://t.me/rivne_4at</a></div>
+            <a href="https://t.me/ternopil_4at" class="inner">
+                <div class="flag"><img src="images/channels/ternopyl.png" /></div>
+                <div class="title">Тернопіль</div>
+                <div class="content">https://t.me/ternopil_4at</div>
+            </a>
         </div>
         <div class="item">
-            <div class="flag"><img src="images/channels/sumy.png" /></div>
-            <div class="title">Суми</div>
-            <div class="content"><a href="https://t.me/sumy_4at">https://t.me/sumy_4at</a></div>
+            <a href="https://t.me/odesa_4at" class="inner">
+                <div class="flag"><img src="images/channels/odesa.png" /></div>
+                <div class="title">Одеса</div>
+                <div class="content">https://t.me/odesa_4at</div>
+            </a>
         </div>
         <div class="item">
-            <div class="flag"><img src="images/channels/ternopyl.png" /></div>
-            <div class="title">Тернопіль</div>
-            <div class="content"><a
-                    href="https://t.me/ternopil_4at">https://t.me/ternopil_4at</a></div>
+            <a href="https://t.me/uzhgorod_4at" class="inner">
+                <div class="flag"><img src="images/channels/uzhorod.png" /></div>
+                <div class="title">Ужгород</div>
+                <div class="content">https://t.me/uzhgorod_4at</div>
+            </a>
         </div>
         <div class="item">
-            <div class="flag"><img src="images/channels/odesa.png" /></div>
-            <div class="title">Одеса</div>
-            <div class="content"><a href="https://t.me/odesa_4at">https://t.me/odesa_4at</a></div>
+            <a href="https://t.me/uman_4at" class="inner">
+                <div class="flag"><img src="images/channels/uman.png" /></div>
+                <div class="title">Умань</div>
+                <div class="content">https://t.me/uman_4at</div>
+            </a>
         </div>
         <div class="item">
-            <div class="flag"><img src="images/channels/uzhorod.png" /></div>
-            <div class="title">Ужгород</div>
-            <div class="content"><a
-                    href="https://t.me/uzhgorod_4at">https://t.me/uzhgorod_4at</a></div>
+            <a href="https://t.me/kharkiv_4at" class="inner">
+                <div class="flag"><img src="images/channels/kharkiv.png" /></div>
+                <div class="title">Харків</div>
+                <div class="content">https://t.me/kharkiv_4at</div>
+            </a>
         </div>
         <div class="item">
-            <div class="flag"><img src="images/channels/kharkiv.png" /></div>
-            <div class="title">Харків</div>
-            <div class="content"><a href="https://t.me/kharkiv_4at">https://t.me/kharkiv_4at</a></div>
+            <a href="https://t.me/kherson_4at" class="inner">
+                <div class="flag"><img src="images/channels/kherson.png" /></div>
+                <div class="title">Херсон</div>
+                <div class="content">https://t.me/kherson_4at</div>
+            </a>
         </div>
         <div class="item">
-            <div class="flag"><img src="images/channels/kherson.png" /></div>
-            <div class="title">Херсон</div>
-            <div class="content"><a href="https://t.me/kherson_4at">https://t.me/kherson_4at</a></div>
+            <a href="https://t.me/khmelnytskyi_4at" class="inner">
+                <div class="flag"><img src="images/channels/khmel.png" /></div>
+                <div class="title">Хмельницький</div>
+                <div class="content">https://t.me/khmelnytskyi_4at</div>
+            </a>
         </div>
         <div class="item">
-            <div class="flag"><img src="images/channels/khmel.png" /></div>
-            <div class="title">Хмельницький</div>
-            <div class="content"><a href="https://t.me/khmelnytskyi_4at">https://t.me/khmelnytskyi_4at</a></div>
+            <a href="https://t.me/cherkasy_4at" class="inner">
+                <div class="flag"><img src="images/channels/cherkasy.png" /></div>
+                <div class="title">Черкаси</div>
+                <div class="content">https://t.me/cherkasy_4at</div>
+            </a>
         </div>
         <div class="item">
-            <div class="flag"><img src="images/channels/cherkasy.png" /></div>
-            <div class="title">Черкаси</div>
-            <div class="content"><a
-                    href="https://t.me/cherkasy_4at">https://t.me/cherkasy_4at</a></div>
+            <a href="https://t.me/chernihiv_4at" class="inner">
+                <div class="flag"><img src="images/channels/chernihyv.png" /></div>
+                <div class="title">Чернігів</div>
+                <div class="content">https://t.me/chernihiv_4at</div>
+            </a>
         </div>
         <div class="item">
-            <div class="flag"><img src="images/channels/chernihyv.png" /></div>
-            <div class="title">Чернігів</div>
-            <div class="content"><a
-                    href="https://t.me/chernihiv_4at">https://t.me/chernihiv_4at</a></div>
+            <a href="https://t.me/chernivtsi_4at" class="inner">
+                <div class="flag"><img src="images/channels/chernivtsi.png" /></div>
+                <div class="title">Чернівці</div>
+                <div class="content">https://t.me/chernivtsi_4at</div>
+            </a>
         </div>
     </div>
 </body>
