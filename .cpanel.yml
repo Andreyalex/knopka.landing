@@ -23,3 +23,4 @@ deployment:
     - cp LICENSE.txt $DEPLOYPATH
     - cp README.txt $DEPLOYPATH
     - cp web.config.txt $DEPLOYPATH
+    - cp chats.html $DEPLOYPATH

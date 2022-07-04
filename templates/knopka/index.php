@@ -27,7 +27,7 @@ $config = JFactory::getConfig();
 $doc = $app->getDocument();
 $doc->setMetaData('author', 'Knopka.agency');
 
-$ver = '0.10.0';
+$ver = '0.10.2';
 
 JHtml::_('stylesheet', 'template.min.css', array('version' => $ver, 'relative' => true));
 JHtml::_('stylesheet', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css', array('relative' => false));
@@ -275,8 +275,11 @@ JHtml::_('script', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js
     $(function(){
         var resetComponentWrapperHeight = function (el) {
 
-            var wrapper =  $('.component_wrapper'),
-                offset = wrapper.offset().top,
+            var wrapper =  $('.component_wrapper');
+
+            if (!wrapper.offset()) return;
+
+            var offset = wrapper.offset().top,
                 padding = parseInt($('.component_wrapper').css('padding-top')),
                 footer = $('#rec271139769').outerHeight(),
                 viewPort = $(window).height(),
@@ -291,6 +294,29 @@ JHtml::_('script', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js
         });
 
         resetComponentWrapperHeight();
+    });
+</script>
+
+<script>
+
+    // Quiz popup
+
+    $(function(){
+        $('.mark').on('touchstart', function(){
+            $('.popup')
+                .css('left', parseInt($('.mark').position().left) - 56)
+                .toggle()
+        });
+
+        $('.mark').mouseover(function(){
+            $('.popup')
+                .css('left', parseInt($('.mark').position().left) - 56)
+                .fadeIn()
+        });
+
+        $('.mark').mouseleave(function(){
+            $('.popup').fadeOut()
+        })
     });
 </script>
 
