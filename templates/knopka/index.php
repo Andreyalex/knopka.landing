@@ -27,7 +27,7 @@ $config = JFactory::getConfig();
 $doc = $app->getDocument();
 $doc->setMetaData('author', 'Knopka.agency');
 
-$ver = '0.10.0';
+$ver = '0.10.2';
 
 JHtml::_('stylesheet', 'template.min.css', array('version' => $ver, 'relative' => true));
 JHtml::_('stylesheet', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css', array('relative' => false));
@@ -304,13 +304,13 @@ JHtml::_('script', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js
     $(function(){
         $('.mark').on('touchstart', function(){
             $('.popup')
-                .css('left', parseInt($('.mark').offset().left) - 56)
+                .css('left', parseInt($('.mark').position().left) - 56)
                 .toggle()
         });
 
         $('.mark').mouseover(function(){
             $('.popup')
-                .css('left', parseInt($('.mark').offset().left) - 56)
+                .css('left', parseInt($('.mark').position().left) - 56)
                 .fadeIn()
         });
 
