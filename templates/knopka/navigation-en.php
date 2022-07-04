@@ -60,7 +60,12 @@
                                                        data-menu-item-number="3">Contact us</a></li>
                         <li class="t446__list_item"><a class="t-menu__link-item" href="<?=$lang?>quiz"
                                                        data-menu-submenu-hook=""
-                                                       data-menu-item-number="3">Poll</a></li>
+                                                       data-menu-item-number="3">Quiz</a><span class="mark">?</span>
+                            <div class="popup" style="display:none;">
+                                <div class="pin"></div>
+                                <div class="box"><span>Get to know, what sort of promotion is the best for your bussiness</span></div>
+                            </div>
+                        </li>
 
                     </ul>
                 </div>
