@@ -556,36 +556,37 @@
     </div>
 </div>
 <script>
-  var splider, spliderPrevWidth;
+    var splider, spliderPrevWidth;
 
-  var getSplider = function() {
-    splider || (splider = new Splide('.splide', {
-      type: 'loop',
-      perPage: 3,
-      pagination: false,
-      arrows: false,
-      autoplay: true,
-      interval: 1,
-      speed: 10000,
-      easing: 'linear',
-      gap: '3%'
-    }));
+    var getSplider = function() {
+        splider || (splider = new Splide('.splide', {
+            type: 'loop',
+            perPage: 3,
+            perMove: 1,
+            pagination: false,
+            arrows: false,
+            autoplay: true,
+            interval: 3000,
+            speed: 3000,
+            easing: 'linear',
+            gap: '3%'
+        }));
 
-    return splider;
-  };
+        return splider;
+    };
 
-  spliderPrevWidth = $(window).width();
-  ($(window).width() > 640) && getSplider().mount();
-
-  $(window).resize(function () {
-    if (spliderPrevWidth === $(window).width()) return;
     spliderPrevWidth = $(window).width();
+    ($(window).width() > 640) && getSplider().mount();
 
-    splider && splider.destroy();
-    if ($(window).width() > 640) {
-        getSplider().mount();
-    }
-  });
+    $(window).resize(function () {
+        if (spliderPrevWidth === $(window).width()) return;
+        spliderPrevWidth = $(window).width();
+
+        splider && splider.destroy();
+        if ($(window).width() > 640) {
+            getSplider().mount();
+        }
+    });
 </script>
 
 
