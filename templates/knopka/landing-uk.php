@@ -2,7 +2,7 @@
     <div class="t-cover" id="recorddiv262006572">
         <img
             class="firstpage-loader"
-            src="/templates/knopka/img/firstpage-bkg-static-small.jpg"
+            src="/templates/knopka/img/firstpage-bkg-static-small.webp"
             onload="this.style.opacity = 1;"
         />
         <img class="firstpage-bkg"/>
